@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[macOS 重定向域名到 Hexo 本地服务器]]></title>
+      <url>%2F2017%2F03%2F18%2Fredirecting-domain-to-local-hexo-server-on-macOS%2F</url>
+      <content type="text"><![CDATA[每次把网站截屏发朋友圈，被别人发现地址栏是 localhost:4000，稍微觉得有点 low。也是，怎么也得展示个像样点的域名吧。所以在网上查了查，整理收集如下。我对网络基本不了解，望各位路过的大神们指点一二。 配置假设我们很有逼格的域名是 example.com 在回环接口（loopback interface）新建一个地址，10.0.0.1 1sudo ifconfig lo0 alias 10.0.0.1 -e 启动防火墙（Packet Filter），-f 载入后面的规则 —— 将所有到 10.0.0.1:80（HTTP 默认端口）的连接转发到 127.0.0.1:4000（hexo 默认本地服务器地址） 1echo "rdr pass on lo0 inet proto tcp from any to 10.0.0.1 port 80 -&gt; 127.0.0.1 port 4000" | sudo pfctl -ef - 然后通过 /etc/hosts 把 example.com 映射到 10.0.0.1 110.0.0.1 example.com 清空本地 DNS 缓存 1dscacheutil -flushcache 完成，现在可以在浏览器中输入 example.com 来代替了！ 还原删除新建的地址，重置防火墙，清空本地 DNS 缓存 123sudo ifconfig lo0 -alias 10.0.0.1sudo pfctl -F all -f /etc/pf.confdscacheutil -flushcache 引用 iptables equivalent for mac os x - StackExchange]]></content>
+    </entry>
+
+    
+  
+  
+</search>
