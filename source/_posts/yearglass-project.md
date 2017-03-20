@@ -29,7 +29,7 @@ categories:
 		return new Array(Math.floor(n + 1)).join(s);
 	}
 
-	document.getElementById("yearglass-web").innerHTML = year + " 年已过去 " + Math.floor(percentage * 100) + "% [" + repeat("▇", space * percentage) + repeat("-", space * (1 - percentage)) + "]";
+	document.getElementById("yearglass-web").innerHTML = year + " 年已过去 " + Math.floor(percentage * 100) + "% [" + repeat("▇", space * percentage) + repeat("\\\\", space * (1 - percentage)) + "]";
 </script>
 
 For the English Version of this documentation, please visit: [yearglass](https://apollozhu.github.io/yearglass/)
