@@ -2,15 +2,13 @@
 title: 排序算法
 date: 2017-03-20 11:14:39
 tags:
-	- algorithm
-	- Java
+- algorithm
+- Java
 categories:
-	- 编程
+- 编程
 ---
 
 目前包括：选择排序，插入排序，归并排序
-
-<!-- more -->
 
 情景：将数组 a 中的 n 个整数从小到大排序
 
@@ -22,6 +20,8 @@ void swap(int[] a, int i, int j) {
         a[j] = temp;
 }
 ```
+
+<!-- more -->
 
 ## 选择排序
 
@@ -77,10 +77,10 @@ void mergeSort(int[] a) {
 void mergeSort(int[] a, int start, int end) {
     if (start < end) {
 
-        int mid = (start+end)/2, 
-              i = start, 
-              j = mid+1, 
-            len = end-start+1, 
+        int mid = (start+end)/2,
+              i = start,
+              j = mid+1,
+            len = end-start+1,
          temp[] = new int[len];
 
         mergeSort(a, i, mid);

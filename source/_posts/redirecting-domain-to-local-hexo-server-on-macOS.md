@@ -1,12 +1,12 @@
 ---
 title: macOS 重定向域名到 hexo 本地服务器
 tags:
-  - macOS
-  - tips
-  - server
+- macOS
+- tips
+- server
 date: 2017-03-18 16:36:34
 categories:
-	- 瞎捣鼓
+- 瞎捣鼓
 ---
 
 每次把网站截屏发朋友圈，被别人发现地址栏是 `localhost:4000`，稍微觉得有点 low。也是，怎么也得展示个像样点的域名吧。所以在网上查了查，整理收集如下。我对网络基本不了解，望各位路过的大神们指点一二。
