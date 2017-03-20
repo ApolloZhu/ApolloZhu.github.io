@@ -136,11 +136,11 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/ApolloZhu
-  Weibo: http://http://weibo.com/u/2607042732
+  Bilibili: http://space.bilibili.com/14767902
+  Weibo: http://weibo.com/u/2607042732
   Email: mailto:public-apollonian@outlook.com
   Twitter: https://twitter.com/zhuzhiyu2001041
-  Facebook: https://www.facebook.com/profile.php?id=100007442266396
-  Linkedin: https://www.linkedin.com/in/zhiyu-zhu-84976913b
+  Linkedin: https://www.linkedin.com/in/ApolloZhu
 
 
 # Social Links Icons
@@ -152,8 +152,8 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  Bilibili: youtube-play
   Email: envelope
-  Facebook: facebook
   GitHub: github
   Linkedin: linkedin
   Twitter: twitter
@@ -298,10 +298,10 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: apollonian
 
 # Disqus
-disqus_shortname: apollonian
+#disqus_shortname: apollonian
 
 # Hypercomments
 #hypercomments_id:
@@ -330,7 +330,7 @@ disqus_shortname: apollonian
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
