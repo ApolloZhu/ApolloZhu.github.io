@@ -13,9 +13,19 @@ categories:
 
 <!-- more -->
 
-## 配置
+## 修改 hosts
 
 假设我们很有逼格的域名是 `example.com`
+
+通过 `/etc/hosts` 把 `example.com` 映射到 `10.0.0.1`
+
+```sh
+10.0.0.1 example.com
+```
+
+## 配置
+
+一下步骤每次**重启都要再执行一遍**
 
 在回环接口（loopback interface）新建一个地址，`10.0.0.1`
 
@@ -29,23 +39,13 @@ sudo ifconfig lo0 alias 10.0.0.1
 echo "rdr pass on lo0 inet proto tcp from any to 10.0.0.1 port 80 -> 127.0.0.1 port 4000" | sudo pfctl -ef -
 ```
 
-然后通过 `/etc/hosts` 把 `example.com` 映射到 `10.0.0.1`
-
-```sh
-10.0.0.1 example.com
-```
-
-清空本地 DNS 缓存
-
-```sh
-dscacheutil -flushcache
-```
-
 完成，现在可以在浏览器中输入 `example.com` 来代替了！
 
 ----
 
 ## 还原
+
+重启电脑，或是
 
 删除新建的地址，重置防火墙，清空本地 DNS 缓存
 
@@ -57,6 +57,6 @@ dscacheutil -flushcache
 
 ----
 
-## 引用
+## 参考
 
 1. [iptables equivalent for mac os x - StackExchange](http://serverfault.com/questions/102416/iptables-equivalent-for-mac-os-x/)
