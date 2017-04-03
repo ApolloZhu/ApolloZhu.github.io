@@ -9,6 +9,7 @@ category:
 ---
 
 本文不定期更新，预计 2017/5/2 停更
+此文只包含对于本人来说死记硬背能提升做题速度的知识点，所有写过的代码见 [APCSA](https://github.com/ApolloZhu/APCSA)
 
 ## 测试
 
@@ -32,5 +33,32 @@ Even after you tested --
 ```java
 int round(double num) {
     return (int)(num + (num > 0 ? .5 : -.5));
+}
+```
+
+----
+
+# 常识
+
+## 请在答案中使用这个函数的 flag
+
+```java
+public aMethod()
+{ /* implementation not shown */ }
+```
+
+## 随机数
+
+`Math.random()` 返回 [0,1) 任一值
+
+```java
+int random(int start, int end, boolean includeEnd) {
+    return (int)(Math.random()*(end-start+(includeEnd?1:0))+start);
+}
+T pick(T[] array) {
+    return array[(int)(Math.random()*array.length)];
+}
+T pick(List list) {
+    return list.get((int)(Math.random()*list.size()));
 }
 ```
