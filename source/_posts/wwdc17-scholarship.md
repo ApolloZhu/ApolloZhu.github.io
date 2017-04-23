@@ -3,6 +3,7 @@ title: WWDC17 奖学金项目
 date: 2017-04-03 00:26:53
 tags:
 - Swift
+- WWDC
 categories:
 - 编程
 ---
@@ -13,7 +14,7 @@ categories:
 
 <!-- more -->
 
-今年苹果不按套路出牌，不交 app，交 playground。想起来之前有个没有完全实现的 [Swifty Karel](https://github.com/ApolloZhu/Swifty-Karel) 可以用，正好 playground 还能帮我解决编译的问题。
+看到 WWDC 的新闻出来了，马上就去看今年 Scholarship 的题目。本来都觉得自己没什么好 App 不准备参加的，结果今年苹果不按套路出牌，不交 app，交 playground。想起来之前有个没有完全实现的 [Swifty Karel](https://github.com/ApolloZhu/Swifty-Karel) 可以用，正好 playground 还能帮我解决编译的问题。
 
 Karel 是斯坦福 [CS106A](https://web.stanford.edu/class/cs106a/) 课程很早开始就用来引导学生学习 Java 的工具，[Karel the Robot Learns Java](https://web.stanford.edu/class/cs106a/resources/karel-the-robot-learns-java.pdf) 一书中有比较全面的介绍。感觉和 Swift Playgrounds 教程几乎没有区别；唯一区别就是，一个是萌萌哒的 3D，一个是像素风的 2D。
 

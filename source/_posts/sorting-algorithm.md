@@ -75,25 +75,24 @@ void mergeSort(int[] a) {
     mergeSort(a, 0, a.length-1);
 }
 void mergeSort(int[] a, int start, int end) {
-    if (start < end) {
+    if (start >= end) return;
+    
+    int mid = (start+end)/2,
+          i = start,
+          j = mid+1,
+        len = end-start+1,
+     temp[] = new int[len];
 
-        int mid = (start+end)/2,
-              i = start,
-              j = mid+1,
-            len = end-start+1,
-         temp[] = new int[len];
+    mergeSort(a, i, mid);
+    mergeSort(a, j, end);
 
-        mergeSort(a, i, mid);
-        mergeSort(a, j, end);
+    for (int k=0;k<len;k++)
+        if (j>end || i<=mid && a[i]<a[j])
+            temp[k] = a[i++];
+        else
+            temp[k] = a[j++];
 
-        for (int k=0;k<len;k++)
-            if (j>end || i<=mid && a[i]<a[j])
-                temp[k] = a[i++];
-            else
-                temp[k] = a[j++];
-
-        for (int k=0;k<len;k++)
-            a[start+k] = temp[k];
-    }
+    for (int k=0;k<len;k++)
+        a[start+k] = temp[k];
 }
 ```

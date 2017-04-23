@@ -55,10 +55,10 @@ public aMethod()
 int random(int start, int end, boolean includeEnd) {
     return (int)(Math.random()*(end-start+(includeEnd?1:0))+start);
 }
-T pick(T[] array) {
+E pick(E[] array) {
     return array[(int)(Math.random()*array.length)];
 }
-T pick(List list) {
+E pick(List<E> list) {
     return list.get((int)(Math.random()*list.size()));
 }
 ```
