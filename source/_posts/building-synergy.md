@@ -8,7 +8,7 @@ categories:
 - 瞎捣鼓
 ---
 
-[Synergy](https://symless.com/synergy) 是一款跨平台多电脑共享一套鼠标键盘的利器，可惜正常下载要收费。曾经有段时间可以免费下[内测版](https://symless.com/nightly)，但是现在也不行了。不过作为[开源](https://github.com/symless/synergy)软件，我们可以自己编译。此编译指南**应该**适用于 macOS 10.10 及以上，但是就算编译正常，还是什么都显示不出来。
+[Synergy](https://symless.com/synergy) 是一款跨平台多电脑共享一套鼠标键盘的利器，可惜正常下载要收费。曾经有段时间可以免费下[内测版](https://symless.com/nightly)，但是现在也不行了。不过作为[开源](https://github.com/symless/synergy)软件，我们可以自己编译。此编译指南**应该**适用于 macOS 10.10 及以上，但是***就算编译正常，还是什么都显示不出来***。
 
 <!-- more -->
 
