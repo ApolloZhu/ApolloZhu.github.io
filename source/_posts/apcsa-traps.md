@@ -25,6 +25,11 @@ Even after you tested --
 - all boundary values
 - values outside boundaries
 
+## 整数除法
+
+```java
+System.out.print(3/4); // 1
+```
 
 ## 四舍五入
 
@@ -61,4 +66,11 @@ E pick(E[] array) {
 E pick(List<E> list) {
     return list.get((int)(Math.random()*list.size()));
 }
+```
+
+### a - b 之间随机整数
+
+```java
+(int)(Math.random() * (b-a)) + a; // 不包括 b
+(int)(Math.random() * (b-a+1) + a); // 包括 b
 ```
