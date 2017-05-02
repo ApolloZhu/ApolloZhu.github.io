@@ -34,7 +34,7 @@ void swap(int[] a, int i, int j) {
 ```java
 for (int i=0;i<a.length-1;i++) {
     int minIndex = i;
-    for (int j=i+1;i<a.length;i++)
+    for (int j=i+1;j<a.length;j++)
         if (a[j] < a[minIndex])
             minIndex = j;
     swap(a, minIndex, i);

@@ -57,9 +57,7 @@ public aMethod()
 `Math.random()` 返回 [0,1) 任一值
 
 ```java
-int random(int start, int end, boolean includeEnd) {
-    return (int)(Math.random()*(end-start+(includeEnd?1:0))+start);
-}
+
 E pick(E[] array) {
     return array[(int)(Math.random()*array.length)];
 }
@@ -68,9 +66,10 @@ E pick(List<E> list) {
 }
 ```
 
-### a - b 之间随机整数
+### start - end 之间随机整数
 
 ```java
-(int)(Math.random() * (b-a)) + a; // 不包括 b
-(int)(Math.random() * (b-a+1) + a); // 包括 b
+int random(int start, int end, boolean includeEnd) {
+    return (int)(Math.random()*(end-start+(includeEnd?1:0))+start);
+}
 ```
