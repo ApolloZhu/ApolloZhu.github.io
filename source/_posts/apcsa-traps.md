@@ -25,6 +25,14 @@ Even after you tested --
 - all boundary values
 - values outside boundaries
 
+## 读完 pre/post-condition
+
+这个要是读漏或者读错整个题都会错啊！而且很多时候可以简化代码，不用考虑那么全面。
+
+### 不要杞人忧天
+
+如果你是个非要用空格或是制表符的强迫症患者，这条一定要记住。对于我们这些完美主义者，就算题目给出的答案明显不可能完美地实现，但只要题目中说了 **"implemented correctly"**，请睁一只眼闭一只眼，千万不要和 College Board 计较。
+
 ## 整数除法
 
 ```java
@@ -54,7 +62,7 @@ public aMethod()
 
 ## 随机数
 
-`Math.random()` 返回 [0,1) 任一值
+`Math.random()` 返回 [0,1) 任一 `double`
 
 ```java
 
