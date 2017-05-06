@@ -15,7 +15,7 @@ keywords: "Swift, iOS"
 rss:
 
 # Specify the date when the site was setup
-since: 2017
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
@@ -23,6 +23,9 @@ authoricon: heart
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
 
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -31,6 +34,10 @@ canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: false
+
+# If true, will add site-subtitle to index page, added in main hexo config.
+# subtitle: Subtitle
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -201,7 +208,7 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: false
@@ -221,6 +228,9 @@ sidebar:
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
+
+# Automatically saving scroll position on each post/page in cookies.
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -291,6 +301,9 @@ mathjax:
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
+# Han Support docs: https://hanzi.pro/
+han: false
+
 # Swiftype Search API Key
 #swiftype_key:
 
@@ -298,16 +311,25 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname: apollonian
+#duoshuo_shortname:
 
 # Disqus
-disqus_shortname: apollonian
+disqus:
+  enable: true
+  shortname: apollonian
+  count: true
 
 # Hypercomments
 #hypercomments_id:
 
 # Gentie productKey
 #gentie_productKey:
+
+# changyan
+changyan:
+  enable: false
+  appid:
+  appkey:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -325,14 +347,12 @@ disqus_shortname: apollonian
 ##  type: button
 
 # Share
-#jiathis:
-# Warning: JiaThis does not support https.
 jiathis: true
-
+# Warning: JiaThis does not support https.
 #add_this_id:
 
 # Share
-duoshuo_share: false
+#duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -424,7 +444,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -457,6 +477,11 @@ algolia_search:
 # Local search
 local_search:
   enable: true
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
@@ -477,6 +502,19 @@ fancybox: true
 
 # Canvas-nest
 canvas_nest: true
+
+# three_waves
+three_waves: false
+
+# canvas_lines
+canvas_lines: false
+
+# canvas_sphere
+canvas_sphere: false
+
+# Only fit scheme Pisces
+# Canvas-ribbon
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
@@ -529,6 +567,29 @@ vendors:
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
 
+  # three
+  three:
+
+  # three_waves
+  # https://github.com/jjandxa/three_waves
+  three_waves:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_lines
+  canvas_lines:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_sphere
+  canvas_sphere:
+
+  # Internal version: 1.0.0
+  # https://github.com/zproo/canvas-ribbon
+  canvas_ribbon:
+
+  # Internal version: 3.3.0
+  # https://github.com/ethantw/Han
+  han:
+
 
 
 # Assets
@@ -537,8 +598,4 @@ js: js
 images: images
 
 # Theme version
-version: 5.1.0
-
-reward_comment: Java 太过苦涩，能否请您帮我买杯咖啡？
-#wechatpay: /path/to/wechat-reward-image
-#alipay: /path/to/alipay-reward-image
+version: 5.1.1
