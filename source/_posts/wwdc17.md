@@ -42,7 +42,7 @@ category:
 
 OAK 和 SFO 都太远了，人生地不熟，而且也都没有直飞，就还是选择 IAD 到 SJC 机场。目前看到的情况如下：
 
-|航空公司|航班号|时间|机场|第二段航班号|时间|备选航班号|时间|价格|
+|航空公司|航班号|时间|中转机场|第二段航班号|时间|备选航班号|时间|价格|
 |--|-:|--|:--:|-:|--|-:|--|:--:|:--:|
 |Delta|2240|7:25-10:13|SLC|2045|11:15-12:13|875|15:10-16:06|212|
 |American|2569|7:20-9:29|DFW|103|11:10-12:47|1039|17:20-18:52|284|
@@ -60,22 +60,28 @@ OAK 和 SFO 都太远了，人生地不熟，而且也都没有直飞，就还�
 
 ### 计划 V2
 
-群里正好遇到一个同在 VA 的同志，他准备从 BWI 飞 OAK。便宜是便宜，100 多美金，但是我看是下午的航班，五点半到，之后再是两个小时的 Bart，而且我这边早上也要先去巴尔的摩，觉得有些麻烦，很遗憾不能通行。也因此我才发现 Google 机票查询支持多个机场同时考虑，从新制定了计划。
+群里正好遇到一个同在 VA 的同志，他准备从 BWI 飞 OAK。便宜是便宜，100 多美金，但是我看是下午的航班，五点半到，之后再是两个小时的 Bart，而且我这边早上也要先去巴尔的摩，觉得有些麻烦，很遗憾不能通行。他经验丰富，我还了解到了当地交通虽然可以现场现金支付，不过可以先在网上办理 [Clipper Card](https://www.clippercard.com)，方便，学生也有优惠。也因此我才发现 Google 机票查询支持多个机场同时考虑，重新制定了计划。
 
-目前大致计划如下，早上七点过 Virgin 的航班从 IAD 飞 SFO，十点过到了之后去 Stanford 逛一圈，之后再去宿舍。之前有幸认识到了一个斯坦福的学生，刚刚发了邮件，正在等待回复来决定最后的计划。
+目前大致计划如下，早上七点过 Virgin 的航班从 IAD 飞 SFO，十点过到了之后去 Stanford 逛一圈，之后再去宿舍。之前有幸认识到了一个斯坦福的学生，刚刚发了邮件，正在等待回复来决定最后的计划。[5/23 更新]：斯坦福好像把外部的邮箱都屏蔽了...
 
-根据有经验的群友，了解到了当地交通虽然可以现场现金支付，不过可以去办一个 [Clipper Card](https://www.clippercard.com)，学生还有优惠呢。
+|航空公司|航班号|时间|价格|
+|:--:|--:|--|:--:|
+|Virgin|VX67|7:20-10:05|228.2|
+|American|UA517|14:55-23:05|265.2|
+
+## 家长许可声明
+
+针对未成年人有个特殊要求，就是家长需要签署的 *WWDC 2017 Permission Statement*。[论坛里也有人在问](https://forums.developer.apple.com/thread/76578)，结果也没人回答，最后 5/18 号左右才开始打电话。我可能手机关机没接上，苹果直接给家长打过去了。主要就是问问家长去不去，为什么，不去的话让家长放心一类的。最后说要发封邮件，不知道收到没有。
+
+## Badge
+
+5/23 发了一封邮件链接到 [Get Ready for WWDC.](https://developer.apple.com/wwdc/attending/get-ready/#!/) 这个页面上可以更改挂牌上面的名字（昵称）和填写应急联系人的信息。
 
 {% note warning %}
 ## 未完待续
 
 还要考虑没有被含括的晚餐怎么解决呢
 
-还有一个未成年人的特殊要求，就是家长需要签署的 *WWDC 2017 Permission Statement*，现在连影子都没看到，不知道什么情况。
-
-{% blockquote Apple https://developer.apple.com/wwdc/scholarships/terms/WWDC-2017-Scholarship-Terms.pdf WWDC 2017 Scholarship Terms and Conditions %}
-Scholarship recipients under 18 years of age whose parent or guardian does not wish to accompany them to WWDC 2017 must have permission to attend WWDC 2017 without the presence of a parent or guardian. Their parent or guardian must accept the relevant WWDC 2017 Permission Statement. 
-{% endblockquote %}
 {% endnote %}
 
 ----
@@ -98,7 +104,7 @@ Tickets may not be sold, resold, bartered, auctioned, or transferred in any way.
 
 ### 需要大半夜去排队看 Keynote 吗？
 
-不需要，Scholars 会有优待，被苹果安排在前排坐一起。
+***也许*** 不需要，Scholars 会有优待，被苹果安排在前排坐一起。
 
 {% blockquote dvartzlimited https://forums.developer.apple.com/thread/76461#224941 Apple Developer Forums/Other/WWDC17 Scholarships/Will scholars have reserved seats for the Keynote? %}
 Seats up the front are reserved for press. 1hr - 30 minutes prior to entry Apple staff will walk the line calling for scholarship winners to come forward. They get walked in first and are seated in a special area for them.
