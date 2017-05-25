@@ -1,5 +1,5 @@
 ---
-title: letter-to-next-years-student
+title: A "Good" Letter to Next Years' AP Computer Science A Students
 date: 2017-05-25 00:32:12
 tags:
 - Java
