@@ -5,7 +5,7 @@ tags:
 - tips
 - macOS
 - Swift
-category:
+categories:
 - 瞎捣鼓
 ---
 

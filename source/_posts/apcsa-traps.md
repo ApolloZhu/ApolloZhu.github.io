@@ -4,7 +4,7 @@ date: 2017-03-20 01:11:28
 tags:
 - Java
 - tips
-category:
+categories:
 - 编程
 ---
 

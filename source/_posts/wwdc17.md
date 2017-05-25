@@ -3,7 +3,7 @@ title: WWDC17 记录
 date: 2017-04-23 00:23:14
 tags:
 - WWDC
-category:
+categories:
 - 生活
 ---
 

@@ -13,15 +13,23 @@ date: 2017-03-18 17:08:09
 
 ## 目前能聊以自慰的技能
 
-- Swift：2015／4，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift
+- Swift：2015／2，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift
 - Python 3：2016／1，ACSL审核没有 mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习
 - Java：2016/7，为准备下学期的 APCSA
+- Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
-## 轶闻（Fun Facts）
+## 轶闻
 
-Apollonian，是我曾妄想把字典里所有和计算机相关的名词抄下来的时候，正好看到的；加深了我对我英文名的理解，故沿用至今。
+```Kotlin
+fun fact(x: Int): Int {
+    return if (x < 2) 1 else x * fact(x - 1)
+}
+```
+
+好吧，并不是上面的这个 `fun fact`。Apollonian，是我曾妄想把字典里所有和计算机相关的名词抄下来的时候，正好看到的；加深了我对我英文名的理解，故沿用至今。
 
 {% blockquote New Oxford American Dictionary %}
 1. Apollo 的；Relating to the god Apollo.
 2. 理性的；Relating to the rational, ordered, and self-disciplined aspects of human nature
 {% endblockquote %}
+

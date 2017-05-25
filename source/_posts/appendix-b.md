@@ -4,7 +4,7 @@ date: 2017-05-02 01:05:54
 tags:
 - Java
 - English
-category:
+categories:
 - 编程
 ---
 
