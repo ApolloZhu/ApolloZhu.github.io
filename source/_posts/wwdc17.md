@@ -69,13 +69,13 @@ OAK 和 SFO 都太远了，人生地不熟，而且也都没有直飞，就还�
 |Virgin|VX67|7:20-10:05|228.2|
 |American|UA517|14:55-23:05|265.2|
 
-## 家长许可声明
-
-针对未成年人有个特殊要求，就是家长需要签署的 *WWDC 2017 Permission Statement*。[论坛里也有人在问](https://forums.developer.apple.com/thread/76578)，结果也没人回答，最后 5/18 号左右才开始打电话。我可能手机关机没接上，苹果直接给家长打过去了。主要就是问问家长去不去，为什么，不去的话让家长放心一类的。最后说要发封邮件，不知道收到没有。
-
 ## Badge
 
 5/23 发了一封邮件链接到 [Get Ready for WWDC.](https://developer.apple.com/wwdc/attending/get-ready/#!/) 这个页面上可以更改挂牌上面的名字（昵称）和填写应急联系人的信息。
+
+## 家长许可声明
+
+针对未成年人有个特殊要求，就是家长需要签署的 [WWDC 2017 Permission Statement](https://developer.apple.com/wwdc/agreement/parent/WWDC_Permission_Statement_NoGuardian.pdf)。[论坛里也有人在问](https://forums.developer.apple.com/thread/76578)，结果也没人回答，最后 5/18 号左右才开始打电话。我可能手机关机没接上，苹果直接给家长打过去了。主要就是问问家长去不去，为什么，不去的话让家长放心一类的。最后说要发封[邮件](https://developer.apple.com/wwdc/agreement/parent/)，等到 25 号才来。主要就是填个紧急联系信息，同意 “出了事苹果不负责，熊孩子搞事请走人” 的条款。
 
 {% note warning %}
 ## 未完待续
