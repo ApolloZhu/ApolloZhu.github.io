@@ -1,6 +1,6 @@
 ---
-title: A "Good" Letter to Next Years' AP Computer Science A Students
-date: 2017-05-25 00:32:12
+title: A "Good" Letter to Next Years' APCSA Students
+date: 2017-05-24 23:59:59
 tags:
 - Java
 - English
