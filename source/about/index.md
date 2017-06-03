@@ -18,6 +18,17 @@ date: 2017-03-18 17:08:09
 - Java：2016/7，为准备下学期的 APCSA
 - Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
+## 奖项
+
+|日期|名称|奖项|
+|--|--|--|
+|5/18/2017|2017 ACSL Intermediate-3 Division|All-Star Contest 参赛资格|
+|4/21/2017|WWDC 2017|Scholarship|
+|4/8/2017|2017 FBLA State Mobile App Dev|Virginia 第二|
+|3/2/2017|2017 FBLA Regional Mobile App Dev|Northern Virginia 第一|
+|3/2/2017|2017 AMC 10|AIME 10 参赛资格|
+|12/10/2016|2016 Virginia Tech High School Programming Contest|团队 22/101，Oakton HS 因此排名第六|
+
 ## 轶闻
 
 ```Kotlin
@@ -26,7 +37,7 @@ fun fact(x: Int): Int {
 }
 ```
 
-好吧，并不是上面的这个 `fun fact`。Apollonian，是我曾妄想把字典里所有和计算机相关的名词抄下来的时候，正好看到的；加深了我对我英文名的理解，故沿用至今。
+好吧，并不是上面的这个递归的 `fun fact`。Apollonian，是我曾妄想把字典里所有和计算机相关的名词抄下来的时候，正好看到的；加深了我对我英文名的理解，故沿用至今。
 
 {% blockquote New Oxford American Dictionary %}
 1. Apollo 的；Relating to the god Apollo.
