@@ -5,7 +5,7 @@ tags:
 - bilibili
 - music
 categories:
-- 随笔
+- 摘录
 ---
 
 {% centerquote %}然而现在的情况是：我用网易云音乐找番，用bilibili找歌-_-||{% endcenterquote %}

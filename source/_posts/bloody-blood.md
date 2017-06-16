@@ -5,7 +5,7 @@ tags:
 - literature
 - translation
 categories:
-- 随笔
+- 摘录
 ---
 
 {% blockquote William Shakespeare, Macbeth %}

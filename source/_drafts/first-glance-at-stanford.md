@@ -2,9 +2,9 @@
 title: 【更新中】斯坦福初访
 date: 2017-06-03 00:59:14
 tags:
-- WWDC
+- WWDC17
 - Stanford
-categories
+categories:
 - 生活
 ---
 
@@ -21,11 +21,11 @@ categories
 
 ## 游览
 
+Meow
+
 ### 午餐
 
 ## Stanford -> Campus Village 2，2 小时，$2
 
 - Campus 里的 SE 坐出来到 EL Camino Real and California
 - EL Camino Real and California 坐 522 到 Santa Clara & 6th
-
-### 晚餐

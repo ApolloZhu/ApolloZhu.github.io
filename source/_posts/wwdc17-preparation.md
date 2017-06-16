@@ -1,8 +1,8 @@
 ---
-title: 【更新中】WWDC17 记录
+title: WWDC17 准备记录
 date: 2017-04-23 00:23:14
 tags:
-- WWDC
+- WWDC17
 categories:
 - 生活
 ---
@@ -64,7 +64,7 @@ categories:
 {% note warning %}
 ## 未完待续
 
-还要考虑没有被含括的晚餐怎么解决呢，到时候日更？
+接下来的内容，请关注 [WWDC 系列](/tags/WWDC17/)
 
 {% endnote %}
 
@@ -88,7 +88,7 @@ Tickets may not be sold, resold, bartered, auctioned, or transferred in any way.
 
 ### 需要大半夜去排队看 Keynote 吗？
 
-***也许*** 不需要，Scholars 会有优待，被苹果安排在前排坐一起。
+不需要，Scholars 会有优待，被苹果安排在坐一起。事实证明，2017 年 Scholar 连镜头都没有，所以位置也不是安排的很靠前。
 
 {% blockquote dvartzlimited https://forums.developer.apple.com/thread/76461#224941 Apple Developer Forums/Other/WWDC17 Scholarships/Will scholars have reserved seats for the Keynote? %}
 Seats up the front are reserved for press. 1hr - 30 minutes prior to entry Apple staff will walk the line calling for scholarship winners to come forward. They get walked in first and are seated in a special area for them.

@@ -3,9 +3,9 @@ title: WWDC17 奖学金项目
 date: 2017-04-03 00:26:53
 tags:
 - Swift
-- WWDC
+- WWDC17
 categories:
-- 编程
+- 项目
 ---
 
 ![](https://cloud.githubusercontent.com/assets/10842684/24595546/7968d9de-1805-11e7-9283-df85393876c5.png)
