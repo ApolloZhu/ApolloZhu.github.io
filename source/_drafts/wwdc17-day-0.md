@@ -1,6 +1,6 @@
 ---
-title: wwdc17-day-0
-date: 2017-06-05 10:01:28
+title: WWDC17 Orientation
+date: 2017-06-04 22:01:28
 tags:
 - WWDC17
 ---
