@@ -8,7 +8,7 @@ categories:
 - 编程
 ---
 
-> This letter was included into the summer packet with minor modifications
+> This letter was included into the [summer packet](https://drive.google.com/file/d/0BzsLc9xUiW_Oajh6cUNGVXJZUms/view) with minor modifications
 
 ```java
 for (Student student : APCSA.future.students)
