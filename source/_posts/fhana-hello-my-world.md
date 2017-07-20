@@ -1,11 +1,11 @@
 ---
 title: Hello!My World!! - fhána
-date: 2017-07-19 00:20:00
+date: 2017-07-17 14:35:00
 tags:
 - bilibili
 - music
 - Java
-- English
+- translation
 categories:
 - 生活
 ---
