@@ -3,8 +3,9 @@ os: osx
 
 before_deploy:
   - npm install hexo-cli -g
-  - npm install hexo
+  - npm install hexo -g
   - npm install
+  - hexo clean
   - hexo generate
 deploy:
   provider: pages
