@@ -3,6 +3,7 @@ os: osx
 
 before_deploy:
   - npm install hexo-cli -g
+  - npm install hexo
   - npm install
   - hexo generate
 deploy:
