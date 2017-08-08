@@ -1,3 +1,5 @@
+language: node_js
+
 before_deploy:
   - npm install hexo-cli -g
   - npm install
