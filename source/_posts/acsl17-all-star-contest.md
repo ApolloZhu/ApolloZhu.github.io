@@ -11,7 +11,7 @@ categories:
 
 <!-- more -->
 
-因为学校放假，社团组织略有疏忽，指导教师的邮箱把主办方发来的通知标为了垃圾邮件，等到我们组里一个比较看重这个比赛的同学注意到不对劲去问的时候，我们只剩下一周左右的时间。虽然官方推荐的酒店已经订满了，租车的优惠也没了，但是好不容易进了决赛，哪有不去的道理？
+因为学校放假，社团组织略有疏忽，指导教师的邮箱把主办方发来的通知标为了垃圾邮件，等到我们组里一个比较看重这个比赛的同学注意到不对劲去问的时候，我们只剩下一周左右的时间。虽然官方推荐的酒店已经订满了，租车的优惠也没了，但是既然都进了决赛（后来才知道这也是我们社团第一次进决赛），哪有不去的道理？
 
 按道理来说，因为是通过学校社团报的名，这个应该属于学校活动。需要先让老师完成填写 [REQUEST FOR APPROVAL OF UNUSUAL FIELD TRIP](https://www.fcps.edu/sites/default/files/media/forms/fs141.pdf)，并提供一个比较详细的日程表。进过学校各级领导签字批准过后，家长再在 [PARENTAL AUTHORIZATION AND ACKNOWLEDGEMENT OF RISK FOR FIELD TRIP](https://www.fcps.edu/sites/default/files/media/forms/fs152_0.pdf) 上签字，连着 [EMERGENCY CARE INFORMATION](https://www.fcps.edu/sites/default/files/media/forms/se3_0.pdf) 和支票一起交给学校，由学校的账户统一支付。就算 Activity Office 的 Ms. Jay 说会帮我们盯着，但这个过程下来肯定是赶不上的。而且 Mr. Lau 和 Mr. Larson 都没空当 Chaperone，学校也不认同家长代替，这事就只好私了了。
 

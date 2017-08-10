@@ -103,7 +103,7 @@ implement layout first
 scroll view
 
 - view controllers
-- uikit dynamics
+- UIKit dynamics
 - animation
 
 draw own background view
