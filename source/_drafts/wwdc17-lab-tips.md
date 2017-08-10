@@ -35,6 +35,10 @@ public struct Weak<T: AnyObject> {
 public func weak<T: AnyObject>(_ pointee: T) -> (() -> T?) {
     return { [weak pointee] in return pointee }
 }
+
+public func weak<T: AnyObject>(_ closure: () -> T) -> (() -> T?) {
+	return { [weak pointee = closure()] in return pointee }
+}
 ```
 
 ## Xcode 9
