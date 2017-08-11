@@ -2,11 +2,7 @@ language: node_js
 os: osx
 
 before_deploy:
-  - npm install hexo-cli -g
-  - npm install hexo --save
-  - npm install
-  - hexo clean
-  - hexo generate
+  - eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/hexo/generate)"
 deploy:
   provider: pages
   skip_cleanup: true
