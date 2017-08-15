@@ -4,6 +4,7 @@ date: 2017-08-02 02:43:12
 tags:
 - economics
 - anime
+- management
 categories:
 - 生活
 ---

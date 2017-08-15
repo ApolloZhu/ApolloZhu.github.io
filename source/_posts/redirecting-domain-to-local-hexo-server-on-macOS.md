@@ -5,6 +5,7 @@ tags:
 - macOS
 - tips
 - server
+- hexo
 categories:
 - 瞎捣鼓
 ---
