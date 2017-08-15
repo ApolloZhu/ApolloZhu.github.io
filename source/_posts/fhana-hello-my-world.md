@@ -2,7 +2,7 @@
 title: Hello!My World!! - fhána
 date: 2017-07-17 14:35:00
 tags:
-- bilibili
+- anime
 - music
 - Java
 - translation
