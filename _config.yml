@@ -86,3 +86,8 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/ApolloZhu/ApolloZhu.github.io.git
+
+# hexo-helper-live2d
+live2d:
+  model: hijiki
+  # bottom: -60

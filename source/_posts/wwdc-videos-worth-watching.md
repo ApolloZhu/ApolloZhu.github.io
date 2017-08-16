@@ -10,7 +10,7 @@ categories:
 - WWDC
 ---
 
-为了避免违反苹果的条款，把所有搬运的视频自己删了（之前已经删了一批），免得被苹果官方催着删（比如奥巴马夫人演讲的那个视频）。
+为了避免违反苹果的条款，把所有搬运的视频自己删了（之前已经删了一批），免得被苹果工作人员催着删（比如 17 年第二天早上奥巴马夫人演讲的那个视频）。
 
 那就通过此文分享那些有趣/有用的 WWDC 视频吧。
 
@@ -28,7 +28,7 @@ categories:
 
 看完之后建议看看每年最新的一期，一般都有些新的黑科技。当然如果有去 WWDC 现场不想看 Session，可以在 Lab 直接问 Internationalization & Localization 团队的人有什么新东西（2017 年应该是 stringsdict 模版）。顺便提一下，[Route 85](https://youtu.be/--0Plt3vyt4?list=PLOU2XLYxmsIKGQekfmV0Qk52qLG5LU2jO) 除了上面提到的那一期之外，其他的还是很推荐的。
 
-### 高效地使用 Metal 
+### 高效地使用 Metal
 
 > 看点：实现斯特拉的魔法ED（误）
 
@@ -50,4 +50,4 @@ categories:
 
 视频：[Session 406: UI Testing in Xcode](https://developer.apple.com/videos/play/wwdc2015/406/)
 
-看完之后觉得 XCUITest 真的是黑科技。顺便提一下，设置`accessibilityIdentifier` 能够更精准地定位元素，同时2017 年增加了附件（比如截屏） 的功能。
+看完之后觉得 XCUITest 真的是黑科技。顺便提一下，设置`accessibilityIdentifier` 能够更精准地定位元素，同时 2017 年增加了附件（比如截屏） 的功能。

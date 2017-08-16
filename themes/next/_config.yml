@@ -230,7 +230,7 @@ reward_comment: Swifters of China, unite!
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -379,6 +379,9 @@ jiathis: true
 # See: https://webmaster.yandex.ru/
 #yandex_site_verification:
 
+baidu_site_verification: 4AmFb3PnNc
+
+
 # CNZZ count
 #cnzz_siteid:
 
@@ -390,7 +393,7 @@ jiathis: true
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
@@ -553,22 +556,6 @@ fancybox: false
 
 # Progress bar in the top during page loading.
 pace: true
-# Themes list:
-#pace-theme-big-counter
-#pace-theme-bounce
-#pace-theme-barber-shop
-#pace-theme-center-atom
-#pace-theme-center-circle
-#pace-theme-center-radar
-#pace-theme-center-simple
-#pace-theme-corner-indicator
-#pace-theme-fill-left
-#pace-theme-flash
-#pace-theme-loading-bar
-#pace-theme-mac-osx
-#pace-theme-minimal
-# For example
-# pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-bounce
 
 # Canvas-nest
