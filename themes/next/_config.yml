@@ -125,11 +125,12 @@ social_icons:
   Linkedin: linkedin
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
+links_title: 〜(￣△￣〜)
+links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  LiulietLee: https://space.bilibili.com/4056345/#!/
+  Captain雪ノ下八幡's blog: https://captainyukinoshitahachiman.github.io
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg

@@ -6,7 +6,7 @@ tags:
 - Swift
 - WWDC17
 categories:
-- 编程
+- WWDC
 ---
 
 !['shared' is unavailable: Use view controller based solutions where appropriate instead.](http://wx1.sinaimg.cn/large/9b6450acgy1fgsia3aimjj20n103mq35.jpg)

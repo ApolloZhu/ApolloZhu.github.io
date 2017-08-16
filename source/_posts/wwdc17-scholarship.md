@@ -5,7 +5,7 @@ tags:
 - Swift
 - WWDC17
 categories:
-- 项目
+- WWDC
 ---
 
 ![](https://cloud.githubusercontent.com/assets/10842684/24595546/7968d9de-1805-11e7-9283-df85393876c5.png)

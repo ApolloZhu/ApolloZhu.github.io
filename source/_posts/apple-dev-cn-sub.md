@@ -5,7 +5,7 @@ tags:
 - WWDC17
 - translation
 categories:
-- 摘录
+- WWDC
 ---
 
 ![开发者视频现已配有简体中文字幕](https://developer.apple.com/click/images/000-cn-subtitles-2017/cn-subtitles-2017.jpg)

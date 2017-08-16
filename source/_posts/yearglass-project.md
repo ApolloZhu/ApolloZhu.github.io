@@ -6,7 +6,7 @@ tags:
 - macOS
 - CLI
 categories:
-- 项目
+- 瞎捣鼓
 ---
 
 {% centerquote %}
