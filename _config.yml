@@ -93,3 +93,9 @@ deploy:
 live2d:
   model: hijiki
   # bottom: -60
+
+sitemap:
+  path: sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
