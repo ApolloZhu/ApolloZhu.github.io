@@ -1,6 +1,11 @@
 ---
 title: 2017 ACSL All-Star Contest
 date: 2017-05-18 15:17:16
+keywords:
+- ACSL
+- 信息学竞赛
+- 洛杉矶
+- Los Angeles
 tags:
 - ACSL
 categories:

@@ -1,6 +1,15 @@
 ---
 title: 没有老婆X，机器学习造
 date: 2017-08-15 12:47:30
+keywords:
+- 机器学习
+- Machine Learning
+- 可爱的男孩子
+- 骑士&魔法
+- 二次元
+- 动漫
+- waifu2x
+- GitHub
 tags:
 - anime
 - AI/ML
@@ -39,7 +48,18 @@ categories:
 
 ![对比](https://wx2.sinaimg.cn/large/9b6450acly1fikc01isy1j20zk0hr168.jpg)
 
+## 可选 - 打标签
+
+打开 [demo.illustration2vec.net](http://demo.illustration2vec.net/)
+
+图片上传最开始最小的版本就可以了，然后机器会帮你把老婆分类
+
+![骑士&魔法的男/女主角](https://wx4.sinaimg.cn/large/9b6450acgy1fiprcw6r6cj20zk0jj77o.jpg)
+
+{% note success %}
+等等，好像这是可爱的男孩子
+{% endnote %}
+
 ----
 
-最后，附上两个项目的 GitHub 地址： [make.girls.moe](https://github.com/makegirlsmoe)，[waifu2x](https://github.com/nagadomi/waifu2x)
-
+最后，附上三个项目的 GitHub 地址： [make.girls.moe](https://github.com/makegirlsmoe), [waifu2x](https://github.com/nagadomi/waifu2x), [Illustration2Vec](https://github.com/rezoo/illustration2vec)

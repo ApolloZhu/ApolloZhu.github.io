@@ -1,6 +1,14 @@
 ---
 title: WWDC17 准备记录
 date: 2017-04-23 00:23:14
+keywords:
+- WWDC
+- 全球开发者大会
+- 奖学金
+- Swift
+- WWDC 2017
+- WWDC17
+- 苹果
 tags:
 - WWDC17
 categories:

@@ -1,6 +1,13 @@
 ---
 title: yearglass／年轮项目
 date: 2017-03-06 17:28:50
+keywords:
+- 年轮项目
+- yearprogress
+- 进度条
+- 一年进度
+- 命令行
+- GitHub
 tags:
 - Swift
 - macOS

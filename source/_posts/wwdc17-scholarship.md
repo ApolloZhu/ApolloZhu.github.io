@@ -1,6 +1,17 @@
 ---
 title: WWDC17 奖学金项目
 date: 2017-04-03 00:26:53
+keywords:
+- WWDC
+- 全球开发者大会
+- 奖学金
+- Swift
+- Karel
+- 斯坦福
+- Stanford
+- WWDC 2017
+- WWDC17
+- 苹果
 tags:
 - Swift
 - WWDC17

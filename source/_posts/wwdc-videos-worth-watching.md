@@ -1,6 +1,12 @@
 ---
 title: 那些值得一看的 WWDC 视频（持续更新）
 date: 2017-08-16 12:55:09
+keywords:
+- WWDC
+- 全球开发者大会
+- WWDC 2017
+- WWDC17
+- 苹果
 tags:
 - WWDC15
 - WWDC16
