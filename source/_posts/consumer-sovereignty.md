@@ -4,6 +4,7 @@ date: 2017-07-17 22:00:09
 tags:
 - translation
 - economics
+- religion
 categories:
 - 摘录
 ---
