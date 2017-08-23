@@ -47,11 +47,12 @@ index_with_subtitle: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
+  tags: /tags/
   categories: /categories/
   about: /about/
+  resume: https://resume.github.io/?ApolloZhu
   archives: /archives/
-  tags: /tags/
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
   #commonweal: /404/
 
 # Enable/Disable menu icons.
@@ -70,6 +71,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  resume: id-card
 
 
 # ---------------------------------------------------------------
