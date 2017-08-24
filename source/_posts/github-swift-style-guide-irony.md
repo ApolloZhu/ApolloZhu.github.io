@@ -13,6 +13,8 @@ categories:
 - 生活
 ---
 
+[中文版本](https://zhuanlan.zhihu.com/p/28767790)
+
 When I was cleaning up my GitHub repos and stars, I found [GitHub's style guide for Swift](https://github.com/github/swift-style-guide), and I find this 2nd most starred style guide quite amusing.
 
 <!-- more -->
