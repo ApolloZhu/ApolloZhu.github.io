@@ -6,7 +6,7 @@
 favicon: https://avatars3.githubusercontent.com/u/10842684
 
 # Set default keywords (Use a comma to separate)
-keywords: "Swift, iOS"
+keywords: "朱智语, Apollo Zhu, Zhiyu Zhu, Apollonian, Swift"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -233,8 +233,8 @@ reward_comment: Swifters of China, unite!
 # Declare license on posts
 post_copyright:
   enable: true
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 # ---------------------------------------------------------------
