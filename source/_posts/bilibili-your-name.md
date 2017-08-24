@@ -2,9 +2,12 @@
 title: 「貴方のことが好きです。私と付き合ってください！」
 date: 2017-08-24 08:01:25
 keywords:
+- Bilibili
 - 你的名字
-- Your Name
+- Your Name.
+- Kimi no na wa.
 - 新海诚
+- Makoto Shinkai
 tags:
 - bilibili
 - anime
