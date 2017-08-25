@@ -16,9 +16,15 @@ categories:
 - 摘录
 ---
 
+{% note success %}
+求点赞！请在登陆 B 站账号的浏览器打开：[https://www.bilibili.com/activity/likes/like/10156?oid=2127098](https://www.bilibili.com/activity/likes/like/10156?oid=2127098)，谢谢！
+{% endnote %}
+
 ![二次元是你的，离开的也是你。纵然我接受秒速五厘米的结局，可否让我不忘却你的名字？](https://user-images.githubusercontent.com/10842684/29665442-108631e2-88a2-11e7-9bab-0fb1e88119b3.png)
 
-话说这次 Bilibili 蹭《你的名字。》这个热点好像慢了一拍吧……
+<!-- more -->
+
+话说这次 Bilibili 蹭《你的名字。》这个热点的 [活动](https://www.bilibili.com/blackboard/topic/activity-yourname1708.html) 好像慢了一拍吧……
 
 > 标题大意为“我很喜欢你，请和我交往吧！”，摘自：
 
