@@ -22,6 +22,19 @@ App Development with Swift
 CS193p
 各种苹果文档
 
+## Swift Playgrounds
+Localization: lost of callout effect for `- Experiment`, `- Important`, etc.
+- File radar please.
+
+Open playground book with Xcode? How Apple compose a playground book?
+- Shared Code Base within Xcode project. Some python tool
+
+
+## Swift
+
+`#selector` not working within lazy property
+- Forgot to ask
+
 ### 弱引用数组
 
 ```swift
