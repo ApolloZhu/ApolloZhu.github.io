@@ -36,7 +36,7 @@ categories:
 
 ![](http://wx3.sinaimg.cn/mw690/9b6450acgy1feuvehykdoj20km0eddkk.jpg)
 
-点 Accept Your Scholarship，会跳到苹果开发者官网，然后全选 Yes。最后 Optional 的那个不清楚是什么东西，官网也不好看，就没勾选。
+点 Accept Your Scholarship，会跳到苹果开发者官网，然后全选 Yes。最后 Optional 的那个应该是某个报刊杂志的采访吧，官网也不好看，没勾。
 
 更具你接受的时间，这个神奇的 [Events Tab](https://developer.apple.com/account/#/events) 出现时机也不同。我是晚了一个小时，结果等了两天。其实这个票也就是看着安心，因为现在你并不能对它做什么。
 
@@ -47,8 +47,6 @@ categories:
 完了之后苹果会再来一封邮件，包含了住宿信息，这个时候就可以开始计划了。今年（2017）是在 San Jose State University Campus Village 2，6月3日入住，6月10日退房。附近的机场可以参考苹果的[旅行建议](https://developer.apple.com/wwdc/attending/)，但是机票和到达之后到宿舍的过程就需要自己计划了。虽然也可以申请 travel assistant，让苹果付钱，不过这个机会还是给更需要帮助的人吧。
 
 群里正好遇到一个同在 VA 的同志，他准备从 BWI 飞 OAK。便宜是便宜，100 多美金，但是我看是下午的航班，五点半到，之后再是两个小时的 Bart，而且我这边早上也要先去巴尔的摩，觉得有些麻烦，很遗憾不能通行。但也因此我才发现 Google 机票查询支持多个机场同时考虑，重新制定了计划。
-
-> 他经验丰富，我还了解到了当地交通虽然可以现场现金支付，不过可以先在网上办理 [Clipper Card](https://www.clippercard.com)，方便，学生也有优惠。
 
 目前大致计划如下，早上七点过 Virgin 的航班从 IAD 飞 SFO，十点过到了之后去 Stanford 逛一圈，之后再去宿舍。之前有幸认识到了一个斯坦福的学生，刚刚发了邮件，正在等待回复来决定最后的计划。[5/23 更新]：斯坦福好像把外部的邮箱都屏蔽了...
 
@@ -92,14 +90,6 @@ categories:
 
 {% blockquote Apple https://developer.apple.com/wwdc/policy/ WWDC 2017 Registration and Attendance Policy %}
 Tickets may not be sold, resold, bartered, auctioned, or transferred in any way. As an exception to the foregoing, requests to transfer tickets among eligible members of the same team may be submitted to Apple for consideration at [wwdc@apple.com](mailto:wwdc@apple.com). Apple reserves the right to reject any transfer requests.
-{% endblockquote %}
-
-### 需要大半夜去排队看 Keynote 吗？
-
-不需要，Scholars 会有优待，被苹果安排在坐一起。事实证明，2017 年 Scholar 连镜头都没有，所以位置也不是安排的很靠前。
-
-{% blockquote dvartzlimited https://forums.developer.apple.com/thread/76461#224941 Apple Developer Forums/Other/WWDC17 Scholarships/Will scholars have reserved seats for the Keynote? %}
-Seats up the front are reserved for press. 1hr - 30 minutes prior to entry Apple staff will walk the line calling for scholarship winners to come forward. They get walked in first and are seated in a special area for them.
 {% endblockquote %}
 
 ## 记趣
