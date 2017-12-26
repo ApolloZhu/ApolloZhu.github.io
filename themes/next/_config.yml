@@ -127,13 +127,11 @@ social_icons:
   Linkedin: linkedin
 
 # Blog rolls
-links_title: 〜(￣△￣〜)
+links_title: <a href="./links.html">(・ω・)ノ</a>
 links_layout: block
 #links_layout: inline
 links:
-  LiulietLee: https://space.bilibili.com/4056345/#!/
-  Captain雪ノ下八幡's blog: https://www.tcwq.tech
-  SHALL WE TALK: http://shallweitalk.com
+  Link Start!: ./links.html
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
