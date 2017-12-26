@@ -136,8 +136,8 @@ social_icons:
 
 # Blog rolls
 links_title: <a href="./links.html">(・ω・)ノ</a>
-links_layout: block
-#links_layout: inline
+#links_layout: block
+links_layout: inline
 links:
   Link Start!: ./links.html
   LiulietLee: https://space.bilibili.com/4056345/#!/) [GitHub](https://github.com/LiulietLee
