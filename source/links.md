@@ -8,7 +8,7 @@ keywords:
 
 ## 友链
 
-- [LiulietLee](https://space.bilibili.com/4056345/#!/) [GitHub](https://github.com/LiulietLee)
+- [LiulietLee](https://liulietlee.github.io/)
 - [Captain雪ノ下八幡's blog](https://www.tcwq.tech)
 - [SHALL WE TALK](http://shallweitalk.com)
 
