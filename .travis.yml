@@ -2,6 +2,7 @@ language: node_js
 node_js: "node"
 
 before_deploy:
+  - git clone https://github.com/theme-next/theme-next-needmoreshare2 themes/next/source/lib/needsharebutton
   - eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/hexo/generate)"
 deploy:
   provider: pages

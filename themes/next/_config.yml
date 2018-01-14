@@ -459,7 +459,7 @@ needmoreshare2:
   postbottom:
     enable: true
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: bottomCenter
       networks: Weibo,Wechat,QQZone,Twitter,Facebook,GooglePlus,Linkedin,
@@ -472,7 +472,7 @@ needmoreshare2:
       iconStyle: box
       boxForm: horizontal
       position: middleRight
-      networks: Weibo,Wechat,QQZone,Twitter,Facebook
+      networks: Weibo,Wechat,QQZone,Twitter,Facebook,Mailto
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
