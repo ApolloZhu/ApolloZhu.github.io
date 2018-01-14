@@ -85,9 +85,9 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/ApolloZhu/ApolloZhu.github.io.git
+# deploy:
+#   type: git
+#   repo: https://github.com/ApolloZhu/ApolloZhu.github.io.git
 
 # hexo-helper-live2d
 live2d:
