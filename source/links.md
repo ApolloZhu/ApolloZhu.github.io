@@ -46,7 +46,14 @@ keywords:
 - [Octodex](https://octodex.github.com/)
 - [中国区排名](https://githubrank.com/)
 
-## 美工
+## 开发
+
+- [AppToolkit - Useful Tools for Mobile App Creators](https://apptoolkit.io/)
+- [Why The Failure, Auto Layout?](https://www.wtfautolayout.com/)
+- [AppSight - Get insight into SDKs & services used by mobile apps](https://www.appsight.io/)
+- [TTY - The Ruby terminal apps toolkit](https://piotrmurach.github.io/tty/)
+
+## 9 月上 CG 之前蹭素材
 
 - [Automatic Colorization](https://paintschainer.preferred.tech/)
 - [Poly - 3D Models](https://poly.google.com/)
@@ -54,8 +61,14 @@ keywords:
 - [Nucleo - Icon Organizer & Icon Library](https://nucleoapp.com/app/)
 - [Noun Project - Icons for everything](https://thenounproject.com/)
 - [Share Icon](https://www.shareicon.net/)
+- [阿里巴巴矢量图标库](http://www.iconfont.cn/)
+- [Free Icons by First-Class Designers](https://iconstore.co/)
+- [Easyicon](https://www.easyicon.net/)
+- [FLATICON - Free vector icons](https://www.flaticon.com/)
+- [Iconfinder](https://www.iconfinder.com/)
 - [Sketch App Sources](https://www.sketchappsources.com/)
 - [tvOS + SF Font](https://www.developertown.com/apple-tvos-sketch-template/)
+- [A retina optimized macOS Sierra UI Kit for Sketch](https://github.com/alexkaessner/macOS-UI-Kit)
 
 ## 我爱学习
 
@@ -83,3 +96,19 @@ keywords:
 - 电车难题 [上](https://hornydragon.blogspot.com/2016/10/780.html) [下](https://hornydragon.blogspot.com/2016/10/782.html)
 - [苺香のマイカレンダー ｜ アニメ「ブレンド・S」公式サイト](blend-s.jp/cp/calendar/)
 - [Minecraft Wiki 翻译团队](http://mwash.moecdn.top/index.html)
+- [【2017号款限时拍卖】预售 2233拜年祭限定版1/8手办 GSC出品](https://item.taobao.com/item.htm?id=544561294736)
+
+----
+
+## 购物车，可以顺手帮我清了
+
+<ul>
+<li><details><summary><a href="https://item.taobao.com/item.htm?id=557690256236">哔哩哔哩周边 小电视3D立体护腕鼠标垫 硅胶鼠标垫</a></summary>
+
+[![哔哩哔哩周边 小电视3D立体护腕硅胶鼠标垫图片](https://gd4.alicdn.com/imgextra/i2/2933244145/TB2IeEoabsTMeJjSszgXXacpFXa_!!2933244145.jpg)](https://item.taobao.com/item.htm?id=557690256236)
+
+- 2018-01-15，淘宝，¥59
+- 2018-01-15，LAWSON x bilibili，¥47.2|
+</details>
+</li>
+</ul>
