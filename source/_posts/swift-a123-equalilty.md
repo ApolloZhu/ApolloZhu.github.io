@@ -27,7 +27,7 @@ if a == 1 && a == 2 && a == 3 {
 
 ## 计算型变量
 
-可能大家最容易想到的，只要每次自加一就好了：
+这可能是大家最容易想到的，只要每次自加一就好了：
 
 ```swift
 var _a = 0
@@ -40,30 +40,31 @@ var a: Int {
 ## 重载运算符
 
 {% note info %}
-参数名并不重要，本文采用统一的 `lhs` 和 `rhs`
+参数名并不重要，所以本文采用统一的 `lhs` 和 `rhs`
 {% endnote %}
 
-当然可以不改变量，改运算符：
+当然除了改变量之外，改运算符也是一种思路：
 
 ```swift
 a = 1
 func ==(lhs: inout Int, rhs: Int) -> Bool {
-    defer { a += 1 } // 还是自加一
-    return !(a != b) // 避免造成递归
+    // 不加 `inout` 那 `lhs` 就改为 `a`
+    defer { lhs += 1 } // `a = 0` 就不用 `defer`
+    return !(lhs != rhs) // 避免造成递归
 }
 ```
 
-然后就出现了更简单粗暴的
+然后就出现了更简单粗暴的：
 
 ```swift
 func &&(lhs: Bool, rhs: Bool) -> Bool { return true }
-// 下面这个泛型 T 替换成更准确的类型更保险
+// 如果 T 已经是 Equatable，那必须得替换成更准确的类型
 func ==<T>(lhs: T, rhs: Int) -> Bool { return true }
 ```
 
-## `ExpressibleByIntegerLiteral`
+## 遵循新协议
 
-这个确实不容易想到，毕竟是反着来，让 1、2、3 被视为相等的，欺骗已经存在的 `==`：
+这个有点反着来的感觉，确实不容易想到。我们可以让某种 `Equatable` 遵循 `ExpressibleByIntegerLiteral` 协议，这样 1、2、3 就能被视为和 `a` 是同一个类型的，我们也就可以欺骗已经存在的 `==`，让他们被视为相等的：
 
 ```swift
 enum Foo: ExpressibleByIntegerLiteral {
@@ -74,7 +75,7 @@ enum Foo: ExpressibleByIntegerLiteral {
 }
 ```
 
-或者我这个有点 C 语系感觉的
+或者我这个有点重现 C 语系感觉的：
 
 ```swift
 extension Bool: ExpressibleByIntegerLiteral {
@@ -100,6 +101,7 @@ if b == 1 && b == 2 && b == 3 {
 
 ```swift
 let a: Bool = 1, b = 1
+// 上面的 `b` 还是 `Int`
 ```
 
-如果你还有其他的姿势，不妨[到推特上回复](https://twitter.com/twostraws/status/954709346679754755)。
+如果你还有其他的姿势，不妨在下面，到 [bilibili](https://h.bilibili.com/1789925)，或者去 [推特](https://twitter.com/twostraws/status/954709346679754755) 上回复。
