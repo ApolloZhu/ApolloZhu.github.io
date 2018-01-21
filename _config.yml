@@ -65,8 +65,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ### RSS
-plugin:
-- hexo-generator-feed
+plugins:
+  - hexo-generator-feed
+  - hexo-generator-sitemap
+
 #### Feed Atom
 feed:
   type: atom
@@ -75,10 +77,10 @@ feed:
 
 ### Local Search by hexo-generator-searchdb
 search:
- path: search.xml
- field: post
- format: html
- limit: 10000
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 ## Themes: https://hexo.io/themes/
 theme: next

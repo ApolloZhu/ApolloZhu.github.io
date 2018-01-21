@@ -1,5 +1,5 @@
 ---
-title: a == 1 && a == 2 && a == 3
+title: 这怎么可能是真的？
 date: 2018-01-21 00:56:17
 keywords:
 - 面试
@@ -17,7 +17,7 @@ if a == 1 && a == 2 && a == 3 {
 }
 ```
 
-这本来是个 JavaScript 的面试题，但这并不能阻止我们研究 Swift 里的解法。
+这本来是个 JavaScript 的面试题，但这并不能阻止[我们在推特上研究 Swift 里的解法](https://twitter.com/twostraws/status/954709346679754755)。
 
 <!-- more -->
 
@@ -63,7 +63,7 @@ func ==<T>(lhs: T, rhs: Int) -> Bool { return true }
 
 ## `ExpressibleByIntegerLiteral`
 
-这个确实不容易想到，毕竟是反着来，让 1,2,3 被视为相等的，欺骗已经存在的 `==`：
+这个确实不容易想到，毕竟是反着来，让 1、2、3 被视为相等的，欺骗已经存在的 `==`：
 
 ```swift
 enum Foo: ExpressibleByIntegerLiteral {
@@ -86,7 +86,7 @@ extension Bool: ExpressibleByIntegerLiteral {
 
 ----
 
-作者虽然中途加了个限制，要求代码同时符合这个运行结果：
+楼主中途又加了个限制，要求代码同时符合这个运行结果：
 
 ```swift
 if b == 1 && b == 2 && b == 3 {
@@ -96,8 +96,10 @@ if b == 1 && b == 2 && b == 3 {
 }
 ```
 
-但这只要 `a` 和 `b` 不是同一个类型/实现就可以了，没啥影响。而且我们还可以这样掩人耳目：
+但这只要 `a` 和 `b` 不是同一个类型/实现就可以了，没啥影响。而且我们还可以用类似于这样的方法来掩人耳目：
 
 ```swift
 let a: Bool = 1, b = 1
 ```
+
+如果你还有其他的姿势，不妨[到推特上回复](https://twitter.com/twostraws/status/954709346679754755)。
