@@ -17,7 +17,7 @@ if a == 1 && a == 2 && a == 3 {
 }
 ```
 
-这本来是个 JavaScript 的面试题，但这并不能阻止[我们在推特上研究 Swift 里的解法](https://twitter.com/twostraws/status/954709346679754755)。
+这本来是个 [JavaScript 的面试题](https://stackoverflow.com/questions/48270127/can-a-1-a-2-a-3-ever-evaluate-to-true)，但这并不能阻止[我们在推特上研究 Swift 里的解法](https://twitter.com/twostraws/status/954709346679754755)。
 
 <!-- more -->
 
