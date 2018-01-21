@@ -6,7 +6,9 @@
 
 <p align="center">«NexT» — элегантная высококачественная тема под <a href="http://hexo.io">Hexo</a>. Сделана с нуля, с любовью.</p>
 
+[![lang-image]][lang-url]
 [![gitter-image]][gitter-url]
+[![riot-image]][riot-url]
 [![mnt-image]][commits-url]
 [![travis-image]][travis-url]
 [![rel-image]][releases-url]
@@ -32,6 +34,20 @@
    ```
 
 Или предлагаю почитать [детальные инструкции по установке][docs-installation-url], если вариант выше не устраивает.
+
+## Плагины
+
+В конфиге NexT'а теперь можно найти зависимости на каждый модуль, который был вынесен во внешние репозитории, которые могут быть найдены по [ссылке основной организации](https://github.com/theme-next).
+
+Например, Вы хотите использовать `fancybox` для своего сайта. Открываем конфиг NexT'а и находим:
+
+```yml
+# Fancybox
+# Dependencies: https://github.com/theme-next/theme-next-fancybox
+fancybox: false
+```
+
+Затем включаем параметр `fancybox` и переходим по ссылке «Dependencies» с дальнейшеми инструкциями по установке этого модуля.
 
 ## Обновление
 
@@ -65,8 +81,14 @@ $ git pull
 [browser-image]: https://img.shields.io/badge/browser-%20chrome%20%7C%20firefox%20%7C%20opera%20%7C%20safari%20%7C%20ie%20%3E%3D%209-lightgrey.svg
 [browser-url]: https://www.browserstack.com
 
+[lang-image]: https://img.shields.io/badge/languages-15-orange.svg "Поддержка 15-ти языков"
+[lang-url]: https://gitlocalize.com/repo/679
+
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
 [gitter-url]: https://gitter.im/theme-next
+
+[riot-image]: https://img.shields.io/badge/riot-join%20chat-green.svg
+[riot-url]: https://riot.im/app/#/room/#NexT:matrix.org
 
 [travis-image]: https://travis-ci.org/theme-next/hexo-theme-next.svg?branch=master
 [travis-url]: https://travis-ci.org/theme-next/hexo-theme-next?branch=master "Travis CI"

@@ -10,7 +10,7 @@ categories:
 
 目前包括：选择排序，插入排序，归并排序
 
-情景：将数组 a 中的 n 个整数从小到大排序
+情景：将数组 `a` 中的 $n$ 个整数从小到大排序
 
 ```java
 int[] a;
@@ -25,9 +25,9 @@ void swap(int[] a, int i, int j) {
 
 ## 选择排序
 
-比较次数：n(n-1)/2
+比较次数：$\frac{n(n-1)}{2}$
 
-时间复杂度：O(n^2)
+时间复杂度：$O(n^2)$
 
 ### 选择最小
 
@@ -55,7 +55,7 @@ for (int i=0;i<a.length-1;i++) {
 
 ## 插入排序
 
-时间复杂度：O(n^2)
+时间复杂度：$O(n^2)$
 
 ```java
 for (int i=1;i<a.length;i++) {
@@ -68,7 +68,7 @@ for (int i=1;i<a.length;i++) {
 
 ## 归并排序
 
-时间复杂度：O(nlogn)
+时间复杂度：$O(n\,logn)$
 
 ```java
 void mergeSort(int[] a) {

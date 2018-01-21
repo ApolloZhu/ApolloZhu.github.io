@@ -10,7 +10,7 @@
     {% set post_class = post_class + ' ' + 'post-sticky' %}
   {% endif %}
 
-  {% if theme.reading_progress.enable %}
+  {% if theme.reading_progress.enable && not is_index %}
     <div class="reading-progress-bar"></div>
   {% endif %}
 
@@ -78,11 +78,18 @@
             #}</time>
             {% endif %}
 
-            {% if theme.post_meta.created_at and theme.post_meta.updated_at %}
-              <span class="post-meta-divider">|</span>
+            {% set date_updated_diff = date(post.date, config_date_format) != date(post.updated, config.date_format) %}
+            {% if theme.post_meta.updated_at %}
+              {% if !theme.post_meta.updated_diff || theme.post_meta.updated_diff && date_updated_diff %}
+                {% set display_updated = true %}
+              {% endif %}
             {% endif %}
 
-            {% if theme.post_meta.updated_at %}
+            {% if display_updated or (!theme.post_meta.created_at and theme.post_meta.updated_at) %}
+              {% if theme.post_meta.created_at and theme.post_meta.updated_at %}
+              <span class="post-meta-divider">|</span>
+              {% endif %}
+
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-check-o"></i>
               </span>
@@ -107,11 +114,11 @@
                 <span class="post-meta-item-text">{{ __('post.in') }}</span>
               {% endif %}
               {% for cat in post.categories %}
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="{{ url_for(cat.path) }}" itemprop="url" rel="index">
-                    <span itemprop="name">{{ cat.name }}</span>
-                  </a>
-                </span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">{#
+                #}<a href="{{ url_for(cat.path) }}" itemprop="url" rel="index">{#
+                  #}<span itemprop="name">{{ cat.name }}</span>{#
+                #}</a>{#
+              #}</span>
 
                 {% set cat_length = post.categories.length %}
                 {% if cat_length > 1 and loop.index !== cat_length %}

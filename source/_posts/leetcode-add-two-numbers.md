@@ -20,7 +20,7 @@ categories:
 > Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 > Output: 7 -> 0 -> 8
 
-实际上这就是计算 `342 + 465 = 807`，每个数字分别是倒着写的。所以先 `toInt` 递归把链表转换成整数，然后 `toListNode` 把整数转回链表。但这种不负责任的写法 Swift 会溢出，于是换了 python。
+实际上这就是计算 $342 + 465 = 807$，每个数字分别是倒着写的。所以先 `toInt` 递归把链表转换成整数，然后 `toListNode` 把整数转回链表。但这种不负责任的写法 Swift 会溢出，于是换了 python。
 
 ```python
 toInt = lambda l: l and toInt(l.next) * 10 + l.val or 0
