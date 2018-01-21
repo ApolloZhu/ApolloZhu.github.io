@@ -63,9 +63,9 @@ categories:
 感谢 Justin 的妈妈及时给 Mr. Lau 发了封邮件说明情况。我相信没有她的帮助，就没有我们这次的旅程。以下是原文节选：
 
 {% blockquote Justin's Mom, An email to Mr. Lau %}
-Justin told me over the weekend that their group (Nithin Jonnalagadda, Zhiyu Zhu and Justin Li) has the opportunity to participate in this year's ACSL All-Star Contest in southern California on May 27. I am very excited for them, and I think this is a very good experience for them to participate the activities outside school and see other students who share the same interest and passion with them from all over the country. 
+Justin told me over the weekend that their group (Nithin Jonnalagadda, Zhiyu Zhu and Justin Li) has the opportunity to participate in this year's ACSL All-Star Contest in southern California on May 27. I am very excited for them, and I think this is a very good experience for them to participate the activities outside school and see other students who share the same interest and passion with them from all over the country.
 
-My husband will be happy to be the chaperone. I have already purchased the air tickets for the four of them, reserved the hotel rooms, and rented a car last night. I would like to know if there is anything else that needs to be done to participate in this event to represent Oakton High School (like certain forms, school permissions, etc.). 
+My husband will be happy to be the chaperone. I have already purchased the air tickets for the four of them, reserved the hotel rooms, and rented a car last night. I would like to know if there is anything else that needs to be done to participate in this event to represent Oakton High School (like certain forms, school permissions, etc.).
 
 Last, I would like to thank you for acting as the group's mentor and guiding them for the past two years. I am pretty sure they would not have been able to make it without your help. Looking forward to what these boys can achieve as they continue on!
 {% endblockquote %}

@@ -23,7 +23,7 @@ In order to provide an excellent learning environment for you in this coming sch
 
 Just interested; to learn.
 
-## What do you expect to learn from this course?  If you know nothing about the curriculum, just brainstorm by yourself and tell me something that you want to learn.  
+## What do you expect to learn from this course?  If you know nothing about the curriculum, just brainstorm by yourself and tell me something that you want to learn.
 
 Fully understand Big-O notation. Basic algorithms and data structures, and when/why to choose one over another.
 

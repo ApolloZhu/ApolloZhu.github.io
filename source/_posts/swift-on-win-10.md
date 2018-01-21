@@ -56,7 +56,7 @@ eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/swift
 
 ## 接下来呢？
 
-因为不支持 REPL，所以只有写好了程序再编译。怎么才能写程序？ <del>写程序是不可能的，这辈子都不可能写程序的</del> 因为 Ubuntu 是 Windows 的子系统，所以文件是两边都可以访问的，也就是你可以在 Windows 上把程序写好了，再在 Ubuntu 里运行。不过没了 Xcode，你们用什么编辑器就都随意吧。
+因为不支持 REPL，所以只有写好了程序再编译。怎么才能写程序？ <del>写程序是不可能的，这辈子都不可能写程序的</del> 因为 Ubuntu 是 Windows 的子系统，所以文件是两边都可以访问的，也就是你可以在 Windows 上把程序写好了，再在 Ubuntu 里运行。不过没了 Xcode，你们用什么编辑器就都随意吧。
 
 玩腻了要卸载 Ubuntu？执行命令
 

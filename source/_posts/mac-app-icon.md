@@ -44,7 +44,7 @@ try {
 } catch (Throwable ignored) { }
 ```
 
-虽然错的明明是他们，但上面提到的方法在 Java 9 （没事干不要用 Java 9）下还是会被警告的，因为[之后会有解决方案](http://openjdk.java.net/jeps/272)。顺便提一句，虽然因为上面的例子肯定要 try-catch 所以没有必要，但可以这样判断是 Mac 系统：
+虽然错的明明是他们，但上面提到的方法在 Java 9 （没事干不要用 Java 9）下还是会被警告的，因为[之后会有解决方案](http://openjdk.java.net/jeps/272)。顺便提一句，虽然因为上面的例子肯定要 try-catch 所以没有必要，但可以这样判断是 Mac 系统：
 
 ```java
 System.getProperty("os.name").toLowerCase().contains("mac")

@@ -14,9 +14,9 @@ categories:
 <!-- more -->
 
 > You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-> 
+>
 > You may assume the two numbers do not contain any leading zero, except the number 0 itself.
-> 
+>
 > Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 > Output: 7 -> 0 -> 8
 
@@ -36,7 +36,7 @@ class Solution:
         return toListNode(toInt(l1)+toInt(l2))
 ```
 
-`toListNode` 里转字符串完全是不得已而为。我一开始（也是 [StefanPochmann](https://discuss.leetcode.com/topic/14575/python-for-the-win)）用的方法是这样的：
+`toListNode` 里转字符串完全是不得已而为。我一开始（也是 [StefanPochmann](https://discuss.leetcode.com/topic/14575/python-for-the-win)）用的方法是这样的：
 ```python
 def toListNode(i):
     this = ListNode(i % 10)
@@ -44,4 +44,4 @@ def toListNode(i):
         this.next = toListNode(i / 10)
     return this
 ```
-有些蹊跷的是，在数字够大的时候，会和正确结果有些出入。原因不明，难不成是除法带来的浮点误差？
+有些蹊跷的是，在数字够大的时候，会和正确结果有些出入。原因不明，难不成是除法带来的浮点误差？
