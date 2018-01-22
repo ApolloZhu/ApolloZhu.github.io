@@ -151,7 +151,7 @@ social:
   E-Mail: mailto:public-apollonian@outlook.com || envelope
   #Google: https://plus.google.com/yourname || google
   Twitter: https://twitter.com/zhuzhiyu2001041 || twitter
-  Linkedin: https://www.linkedin.com/in/ApolloZhu || linkedin
+  #Linkedin: https://www.linkedin.com/in/ApolloZhu || linkedin
   Travis CI: https://api.travis-ci.org/repos/ApolloZhu.xml || server
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
@@ -178,7 +178,7 @@ links_title: <a href="./links.html">(・ω・)ノ</a>
 links_layout: inline
 links:
   LiulietLee: https://liulietlee.github.io/
-  Captain雪ノ下八幡's blog: https://www.tcwq.tech
+  Captain 雪ノ下八幡's blog: https://www.tcwq.tech
   SHALL WE TALK: http://shallweitalk.com
 
 # Sidebar Avatar

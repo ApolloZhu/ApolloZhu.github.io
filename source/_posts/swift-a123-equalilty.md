@@ -21,6 +21,9 @@ if a == 1 && a == 2 && a == 3 {
 
 <!-- more -->
 
+<blockquote class="twitter-tweet" data-lang="zh-cn"><p lang="en" dir="ltr">All three match – how many ways can you think of to make this true in Swift? You’ll learn by trying 👍 <a href="https://t.co/FTRh2uKhTb">pic.twitter.com/FTRh2uKhTb</a></p>&mdash; Paul Hudson (@twostraws) <a href="https://twitter.com/twostraws/status/954709346679754755?ref_src=twsrc%5Etfw">2018年1月20日</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 {% note warning %}
 本文不讨论 Unicode 或藏代码这些方法。
 {% endnote %}
