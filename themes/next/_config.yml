@@ -77,7 +77,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+  custom_text: {{ live2d() }}
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -253,7 +253,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  updated_at: false
   # Only show 'updated' if different from 'created'.
   updated_diff: true
   categories: true

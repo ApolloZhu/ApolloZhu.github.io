@@ -18,13 +18,13 @@ categories:
 
 因为学校放假，社团组织略有疏忽，指导教师的邮箱把主办方发来的通知标为了垃圾邮件，等到我们组里一个比较看重这个比赛的同学注意到不对劲去问的时候，我们只剩下一周左右的时间。虽然官方推荐的酒店已经订满了，租车的优惠也没了，但是既然都进了决赛（后来才知道这也是我们社团第一次进决赛），哪有不去的道理？
 
-按道理来说，因为是通过学校社团报的名，这个应该属于学校活动。需要先让老师完成填写 [REQUEST FOR APPROVAL OF UNUSUAL FIELD TRIP](https://www.fcps.edu/sites/default/files/media/forms/fs141.pdf)，并提供一个比较详细的日程表。进过学校各级领导签字批准过后，家长再在 [PARENTAL AUTHORIZATION AND ACKNOWLEDGEMENT OF RISK FOR FIELD TRIP](https://www.fcps.edu/sites/default/files/media/forms/fs152_0.pdf) 上签字，连着 [EMERGENCY CARE INFORMATION](https://www.fcps.edu/sites/default/files/media/forms/se3_0.pdf) 和支票一起交给学校，由学校的账户统一支付。就算 Activity Office 的 Ms. Jay 说会帮我们盯着，但这个过程下来肯定是赶不上的。而且 Mr. Lau 和 Mr. Larson 都没空当 Chaperone，学校也不认同家长代替，这事就只好私了了。
+按道理来说，因为是通过学校社团报的名，这个应该属于学校活动。需要先让老师完成填写 [REQUEST FOR APPROVAL OF UNUSUAL FIELD TRIP](https://www.fcps.edu/sites/default/files/media/forms/fs141.pdf)，并提供一个比较详细的日程表。经过学校各级领导签字批准过后，家长再在 [PARENTAL AUTHORIZATION AND ACKNOWLEDGEMENT OF RISK FOR FIELD TRIP](https://www.fcps.edu/sites/default/files/media/forms/fs152_0.pdf) 上签字，连着 [EMERGENCY CARE INFORMATION](https://www.fcps.edu/sites/default/files/media/forms/se3_0.pdf) 和支票一起交给学校，由学校的账户统一支付。就算 Activity Office 的 Ms. Jay 说会帮我们盯着，但这个过程下来肯定是赶不上的。而且 Mr. Lau 和 Mr. Larson 都没空当 Chaperone，学校也不认同家长代替，这事就只好私了了。
 
 ## 5 月 26 日，星期五
 
-今天本来之上半天课，但因为化学有个单元测试，航班又在傍晚，就没准逃课的。结果家长们商量好了让我们聚在一起集训一天，顺势请了个病假，稍微发了个邮件告诉 Mr. Lau 不要担心（Mr. Lau，我有多喝热水哦）。星期四看算法竞赛入门到凌晨一点，早上九点再到 Justin 家继续看各种资料复习准备。不过感觉大家都不是很投入的样子——有怀抱宠物呼呼大睡的，有玩游戏翻漫画的，有追番到胃疼的（原谅真美这集堪比好想急死你）。
+今天本来只上半天课，但因为化学有个单元测试，航班又在傍晚，就没准逃课的。结果家长们商量好了让我们聚在一起集训一天，顺势请了个病假，稍微发了个邮件告诉 Mr. Lau 不要担心（Mr. Lau，我有多喝热水哦）。星期四看算法竞赛入门到凌晨一点，早上九点再到 Justin 家继续看各种资料复习准备。不过感觉大家都不是很投入的样子——有怀抱宠物呼呼大睡的，有玩游戏翻漫画的，有追番到胃疼的（原谅真美这集堪比好想急死你）。
 
-下午三点出发到 IAD 乘机，因为 UA 没有柜台，拿着打印的电子机票就直接过安检进去了。没想到国内航班的 D 航站楼和国际相比差远了，连座位都不够，整体显得很拥挤。到了 D23 登机口换了 UA719 的机票，坐在地上等了半个小时。因为是国内航班，即使有五个小时，还是在饭点，却依然没有正餐，只有一小包饼干和饮料。即使是坐第一排 7E，也许因为是 737-800 吧，第一次体会到了为什么会有人需要买靠枕 —— 座位的设计绝对没考虑人体工程学。
+下午三点出发到 IAD 乘机，因为 UA 没有柜台，拿着打印的电子机票就直接过安检进去了。没想到国内航班的 D 航站楼和国际相比差远了，连座位都不够，整体显得很拥挤。到了 D23 登机口换了 UA719 的登机牌，坐在地上等了半个小时。因为是国内航班，即使有五个小时，还是在饭点，却依然没有正餐，只有一小包饼干和饮料。即使是坐第一排 7E，也许因为是 737-800 吧，第一次体会到了为什么会有人需要买靠枕 —— 座位的设计绝对没考虑人体工程学。
 
 ### 洛杉矶
 
