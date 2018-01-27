@@ -14,12 +14,12 @@ keywords:
 
 ## GitHub
 
+- [Student Pack](https://education.github.com/)
+
 <details><summary>这是啥</summary>
 
 - [Rationale](https://github.com/open-source)
 - [Features](https://github.com/features)
-- [Student Pack](https://education.github.com/)
-
 - [Workflow](https://guides.github.com/introduction/flow/)
 - [中文教程](https://github.com/geeeeeeeeek/git-recipes/wiki)
 - [Resources](https://enterprise.github.com/resources)
