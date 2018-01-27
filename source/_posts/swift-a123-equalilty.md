@@ -49,7 +49,7 @@ var a: Int {
 当然除了改变量之外，改运算符也是一种思路：
 
 ```swift
-a = 1
+var a = 1
 func ==(lhs: inout Int, rhs: Int) -> Bool {
     // 不加 `inout` 那 `lhs` 就改为 `a`
     defer { lhs += 1 } // `a = 0` 就不用 `defer`
