@@ -15,6 +15,7 @@ keywords:
 ## GitHub
 
 <details><summary>这是啥</summary>
+
 - [Rationale](https://github.com/open-source)
 - [Features](https://github.com/features)
 - [Student Pack](https://education.github.com/)
@@ -27,6 +28,7 @@ keywords:
 </details>
 
 <details><summary>好习惯</summary>
+
 - [Semantic Versioning](https://semver.org/)
 - [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 - [Travis CI](https://travis-ci.org/)
@@ -36,6 +38,7 @@ keywords:
 </details>
 
 <details><summary>过场多</summary>
+
 - [badges](https://shields.io/)
 - [progress bar](https://github.com/fehmicansaglam/progressed.io)
 - buttons [js](https://buttons.github.io/) [iframe](https://ghbtns.com/)
