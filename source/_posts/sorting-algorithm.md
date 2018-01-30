@@ -1,4 +1,5 @@
 ---
+mathjax: true
 title: 排序算法
 date: 2017-03-20 11:14:39
 tags:

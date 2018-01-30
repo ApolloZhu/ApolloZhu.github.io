@@ -1,4 +1,5 @@
 ---
+mathjax: true
 title: LeetCode - 2. Add Two Numbers
 date: 2017-11-01 00:10:40
 keywords:

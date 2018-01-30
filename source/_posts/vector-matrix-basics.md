@@ -1,4 +1,5 @@
 ---
+mathjax: true
 title: Vector & Matrix Basics
 date: 2017-06-16 11:58:00
 updated: 2018-01-29 23:18:14
