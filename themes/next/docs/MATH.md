@@ -152,7 +152,7 @@ math:
     cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com).
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
-    # For automatic detect latest version link to MathJax.js and get from CloudFlare.
+    # For automatic detect latest version link to MathJax.js and get from Bootcdn.
     #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
   # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin)
@@ -160,9 +160,10 @@ math:
   katex:
     # Use Katex 0.7.1 as default
     cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
+    # For whose visitors are mostly in China
+    #cdn: //cdn.bootcss.com/KaTeX/0.7.1/katex.min.css
     # If you want to try the latest version of Katex, use one below instead
     #cdn: //cdn.jsdelivr.net/katex/latest/katex.min.css
-
 ```
 
 ### enable
@@ -209,13 +210,22 @@ title: 'Not Render Math Either'
 ....
 ```
 
-When you set it to `false`, the math will be render on **EVERY PAGE**.
+When you set it to `false`, the math will be rendered on **EVERY PAGE**.
 
 ### cdn
 
 Both MathJax and Katex provide a config `cdn`, if you don't know what is `cdn`, **do not touch it**.
 
-For MathJax, we use a fallback CDN as default and provide other CDN as optional.
+Firstly, both MathJax and Katex use the [jsDelivr](https://www.jsdelivr.com/) as default CDN.
 
-For Katex, we use cdnjs as the default CDN and use the Katex 0.7.1 version. Due to the problem described above, if you need to use other CDN, please use the Katex 0.7.1 version.
-Of cause, we also provide a CDN which could automatically use the latest version of Katex, if you want to check the effect of it.
+Why choose the jsDelivr is because it is fast in everywhere, and jsDelivr has the valid ICP license issued by the Chinese government, it can be accessed in China pretty well.
+
+And we also provide other optional CDNs, including the famous [CDNJS](https://cdnjs.com/) and the [Bootcss](http://www.bootcdn.cn/) which has the quite high access speed in China.
+
+For MathJax, we are currently using the 2.7.1 version.
+
+For Katex, due to the problem described above, we are now using the 0.7.1 version.
+
+If you want to try the other CDN not included in the optional list, you must use the corresponding version.
+
+Particularly, if you are Chinese blogger or most of your visits are come from China, please note that **the CDNJS is blocked in some parts of China**, don't use it as CDN.
