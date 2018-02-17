@@ -26,7 +26,7 @@
     "hexo-symbols-count-time": "0.3.2",
     "hexo-tag-aplayer": "2.0.7",
     "hexo-wordcount": "3.0.2",
-    "live2d-widget-model-hijiki": "^1.0.5",
+    "live2d-widget-model-hijiki": "1.0.5",
     "uglify-js": "3.3.11"
   }
 }
