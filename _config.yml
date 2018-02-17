@@ -91,8 +91,16 @@ theme: next
 
 # hexo-helper-live2d
 live2d:
-  model: hijiki
-  # bottom: -60
+  enable: true
+  model:
+    use: live2d-widget-model-hijiki
+  display:
+    width: 100
+    height: 150
+  react:
+    opacityDefault: 1
+  dev:
+    border: false
 
 sitemap:
   path: sitemap.xml
