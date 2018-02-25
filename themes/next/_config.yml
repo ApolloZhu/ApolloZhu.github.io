@@ -114,7 +114,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   about: /about/ || user
-  resume: https://resume.github.io/?ApolloZhu ||id-card
+  #resume: https://resume.github.io/?ApolloZhu ||id-card
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap

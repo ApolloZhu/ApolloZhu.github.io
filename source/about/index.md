@@ -10,7 +10,7 @@ keywords:
 
 ## 我是谁？
 
-GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)，B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，任何竞赛渣，海外党高中生。
+GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)，B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，任何竞赛渣，海外党高中生。用爱发电中，没啥卵用的[“简历”](https://resume.github.io/?ApolloZhu)就先撤下来了。
 
 ## 那些终将被遗忘的经历
 
