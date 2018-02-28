@@ -23,7 +23,7 @@ categories:
 
 ## 查找表和哈希表
 
-为了 $O(1)$ 搜索而存在的数据类型，无序遍历。Look up table 的数组为了放下所有的值，会浪费很多的空间，而且是各占一个位置。而 hash table 则是把 hashcode 转换为合法的数组索引，更节省空间。不过这也给哈希表带来了最大的问题：collision。
+为了 $O(1)$ 搜索而存在的数据类型，无序遍历。Look up table 的数组为了放下所有的值，会浪费很多的空间，而且是各占一个位置。而 hash table 则是把 hashcode 通过一个 hash function 转换为合法的数组索引，更节省空间。不过这也给哈希表带来了最大的问题：collision。
 
 ## 解决冲突（碰撞）
 
