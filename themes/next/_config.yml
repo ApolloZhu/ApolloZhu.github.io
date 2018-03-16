@@ -51,10 +51,6 @@ favicon:
   safari_pinned_tab: https://avatars3.githubusercontent.com/u/10842684
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
-
-# Set default keywords (Use a comma to separate)
-keywords: "朱智语, Apollo Zhu, Zhiyu Zhu, Apollonian, Swift"
-
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -282,7 +278,7 @@ symbols_count_time:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-reward_comment: Swifters of China, unite!
+reward_comment: Swifters of the World, unite!
 #wechatpay: /images/wechatpay.jpg
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
@@ -619,6 +615,12 @@ leancloud_visitors:
   enable: false
   app_id: #<app_id>
   app_key: #<app_key>
+  # LeanCloud Counter Security Plugin (beta, currently under the testing).
+  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  # If you don't care about security in lc counter and just want to use it directly
+  # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
+  security: false
+  betterPerformance: false
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -943,4 +945,4 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.5
+version: 6.0.6
