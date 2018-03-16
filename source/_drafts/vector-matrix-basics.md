@@ -16,7 +16,7 @@ Addition: adding each of the components separately.
 Scalar multiplication: multiplying each of the components with the scalar.
 Magnitude/Length of $\vec{v}$: $\begin{Vmatrix}\vec{v}\end{Vmatrix}=\sqrt{comp_0^2+\ldots}$
 Unit vector of $\vec{v}$: $\vec{u}=\frac{\vec{v}}{\begin{Vmatrix}\vec{v}\end{Vmatrix}}$, of length 1
-Matrix multiplication: $m_1\times m_2$ is undefined unless $m_1$.row = $m_2$.column and $m_1$.column = $m_2$.row, resulting in a matrix $m_3$ of size $m_1$.row $\times$ $m_2$.column.
+Matrix multiplication: $M_1M_2$ is defined if $M_1$.column == $M_2$.row, result in a matrix of size $M_1.row \times M_2.column$
 
 ```swift
 var m3 = [[Double]](
@@ -25,7 +25,7 @@ var m3 = [[Double]](
 )
 for i in m1.row {
     for j in m2.column {
-        for m in m1.column {
+        for m in m1.column { // same as m2.row
             m3[i][j] += m1[i][m] * m2[m][j]
         }
     }
