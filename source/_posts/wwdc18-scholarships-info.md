@@ -13,14 +13,14 @@ categories:
 <details>
 <summary>Wait, before we start, what is WWDC?</summary>
 
-Description Coming Soon...
+I'll add my description soon, but for now, check out the [official website](https://developer.apple.com/wwdc).
 </details>
 
 Thank you all for being interested in [Apple's Worldwide Developer Conference](https://developer.apple.com/wwdc) and [this scholarship opportunity](https://developer.apple.com/wwdc/scholarships/). I hope all of us could go together, to learn, and have fun!
 
-I knows this article is a little bit long, but please read through this before you start. If you have any questions, just ask me through messenger.
+I know this article is a little bit long, but please read through this carefully before you start. If you have any questions, just ask me through messenger, or in the comment area below.
 
-> I'll be constantly updating this, and the Chinese version is available [here](http://apollonian.xyz/2018/03/16/wwdc18-scholarships-info-cn/).
+> I'll be constantly updating this, and the Chinese version is available [here](http://apollozhu.github.io/2018/03/16/wwdc18-scholarships-info-cn/).
 
 <!-- more -->
 
@@ -36,7 +36,9 @@ I knows this article is a little bit long, but please read through this before y
 
 Please read the [description](https://developer.apple.com/wwdc/scholarships/) carefully, as well as the [terms and conditions](https://developer.apple.com/wwdc/scholarships/terms/WWDC18-Scholarship-Terms-and-Conditions.pdf). In summary, you are required to write a Playground -- an interactive program -- that is creative and technically accomplished.
 
-## Things to Download
+## Things to Get
+
+You do ***NOT*** need a paid Apple Developer Account. Do you know what's better than that? You'll get one year of Apple Developer membership if you win!
 
 If you have a Mac, download [Xcode from Mac App Store](https://itunes.apple.com/app/id497799835), or if you have an iPad, download [Swift Playgrounds from App Store](https://itunes.apple.com/app/id908519492), or if you have a Windows, get a virtual machine or whatever that works.
 
@@ -80,9 +82,9 @@ This app is first [introduced in 2016](https://developer.apple.com/videos/play/w
 
 ### Analysis
 
-Remember that your playground will be judged offline, and they'll only spend 3 minutes, so think about what you are going to do. Even without thinking I can tell you many people will be doing [augmented reality](https://developer.apple.com/arkit) and [machine learning](https://developer.apple.com/coreml), despite that Apple for whatever didn't mention anything about their latest technologies, so you need to more creative about those type of playgrounds (you could not imagine how easy it is to implement those fancy but scary stuff with ARKit and Core ML).
+Remember that your playground will be judged offline, the program can ***NOT*** require an account for sign in, and they'll only spend 3 minutes in judging it, so think about what you are going to do. Even without thinking I can tell you many people will be doing [augmented reality](https://developer.apple.com/arkit) and [machine learning](https://developer.apple.com/coreml); you can not imagine how easy it is to implement those fancy but scary stuff with ARKit and Core ML. Well, try to be creative, add some graphics and audios, and incorporate some of Apple's new technologies (even if they didn't mention about that)…
 
-I think these are some reasons why Apple prefers Playground over normal apps:
+For the first time, you are allowed to use open source frameworks (providing that you included their licenses correctly and explained why). Nonetheless, what you are going to submit is not just a normal program. I think these are some reasons why Apple prefers Playground over normal apps, and maybe you want to address some of them:
 
 1. user will be directed about what to do and informed of what is expected
 2. it provide an interactive way for the users to [learn things through programming](https://developer.apple.com/videos/play/wwdc2017/416/)
@@ -91,8 +93,16 @@ I think these are some reasons why Apple prefers Playground over normal apps:
 
 Also, the "Beyond WWDC" essay is very important. You should explain, in 500 words, how you share your coding knowledge and enthusiasm for computer science with others. Spend some time on this and revise it several times.
 
-However, that doesn't mean the playground itself isn't important. There were many amazing playgrounds, such as [this one here](https://www.youtube.com/watch?v=cq_zLMKB-SE), but some of the [other ones](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf) are not as good. So my suggestion is just try your best, and see if you can resonate with [former winners](https://itunes.apple.com/story/id1358780266).
+However, that doesn't mean the playground itself isn't important. There were many amazing playgrounds, such as [this one here](https://www.youtube.com/watch?v=cq_zLMKB-SE), but the quality of the [other ones](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf) varies. So my suggestion is analysis why some of them got accepted and some got rejected, see if you can resonate with [former winners](https://itunes.apple.com/story/id1358780266), and just try your best.
 
 If you'd ever ask me if it's hard, I'll answer yes but ***DOABLE***. Just make sure you don't copy any others' code -- the [2048 playground](https://github.com/wwdc/2017/issues/7) from [last year's submissions](https://github.com/wwdc/2017) was **rejected** for this reason.
 
+{% centerquote %}
+Everything is doable if you try.
+
+**Mr. Lau**
+{% endcenterquote %}
+
 Good luck.
+
+-- Apollo (a.k.a Zhiyu Zhu, last year's scholarship winner for submitting [Karel the Robot Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master))

@@ -9,21 +9,25 @@ categories:
 - WWDC
 ---
 
-> [English Version Here](http://apollonian.xyz/2018/03/15/wwdc18-scholarships-info/)
+> [English Version Here](http://apollozhu.github.io/2018/03/15/wwdc18-scholarships-info/)
 
-关于参加 [WWDC](https://developer.apple.com/wwdc) 的介绍，特别是对于国内的朋友们，建议去看看[喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是写给对 [其奖学金](https://developer.apple.com/wwdc/scholarships/) 感兴趣的同学们。没错，你必须是在校学生或者 STEM 组织的成员才能申请。
+之前忘了做自我介绍了。大家好，我是朱智语，去年通过 [Karel the Robot 的 Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master) 侥幸获得了 2017 年 [WWDC 的 奖学金](https://developer.apple.com/wwdc/scholarships/)。关于参加 [WWDC](https://developer.apple.com/wwdc) 本身的介绍，特别是对于国内的朋友们，建议去看看[喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是分享下自己的经验，希望能抛砖引玉，避免其他对此感兴趣的在校学生或者 STEM 组织的成员错过这次机会。
 
-这篇文章会有些长，请大家做好心理准备。
+这篇文章会有些长，请大家耐心、仔细地阅读。
 
 <!-- more -->
 
 ## 简单的介绍
 
-建议大家仔细阅读 [官方的描述](https://developer.apple.com/wwdc/scholarships/) 以及 [各种条款](https://developer.apple.com/wwdc/scholarships/terms/WWDC18-Scholarship-Terms-and-Conditions.pdf)，但总的来说你需要用 ***英文*** 和 Swift 编写一个有 ***创意*** 和 ***技术水平*** 的 Playground。你需要在北京时间 4 月 2 日早上 8 点之前上交，然后苹果就会在 4 月 21 日通知你是否被选中了！
+建议大家仔细阅读 [官方的描述](https://developer.apple.com/wwdc/scholarships/) 以及 [各种条款](https://developer.apple.com/wwdc/scholarships/terms/WWDC18-Scholarship-Terms-and-Conditions.pdf)，但总的来说你需要用 ***英文*** 和 Swift ***独立*** 编写一个有 ***创意*** 和 ***技术水平*** 的 Playground。你需要在北京时间 4 月 2 日早上 8 点之前上交，然后苹果就会在 4 月 21 日通知你是否被选中了！
+
+关于在校学生证明，这个官方的说法是当前的课表或者其他证明在读的文档，加上系主任或者校长的联系信息。STEM 组织我不是很熟悉，但官方的说法大概是成员信息加上组织者的联系信息。文档格式要求 PDF、PNG 或者 JPG，而且交中文的文档也是没问题的，所有语言苹果都认。
 
 ## 需要的软件
 
-如果你有一台 Mac，你需要 ***从 Mac App Store***（还记得 XcodeGhost 么？）[下载 Xcode](https://itunes.apple.com/app/id497799835)；如果你有一台 iPad, 则需要从 App Store 免费下载 [Swift Playgrounds](https://itunes.apple.com/app/id908519492)；如果你只有 Windows 电脑，那么可以尝试使用虚拟机等（百度 Swift 吧有[介绍](http://tieba.baidu.com/p/3092530089)）。
+好消息是，你并不需要苹果的付费开发者账号。而且更优秀的是，如果你有幸得到今年的奖学金，你还能免费成为一年的苹果开发者计划成员。
+
+软件的话，如果你有一台 Mac，你需要 ***从 Mac App Store***（还记得 XcodeGhost 么？）[下载 Xcode](https://itunes.apple.com/app/id497799835)；如果你有一台 iPad, 则需要从 App Store 免费下载 [Swift Playgrounds](https://itunes.apple.com/app/id908519492)；如果你只有 Windows 电脑，那么可以尝试使用虚拟机等（百度 Swift 吧有[介绍](http://tieba.baidu.com/p/3092530089)）。
 
 ## 学习 Swift
 
@@ -53,22 +57,22 @@ Xcode 里的 Playground 是在 [2014 年的 WWDC 上介绍的](https://developer
 
 ### 个人瞎分析
 
-断网离线判定和 3 分钟时限的规则还在，大家请多注意，但今年不知道为啥提到用苹果新科技这一点……不过我估计还是会有不少 [增强现实](https://developer.apple.com/arkit) 和 [机器学习](https://developer.apple.com/coreml) 类的 Playground。
+断网离线判定，不能要求账号，以及 3 分钟时限的规则还在，大家请多注意，但今年不知道为啥提到用苹果新科技这一点，只提了加上图片和音效……不过我估计还是会有不少 [增强现实](https://developer.apple.com/arkit) 和 [机器学习](https://developer.apple.com/coreml) 类的 Playground。
 
-不过说实话，要交的并不是普通的程序，而是你自己写的 Playground。作为可交互式的程序，去年很多被录取了的根本没有体现出 Playground 的特点，但我建议大家还是尽量：
+不过说实话，即使可以在说明原因和正确使用 License 的情况下使用第三方开源库，但要交的仍然不能算是是普通的程序。这是你自己写的 Playground，作为可交互式的程序，我建议大家还是尽量体现出 Playground 的特点：
 
 1. 利用 Playground 的各种特性来引导用户，说明接下来要干什么，能达到什么目标
 2. 让用户通过编程来主动 [学习新的内容](https://developer.apple.com/videos/play/wwdc2017/416/)
 3. 通过有趣的内容激发兴趣，鼓励用户更多地去了解，学习和参与编程
 4. ……
 
-去年的 Playground 肯定是非常有价值的参考对象。代码的话大部分应该都在 [GitHub 上这个项目里](https://github.com/wwdc/2017)，某Tube 上也有个 [播放列表](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf)，不过不知道为啥 [这个挺不错的](https://www.youtube.com/watch?v=cq_zLMKB-SE) 却没在里面。[App Store 里的故事](https://itunes.apple.com/story/id1358780266) 大家也可以去瞧一瞧，看看过去获奖者的经历。
+去年的 Playground，虽然有不少被采用的并不具备以上特征，但并不能否定他们作为有价值的参考对象。代码的话大部分应该都在 [GitHub 上这个项目里](https://github.com/wwdc/2017)，某Tube 上也有个 [播放列表](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf)（虽然不是很正确但还是希望大家想办法研究，包括 [这个挺不错的](https://www.youtube.com/watch?v=cq_zLMKB-SE) 的投稿）。[App Store 里的故事](https://itunes.apple.com/story/id1358780266) 大家也可以去瞧一瞧，看看过去获奖者的经历。
 
 与此同时，我觉得这个和美国申请大学差不多，硬性条件 Playground 达到某种水平之后就完全靠 "Beyond WWDC" 这篇文章来分高下了。不多，500 词的英语写作，请大家感情丰富，有理有据地描述你如何分享你了解的编程知识以及用对 CS 的热情感化大众。建议大家不要无中生有，还是实事求是的好，不过同一件事情描述的角度不同，体现出来的效果自然是不一样的。大家可以把文章拿去让其他人读一读，参考下大家的意见多修改几遍比较好。
 
 ## 最后说几句
 
-你问我难不难，那我肯定说难，不过也并不是说是传达不了的。但也不能说就因为难就去抄，你看去年那个 [2048](https://github.com/wwdc/2017/issues/7) 就被拒了吧。
+你问我难不难，那我肯定说难，不过也并不是说就届不到，实现不了。但也不能说就因为难就去抄，你看去年那个 [2048](https://github.com/wwdc/2017/issues/7) 就被拒了吧。耍小聪明也是不行的，比如交两份啊，尝试黑进苹果什么的都是明令禁止的哦！
 
 如果你还有什么其他问题的话，我都会尽快回答，可能的话我也会更新文章的内容。
 
