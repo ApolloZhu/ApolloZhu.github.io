@@ -20,7 +20,7 @@ Thank you all for being interested in [Apple's Worldwide Developer Conference](h
 
 I knows this article is a little bit long, but please read through this before you start. If you have any questions, just ask me through messenger.
 
-> I'll be constantly updating this, and a chinese version will be available soon.
+> I'll be constantly updating this, and the Chinese version is available [here](http://apollonian.xyz/2018/03/16/wwdc18-scholarships-info-cn/).
 
 <!-- more -->
 
@@ -68,7 +68,7 @@ If you have time, you may also want to have a general understanding of how [view
 
 ## More About Playground
 
-No matter what, you should read the [Markup Formatting Reference](https://developer.apple.com/library/content/documentation/Xcode/Reference/xcode_markup_formatting_ref/). Your Playground will look a lot better with this!
+No matter what, you should read the [Markup Formatting Reference](https://developer.apple.com/library/content/documentation/Xcode/Reference/xcode_markup_formatting_ref/). Your Playground will look a lot better with this in conjunction with `CustomPlaygroundQuickLookable`/`CustomPlaygroundDisplayConvertible`.
 
 ### Mac, Xcode, and Playground
 
@@ -80,7 +80,9 @@ This app is first [introduced in 2016](https://developer.apple.com/videos/play/w
 
 ### Analysis
 
-Remember that your playground will be judged offline, and they'll only spend 3 minutes, so think about what you are going to do. I think these are some reasons why Apple prefers Playground over normal apps:
+Remember that your playground will be judged offline, and they'll only spend 3 minutes, so think about what you are going to do. Even without thinking I can tell you many people will be doing [augmented reality](https://developer.apple.com/arkit) and [machine learning](https://developer.apple.com/coreml), despite that Apple for whatever didn't mention anything about their latest technologies, so you need to more creative about those type of playgrounds (you could not imagine how easy it is to implement those fancy but scary stuff with ARKit and Core ML).
+
+I think these are some reasons why Apple prefers Playground over normal apps:
 
 1. user will be directed about what to do and informed of what is expected
 2. it provide an interactive way for the users to [learn things through programming](https://developer.apple.com/videos/play/wwdc2017/416/)
@@ -89,7 +91,7 @@ Remember that your playground will be judged offline, and they'll only spend 3 m
 
 Also, the "Beyond WWDC" essay is very important. You should explain, in 500 words, how you share your coding knowledge and enthusiasm for computer science with others. Spend some time on this and revise it several times.
 
-However, that doesn't mean the playground itself isn't important. There were many amazing playgrounds, such as [this one here](https://www.youtube.com/watch?v=cq_zLMKB-SE), but some of the [other ones](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf) are not as good. So my suggestion is just try your best.
+However, that doesn't mean the playground itself isn't important. There were many amazing playgrounds, such as [this one here](https://www.youtube.com/watch?v=cq_zLMKB-SE), but some of the [other ones](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf) are not as good. So my suggestion is just try your best, and see if you can resonate with [former winners](https://itunes.apple.com/story/id1358780266).
 
 If you'd ever ask me if it's hard, I'll answer yes but ***DOABLE***. Just make sure you don't copy any others' code -- the 2048 playground from [last year's submissions](https://github.com/wwdc/2017) was **rejected** for this reason.
 
