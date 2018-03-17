@@ -11,7 +11,7 @@ categories:
 
 > [English Version Here](http://apollozhu.github.io/2018/03/15/wwdc18-scholarships-info/)
 
-之前忘了做自我介绍了。大家好，我是朱智语，去年通过 [Karel the Robot 的 Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master) 侥幸获得了 2017 年 [WWDC 的 奖学金](https://developer.apple.com/wwdc/scholarships/)。关于参加 [WWDC](https://developer.apple.com/wwdc) 本身的介绍，特别是对于国内的朋友们，建议去看看[喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是分享下自己的经验，希望能抛砖引玉，避免其他对此感兴趣的在校学生或者 STEM 组织的成员错过这次机会。
+之前忘了做自我介绍了。大家好，我是朱智语，去年通过 [Karel the Robot 的 Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master) 侥幸获得了 2017 年 [WWDC 的奖学金](https://developer.apple.com/wwdc/scholarships/)。关于参加 [WWDC](https://developer.apple.com/wwdc) 本身的介绍，特别是对于国内的朋友们，建议去看看 [喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是分享下自己的经验，希望能抛砖引玉，避免其他对此感兴趣的在校学生或者 STEM 组织的成员错过这次机会。
 
 这篇文章会有些长，请大家耐心、仔细地阅读。
 
@@ -57,7 +57,7 @@ Xcode 里的 Playground 是在 [2014 年的 WWDC 上介绍的](https://developer
 
 ### 个人瞎分析
 
-断网离线判定，不能要求账号，以及 3 分钟时限的规则还在，大家请多注意，但今年不知道为啥提到用苹果新科技这一点，只提了加上图片和音效……不过我估计还是会有不少 [增强现实](https://developer.apple.com/arkit) 和 [机器学习](https://developer.apple.com/coreml) 类的 Playground。
+断网离线判定，不能要求账号，以及 3 分钟时限的规则还在，大家请多注意，但今年不知道为啥提到用苹果新科技这一点，只提了加上图片和音效……不过我估计还是会有不少 [增强现实](https://developer.apple.com/arkit)（你看今年宣传图）和 [机器学习](https://developer.apple.com/coreml) 类的 Playground。
 
 不过说实话，即使可以在说明原因和正确使用 License 的情况下使用第三方开源库，但要交的仍然不能算是是普通的程序。这是你自己写的 Playground，作为可交互式的程序，我建议大家还是尽量体现出 Playground 的特点：
 
