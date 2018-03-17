@@ -93,6 +93,6 @@ Also, the "Beyond WWDC" essay is very important. You should explain, in 500 word
 
 However, that doesn't mean the playground itself isn't important. There were many amazing playgrounds, such as [this one here](https://www.youtube.com/watch?v=cq_zLMKB-SE), but some of the [other ones](https://www.youtube.com/playlist?list=PLl469UE7Uwr0bdon2CvnpxmQs16qu4nkf) are not as good. So my suggestion is just try your best, and see if you can resonate with [former winners](https://itunes.apple.com/story/id1358780266).
 
-If you'd ever ask me if it's hard, I'll answer yes but ***DOABLE***. Just make sure you don't copy any others' code -- the 2048 playground from [last year's submissions](https://github.com/wwdc/2017) was **rejected** for this reason.
+If you'd ever ask me if it's hard, I'll answer yes but ***DOABLE***. Just make sure you don't copy any others' code -- the [2048 playground](https://github.com/wwdc/2017/issues/7) from [last year's submissions](https://github.com/wwdc/2017) was **rejected** for this reason.
 
 Good luck.
