@@ -6,7 +6,7 @@
     "version": "3.5.0"
   },
   "dependencies": {
-    "ejs": "2.5.7",
+    "ejs": "2.5.8",
     "hexo": "3.6.0",
     "hexo-cli": "1.1.0",
     "hexo-generator-archive": "0.1.5",
