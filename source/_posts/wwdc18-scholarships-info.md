@@ -80,7 +80,7 @@ It was first [introduced back in 2014](https://developer.apple.com/videos/play/w
 
 This app is first [introduced in 2016](https://developer.apple.com/videos/play/wwdc2016/408/) and [updated again last year](https://developer.apple.com/videos/play/wwdc2017/408/). iPad Playground has many features that a normal Xcode Playground doesn't have -- Cut Scenes written in html (a great place to inform your user what's this chapter about), cover images, vocab lists, etc. To fully utilize those features, please read the [Playground Book Format Reference](https://developer.apple.com/library/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/), and experiment with [this sample](https://developer.apple.com/library/content/samplecode/TalkingToTheLiveView/Introduction/Intro.html) that allows you to send messages to a Swift Playground live view and saving data to its key-value store.
 
-### Analysis
+## Analysis
 
 Remember that your playground will be judged offline, the program can ***NOT*** require an account for sign in, and they'll only spend 3 minutes in judging it, so think about what you are going to do. Even without thinking I can tell you many people will be doing [augmented reality](https://developer.apple.com/arkit) and [machine learning](https://developer.apple.com/coreml); you can not imagine how easy it is to implement those fancy but scary stuff with ARKit and Core ML. Well, try to be creative, add some graphics and audios, and incorporate some of Apple's new technologies (even if they didn't mention about that)…
 

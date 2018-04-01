@@ -55,7 +55,7 @@ Xcode 里的 Playground 是在 [2014 年的 WWDC 上介绍的](https://developer
 
 然后 [2016 年 WWDC](https://developer.apple.com/videos/play/wwdc2016/408/) 就介绍了 Swift Playgrounds 这个 iPad 上的程序，当然 [去年也有更新](https://developer.apple.com/videos/play/wwdc2017/408/)。相比之下，iPad 上的 Playground 有很多优势，比如 [特殊的数据传递方法](https://developer.apple.com/library/content/samplecode/TalkingToTheLiveView/Introduction/Intro.html)，cut scene（用 HTML 编写的“剧情画面”，引入接下来的内容），封面图和术语表等。详情可以参考 [Playground Book Format Reference](https://developer.apple.com/library/content/documentation/Xcode/Conceptual/swift_playgrounds_doc_format/)。
 
-### 个人瞎分析
+## 个人瞎分析
 
 断网离线判定，不能要求账号，以及 3 分钟时限的规则还在，大家请多注意，但今年不知道为啥提到用苹果新科技这一点，只提了加上图片和音效……不过我估计还是会有不少 [增强现实](https://developer.apple.com/arkit)（你看今年宣传图）和 [机器学习](https://developer.apple.com/coreml) 类的 Playground。
 
