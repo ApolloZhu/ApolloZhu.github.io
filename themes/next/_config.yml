@@ -51,6 +51,7 @@ favicon:
   safari_pinned_tab: https://avatars3.githubusercontent.com/u/10842684
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
+
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -62,7 +63,14 @@ footer:
   since: 2016
 
   # Icon between year and copyright info.
-  icon: heart
+  icon: 
+    # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
+    # `heart` is recommended with animation in red (#ff0000).
+    name: heart
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#808080"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright: Apollo | Zhiyu Zhu | 朱智语
@@ -270,6 +278,11 @@ symbols_count_time:
   item_text_total: true
   awl: 5
   wpm: 200
+
+# Manual define the border radius in codeblock
+# Leave it empty for the default 1
+codeblock:
+  border_radius: 
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -615,11 +628,10 @@ leancloud_visitors:
   enable: false
   app_id: #<app_id>
   app_key: #<app_key>
-  # LeanCloud Counter Security Plugin (beta, currently under the testing).
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in lc counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
-  security: false
+  security: true
   betterPerformance: false
 
 # Another tool to show number of visitors to each article.
@@ -945,4 +957,4 @@ js: js
 images: images
 
 # Theme version
-version: 6.0.6
+version: 6.1.0
