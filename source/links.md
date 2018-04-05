@@ -104,4 +104,15 @@ keywords:
 
 ## 要不你们帮我买了？
 
-- [有坂真白 C 服](https://detail.tmall.com/item.htm?id=527645047471)
+<details>
+<summary>有坂真白 C 服</summary>
+
+- 正版的 [衬裙 ¥17,280](http://cospatio.com/detail/id/00000084421) + [制服 ¥52,920](http://cospatio.com/detail/id/00000084406) + [外套 ¥14,040](http://cospatio.com/detail/id/00000084424) + [领巾 ¥1,620](http://cospatio.com/detail/id/00000084425) = 85,860 JPY
+- 国内还原度挺高的 [Uwowo 109+199=308](https://detail.tmall.com/item.htm?id=527645047471)。闲鱼上的报价为
+    - [我看起来最靠谱的 120](https://ershou.taobao.com/item.htm?id=565020069293)
+    - [119](https://ershou.taobao.com/item.htm?id=556163574399)
+    - [160](https://ershou.taobao.com/item.htm?id=566987598885)
+    - [并不清楚有啥的 85](https://ershou.taobao.com/item.htm?id=550636781671)
+    - [不怎么靠谱的 50](https://ershou.taobao.com/item.htm?id=559831046829)
+
+</details>
