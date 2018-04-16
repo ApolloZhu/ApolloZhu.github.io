@@ -8,9 +8,23 @@ keywords:
 - 朱智语
 ---
 
-## 我是谁？
+|我在干什么？|进度|
+|--|--|
+|准备 SAT 分科考试|0/2|
+|准备 AP 考试|0/4|
+|完成 CS 期末项目|0/?|
+|准备 SAT 考试|0/3|
+|翻译 CS193p|3/20|
+|2x播放 CS106A|5/28|
+|2x播放 CS106B|0/27|
+|尝试学习 CS107|0/?|
+|用爱发电|?/?|
 
-GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)，B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，任何竞赛渣，海外党高中生。用爱发电中，没啥卵用的[“简历”](https://resume.github.io/?ApolloZhu)就先撤下来了。
+所以综上所述，没啥卵用的[“简历”](https://resume.github.io/?ApolloZhu)就先撤下来了
+
+## 我 🏳️‍🌈 是谁？
+
+有坂真白厨/推。B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。只会 CS 的海外党高中生。竞赛渣（请避免在任何竞技比赛中和我组队）。
 
 ## 那些终将被遗忘的经历
 
@@ -23,7 +37,7 @@ GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@Apoll
 ## 目前能聊以自慰的技能
 
 - Swift：2015／1，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift
-- Python 3：2016／1，ACSL审核没有 mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习
+- Python 3：2016／1，ACSL 审核没有 mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习
 - Java：2016/7，为准备下学期的 APCSA
 - Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
