@@ -116,3 +116,6 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+aplayer:
+  meting: true
