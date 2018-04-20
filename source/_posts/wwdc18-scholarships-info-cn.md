@@ -5,8 +5,9 @@ keywords:
 tags:
 - Swift
 - WWDC18
-categories:
 - WWDC
+categories:
+- 编程
 ---
 
 > [English Version Here](http://apollozhu.github.io/2018/03/15/wwdc18-scholarships-info/)

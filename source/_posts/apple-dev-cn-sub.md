@@ -3,9 +3,10 @@ title: 苹果开发者视频全面上线简体中文字幕
 date: 2017-08-15 11:13:43
 tags:
 - WWDC17
+- WWDC
 - translation
 categories:
-- WWDC
+- 摘录
 ---
 
 ![开发者视频现已配有简体中文字幕](https://developer.apple.com/click/images/000-cn-subtitles-2017/cn-subtitles-2017.jpg)

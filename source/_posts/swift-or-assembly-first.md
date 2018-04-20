@@ -6,8 +6,9 @@ tags:
 - Assembly
 - zhihu
 - WWDC17
-categories:
 - WWDC
+categories:
+- 摘录
 ---
 
 看到知乎上有个很有趣（没有建设性）的问题 ——

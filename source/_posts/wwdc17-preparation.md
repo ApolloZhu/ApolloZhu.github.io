@@ -11,8 +11,9 @@ keywords:
 - 苹果
 tags:
 - WWDC17
-categories:
 - WWDC
+categories:
+- 生活
 ---
 
 今年被选为了 Scholar，记录一下各种事宜，方便下次（如果还有的话）参考。没选中的同学们再接再厉，明年还有机会。我觉得最好不要像[这个同学这样](https://forums.developer.apple.com/thread/76431)在[论坛](https://forums.developer.apple.com/community/other/wwdc17-scholarships/)里发牢骚和冷嘲热讽还不提供证据，终究只会给苹果留下坏印象，偷鸡不成蚀把米。
