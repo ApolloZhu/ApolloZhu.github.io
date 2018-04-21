@@ -136,5 +136,4 @@ convolution?
 
 two dimensional linear gradient: small bitmap - stretch image as content of CALayer
 
-Circuler gradient view: OpenGL
-
+Circular gradient view: OpenGL
