@@ -3,8 +3,9 @@ title: WWDC17 Keynote & State of the Union
 date: 2017-06-05 10:00:30
 tags:
 - WWDC17
+- WWDC
 ---
-
+
 正式开始！还是和往年一样，大清早就排起队了！可是，需要大半夜去排队看 Keynote 吗？
 
 <!-- more -->

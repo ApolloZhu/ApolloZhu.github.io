@@ -71,7 +71,7 @@ categories:
 {% note warning %}
 ## 未完待续
 
-接下来的内容，请关注 [WWDC 系列](/tags/WWDC17/)
+接下来的内容，请关注 [WWDC 系列](/tags/WWDC/)
 
 {% endnote %}
 
@@ -93,30 +93,6 @@ categories:
 Tickets may not be sold, resold, bartered, auctioned, or transferred in any way. As an exception to the foregoing, requests to transfer tickets among eligible members of the same team may be submitted to Apple for consideration at [wwdc@apple.com](mailto:wwdc@apple.com). Apple reserves the right to reject any transfer requests.
 {% endblockquote %}
 
-## 记趣
-
-> 除了上面这个，所有二级标题都是四个字
-
 ### Xcode 8.3 的 Bug
 
 就是在交稿之前发布的新版本，偏偏 Playground 出了问题，论坛赶紧发布[补救措施](https://forums.developer.apple.com/message/219665#219665)
-
-### 夭折的旅行计划 V1
-
-因为OAK 和 SFO 都太远了，人生地不熟，而且也都没有直飞，当时就选择 IAD 到 SJC 机场。
-
-|航空公司|航班号|时间|中转机场|第二段航班号|时间|备选航班号|时间|价格|
-|--|-:|--|:--:|-:|--|-:|--|:--:|:--:|
-|Delta|2240|7:25-10:13|SLC|2045|11:15-12:13|875|15:10-16:06|212|
-|American|2569|7:20-9:29|DFW|103|11:10-12:47|1039|17:20-18:52|284|
-
-落地之后 2 美元到校园。但是好像同一辆 Bus 有两种开法，到时候看吧。反正到了都要走路，时间也相差不大。
-
-- Airport terminal A
-	- Caltrain 10
-		- Metro Light Rail Station
-			- 地铁 901/902
-				- San Antonio South
-		- Santa Clara Transit Center
-			- Caltrain 22
-				- E Santa Clara & S Seventh
