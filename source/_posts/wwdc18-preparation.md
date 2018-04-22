@@ -4,6 +4,7 @@ date: 2018-04-20 16:44:58
 tags:
 - WWDC17
 - WWDC
+- WWDC18
 categories:
 - 生活
 ---
@@ -20,7 +21,13 @@ Or, sometime in the future!
 
 ## 住宿（6/2 check in, 6/9 check out）
 
-就和会场还是在 McEnery Convention Center 一样，免费住宿仍在 [San Jose State University 的 Campus Village 2](https://maps.apple.com/?address=300%20Calle%208,%20San%20Lorenzo,%20PR%20%2000754,%20United%20States&auid=6405642249850496317&ll=37.334990,-121.878644&lsp=9902&q=Campus%20Village%202&t=m)。房间是双人间，带窗，每人都还有个桌子。整栋楼带电梯，一楼有厨房/活动室，每层楼都有个办公区和休闲区。地理位置不错：每天早上走路到会场要不了多久（官方说 15 分钟），校园里环境也还行，周围吃的也不少。真要说有什么不方便的话，那就是我们未成年人需要有主办方的人陪着，或者家长给个许可让在保持联系的情况下自由活动。
+就和会场还是在 McEnery Convention Center 一样，免费住宿仍在 [San Jose State University 的 Campus Village 2](https://maps.apple.com/?address=300%20Calle%208,%20San%20Lorenzo,%20PR%20%2000754,%20United%20States&auid=6405642249850496317&ll=37.334990,-121.878644&lsp=9902&q=Campus%20Village%202&t=m)。房间是双人间，带窗，每人都还有个桌子。嗯，大概是这样的：
+
+![房间示意图](https://user-images.githubusercontent.com/10842684/39096302-f37d0c6e-461b-11e8-9544-60bb332aa398.jpg)
+
+> 由 Vince14Genius 拍摄的去年的我
+
+整栋楼带电梯，一楼有厨房/活动室，每层楼都有个办公区和休闲区。地理位置也不错：每天早上走路到会场要不了多久（官方说 15 分钟），校园里环境也还行，周围吃的也不少。真要说有什么不方便的话，那就是我们未成年人需要有主办方的人陪着，或者家长给个许可让在保持联系的情况下自由活动。
 
 哦，对了，男同胞们请使用 Gender Neutral 的卫生间。
 
