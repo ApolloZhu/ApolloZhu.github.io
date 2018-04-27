@@ -26,6 +26,8 @@ keywords:
 
 有坂真白厨/推。B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。只会 CS 的海外党高中生。竞赛渣（请避免在任何竞技比赛中和我组队）。
 
+重度拖延症（大小岔子出了不少），还请大家严格监督。
+
 ## 那些终将被遗忘的经历
 
 - LOGO：小学四年级，从机器人社团偷学过来的
