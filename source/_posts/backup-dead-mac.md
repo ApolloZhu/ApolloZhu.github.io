@@ -27,6 +27,8 @@ categories:
 
 如果你能找到另一台 Mac 的话，恭喜你，你只需要再有一条 [FireWire](https://support.apple.com/HT1661)/Thunderbolt/USB-C 的线就可以快速地把数据导出了！连接好两台 Mac，并在你坏掉的电脑开机时按住 `T` 键，就会发现它作为普通的硬盘显示到另一台 Mac 上了！
 
+----
+
 ## 单用户模式
 
 我默认为你已经看过了 [其他抢救措施](https://apollozhu.github.io/2018/04/26/combat-mac-startup-issues/)，正如那里面所说的，开机时同时按住 `command` 和 `S` 键进入单用户模式，等待满屏飞过奇怪的代码。
