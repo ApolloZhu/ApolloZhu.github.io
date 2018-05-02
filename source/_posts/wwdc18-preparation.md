@@ -33,6 +33,8 @@ Or, sometime in the future!
 
 ## Scholarship Orientation（6/3）
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1rGM92Hr9f8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 类似于欢迎会的东西，领礼品（去年是 Apple TV）以及它们传授经验——如何才能最高效地利用 WWDC（去 Lab）。然后去年又讲了 Apple Pencil 的内部构造，同步数据传输和屏幕更新，以及为什么 Apple Watch 上会是 3 个圆环，而不是普通的计步器的原因。讲完了之后是合照，合照最后 Tim Cook 会出来，所以大家把照相设备准备好，就别背包了，想办法往中间蹭吧。
 
 那么去年 Tim Cook 在出场之前，他都做了什么呢？有些 scholar 并没有出现在合照里，这又是为什么呢？媒体们呢，它们对于 scholar 们就没什么兴趣么？为什么我就是不写明呢？😏
