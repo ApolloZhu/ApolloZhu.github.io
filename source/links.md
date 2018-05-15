@@ -8,8 +8,9 @@ keywords:
 
 ## 友链
 
-- [LiulietLee](https://liulietlee.github.io/)
-- [Captain雪ノ下八幡's blog](https://www.tcwq.tech)
+- [LiulietLee](https://space.bilibili.com/4056345/)
+- [Captain 雪ノ下八幡's blog](https://www.tcwq.tech)
+- [兔子鲜笙的博客](https://blog.tuzi.moe/)
 - [SHALL WE TALK](http://shallweitalk.com)
 
 ## GitHub
@@ -49,6 +50,7 @@ keywords:
 
 - [Octodex](https://octodex.github.com/)
 - [中国区排名](https://githubrank.com/)
+- [中国区统计](https://githuber.cn/)
 
 ## 开发
 
