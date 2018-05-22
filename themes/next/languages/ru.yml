@@ -4,7 +4,6 @@ title:
   category: Категория
   tag: Тэг
   schedule: Календарь
-author: Автор
 menu:
   home: Главная
   archives: Архив
@@ -34,6 +33,8 @@ post:
   comments_count: Комментариев
   related_posts: Похожие записи
   copy_button: Скопировать
+  copy_success: Скопировано!
+  copy_failure: Ошибка копирования!
   copyright:
     author: Автор записи
     link: Ссылка на запись
@@ -91,7 +92,7 @@ accessibility:
   next_page: Следующая страница
 symbols_count_time:
   count: Кол-во символов в статье
-  count_total: Общее кол-во символов в записях
+  count_total: Общее кол-во символов
   time: Время чтения
-  time_total: Время чтения всего сайта
+  time_total: Общее время чтения
   time_minutes: мин.

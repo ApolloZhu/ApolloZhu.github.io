@@ -4,7 +4,6 @@ title:
   category: 分类
   tag: 标签
   schedule: 日程表
-author: 博主
 menu:
   home: 首页
   archives: 归档
@@ -34,6 +33,8 @@ post:
   comments_count: 评论数
   related_posts: 相关文章
   copy_button: 复制
+  copy_success: 复制成功
+  copy_failure: 复制失败
   copyright:
     author: 本文作者
     link: 本文链接
