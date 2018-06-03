@@ -10,10 +10,8 @@ keywords:
 
 |我在干什么？|进度|
 |--|--|
-|准备 SAT 分科考试|0/2|
-|准备 AP 考试|0/4|
-|完成 CS 期末项目|0/?|
-|准备 SAT 考试|0/3|
+|准备 SAT 分科考试|1/2|
+|准备 SAT 考试|2/3|
 |翻译 CS193p|3/20|
 |2x播放 CS106A|15/28|
 |2x播放 CS106B|0/27|
@@ -47,6 +45,8 @@ keywords:
 
 |日期|名称|奖项|
 |--|--|--|
+|4/20/2018|WWDC 2018|Scholarship|
+|3/25/2018|Hack.UVA 2018|Winner - Best Use of SafeTrek API|
 |5/18/2017|2017 ACSL Intermediate-3 Division|All-Star Contest 参赛资格|
 |4/21/2017|WWDC 2017|Scholarship|
 |4/8/2017|2017 FBLA State Mobile App Dev|Virginia 第二|
