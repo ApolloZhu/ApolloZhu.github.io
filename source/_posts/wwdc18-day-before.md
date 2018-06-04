@@ -3,7 +3,7 @@ title: 去 WWDC18 的路上
 date: 2018-06-02 14:13:39
 tags:
 - WWDC
-- WWDC17
+- WWDC18
 categories:
 - 生活
 ---
@@ -49,7 +49,7 @@ There’s no expiration date on a dream.
 {% note danger %}
 ## 这次我又没能及时刷卡！
 
-上次明明是上车后才刷的！谁知道轻轨又要去找那个不起眼的机器！还要刷到亮绿灯才行！下车又不需要 tag off 了？！用户体验极差！
+上次明明是上车后才刷的！不重新看[使用说明](https://www.clippercard.com/ClipperWeb/vta/index.do)，谁知道轻轨又要去找那个不起眼的机器！还要刷到亮绿灯才行！下车又不需要 tag off 了？！用户体验极差！
 {% endnote %}
 
 ![SJSU](https://user-images.githubusercontent.com/10842684/40886399-fff15fae-66eb-11e8-815d-c97adbbe7b0a.jpeg)
