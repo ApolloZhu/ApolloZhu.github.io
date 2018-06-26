@@ -23,7 +23,7 @@
     "hexo-renderer-markdown-it-plus": "1.0.3",
     "hexo-renderer-stylus": "0.3.3",
     "hexo-server": "0.3.2",
-    "hexo-symbols-count-time": "0.4.2",
+    "hexo-symbols-count-time": "0.4.4",
     "hexo-tag-aplayer": "3.0.4",
     "hexo-wordcount": "3.0.2",
     "live2d-widget-model-hijiki": "1.0.5",
