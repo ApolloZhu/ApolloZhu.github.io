@@ -2,10 +2,11 @@
 title: 去 WWDC17 的路上
 date: 2017-06-03 19:52:26
 tags:
-- WWDC
-- WWDC17
+  - WWDC
+  - WWDC17
+  - Stanford
 categories:
-- 生活
+  - 生活
 ---
 
 > 本文根据记忆补写，可能和实际情况略有出入

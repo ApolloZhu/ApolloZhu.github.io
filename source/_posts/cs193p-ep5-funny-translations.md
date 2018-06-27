@@ -2,19 +2,20 @@
 title: CS193P 第五集神翻译
 date: 2017-08-20 10:43:36
 keywords:
-- Developing iOS 10 Apps with Swift
-- 乌丸千岁
-- 李达康
-- 少女编号
-- 人民的名义
-- 斯坦福
-- CS193P
+  - Developing iOS 10 Apps with Swift
+  - 乌丸千岁
+  - 李达康
+  - 少女编号
+  - 人民的名义
+  - 斯坦福
+  - CS193P
 tags:
-- anime
-- Swift
-- translation
+  - anime
+  - Swift
+  - translation
+  - Stanford
 categories:
-- 瞎捣鼓
+  - 瞎捣鼓
 ---
 
 翻译斯坦福 CS193P (Developing iOS 10 Apps with Swift) 的时候脑子一热留了个神翻译：<!-- more -->[第五集十三分五十秒](https://github.com/ApolloZhu/Developing-iOS-10-Apps-with-Swift/blob/d1bb7f08ef2546f357f6813d3442758e46420cda/subtitles/5.%20Gestures%20and%20Multiple%20MVCs.srt#L1330)
