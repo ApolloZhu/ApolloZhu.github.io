@@ -2,13 +2,12 @@
 title: 可不可以跳过汇编，直接学习SWIFT语言？
 date: 2017-07-27 15:03:05
 tags:
-- Swift
-- Assembly
-- zhihu
-- WWDC17
-- WWDC
+  - Swift
+  - Assembly
+  - zhihu
+  - WWDC17
 categories:
-- 摘录
+  - 摘录
 ---
 
 看到知乎上有个很有趣（没有建设性）的问题 ——
