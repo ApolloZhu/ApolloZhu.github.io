@@ -14,7 +14,7 @@ keywords:
 同时正在通过 CS193C 正式学习前端编程，跳过 CS107 学习 CS110，利用闲暇（？）时间学习 CS106B（在来斯坦福之前，2x播放了 15 集 CS106A）。
 实在太忙，没有翻译 CS193P，更没有用爱发电。综上所述，没啥卵用的[“简历”](https://resume.github.io/?ApolloZhu)就先撤下来了
 
-## 我 🏳️‍🌈 是谁？
+## 我是谁？
 
 有坂真白厨/推。B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。只会 CS 的海外党高中生。竞赛渣（请避免在任何竞技比赛中和我组队）。
 
