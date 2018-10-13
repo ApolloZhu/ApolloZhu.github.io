@@ -10,15 +10,15 @@ keywords:
 
 ## 我在干什么？
 
-搞砸 SAT, AP 考试，SAT Subject Test，只能考虑在作文上努力申请大学。
-同时正在通过 CS193C 正式学习前端编程，跳过 CS107 学习 CS110，利用闲暇（？）时间学习 CS106B（在来斯坦福之前，2x播放了 15 集 CS106A）。
-实在太忙，没有翻译 CS193P，更没有用爱发电。综上所述，没啥卵用的[“简历”](https://resume.github.io/?ApolloZhu)就先撤下来了
+- 搞砸 SAT, AP 考试，SAT Subject Test，只能考虑在作文上努力申请大学。
+- 今年的 CS193P 估计又要出来了吧，去年的怎么办……
+- [Dynamic Dark Mode](https://github.com/ApolloZhu/Dynamic-Dark-Mode) 被 Mac App Store 拒了，[DMV A-Z](https://github.com/ApolloZhu/AZDMV) 翻译进行中，[Hacktoberfest PR 还差那么几个](https://hacktoberfest.digitalocean.com/stats/ApolloZhu)
 
 ## 我是谁？
 
 有坂真白厨/推。B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。只会 CS 的海外党高中生。竞赛渣（请避免在任何竞技比赛中和我组队）。
 
-重度拖延症（大小岔子出了不少），还请大家严格监督。
+典型 INFP-A：重度拖延症（大小岔子出了不少），泛性恋/全性恋/无分性别，自由主义者（Moderate Liberal/Opportunity Democrat）。
 
 ## 那些终将被遗忘的经历
 
