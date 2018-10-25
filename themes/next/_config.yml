@@ -157,7 +157,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/ApolloZhu || github
-  Bilibili: http://space.bilibili.com/14767902 || youtube-play
+  Bilibili: https://space.bilibili.com/14767902 || youtube-play
   Weibo: http://weibo.com/u/2607042732 || weibo
   E-Mail: mailto:public-apollonian@outlook.com || envelope
   #Google: https://plus.google.com/yourname || google

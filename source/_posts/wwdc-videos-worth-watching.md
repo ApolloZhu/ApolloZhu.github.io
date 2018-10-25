@@ -45,7 +45,7 @@ categories:
 建议先学 OpenGL/Metal 再看。
 {% endnote %}
 
-[斯特拉的魔法](http://bangumi.bilibili.com/anime/5540)，2016年10月番，ED 的效果很有趣，一直有人常使用各种方法重现。这个视频是讲解 [示例代码](https://developer.apple.com/library/content/samplecode/AdoptingMetalII) 的理论，具体该代码模仿 ED 见 [av7801365](https://www.bilibili.com/video/av7801365/)。
+[斯特拉的魔法](https://bangumi.bilibili.com/anime/5540)，2016年10月番，ED 的效果很有趣，一直有人常使用各种方法重现。这个视频是讲解 [示例代码](https://developer.apple.com/library/content/samplecode/AdoptingMetalII) 的理论，具体该代码模仿 ED 见 [av7801365](https://www.bilibili.com/video/av7801365/)。
 
 ----
 

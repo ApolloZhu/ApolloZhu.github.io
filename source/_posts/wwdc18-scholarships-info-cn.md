@@ -10,7 +10,7 @@ categories:
 - 编程
 ---
 
-> [English Version Here](http://apollozhu.github.io/2018/03/15/wwdc18-scholarships-info/)
+> [English Version Here](https://apollozhu.github.io/2018/03/15/wwdc18-scholarships-info/)
 
 之前忘了做自我介绍了。大家好，我是朱智语，去年通过 [Karel the Robot 的 Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master) 侥幸获得了 2017 年 [WWDC 的奖学金](https://developer.apple.com/wwdc/scholarships/)。关于参加 [WWDC](https://developer.apple.com/wwdc) 本身的介绍，特别是对于国内的朋友们，建议去看看 [喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是分享下自己的经验，希望能抛砖引玉，避免其他对此感兴趣的在校学生或者 STEM 组织的成员错过这次机会。
 

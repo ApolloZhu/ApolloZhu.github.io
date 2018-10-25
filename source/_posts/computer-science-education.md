@@ -8,7 +8,7 @@ tags:
 categories:
   - 编程
 date: 2018-06-11 10:57:09
-update: 2018-10-12 23:27:00
+updated: 2018-10-12 23:27:00
 ---
 
 Before we start, let me ask you a question: For the public high schools of Fairfax County in Virginia, approximately what percentage of them do not have any computer science related courses?

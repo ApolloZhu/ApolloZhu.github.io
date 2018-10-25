@@ -60,4 +60,4 @@ dscacheutil -flushcache
 
 ## 参考
 
-1. [iptables equivalent for mac os x - StackExchange](http://serverfault.com/questions/102416/iptables-equivalent-for-mac-os-x/)
+1. [iptables equivalent for mac os x - StackExchange](https://serverfault.com/questions/102416/iptables-equivalent-for-mac-os-x/)

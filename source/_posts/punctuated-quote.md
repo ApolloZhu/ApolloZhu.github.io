@@ -24,4 +24,4 @@ categories:
 |逗号和句号|总是在引号内|
 |其他标点（冒号、分号、问号等）|如为引用内容则放引号内，否则一律放引号外|
 
-> 以上节选翻译自：[APA Style Blog: Punctuating Around Quotation Marks](http://blog.apastyle.org/apastyle/2011/08/punctuating-around-quotation-marks.html)
+> 以上节选翻译自：[APA Style Blog: Punctuating Around Quotation Marks](https://blog.apastyle.org/apastyle/2011/08/punctuating-around-quotation-marks.html)

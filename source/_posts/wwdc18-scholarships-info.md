@@ -21,7 +21,7 @@ Thank you all for being interested in [Apple's Worldwide Developer Conference](h
 
 I know this article is a little bit long, but please read through this carefully before you start. If you have any questions, just ask me through messenger, or in the comment area below.
 
-> I'll be constantly updating this, and the Chinese version is available [here](http://apollozhu.github.io/2018/03/16/wwdc18-scholarships-info-cn/).
+> I'll be constantly updating this, and the Chinese version is available [here](https://apollozhu.github.io/2018/03/16/wwdc18-scholarships-info-cn/).
 
 <!-- more -->
 

@@ -24,7 +24,7 @@ categories:
 
 ## 第一步 - 生成
 
-打开 [make.girls.moe](http://make.girls.moe/#/)
+打开 [make.girls.moe](https://make.girls.moe/#/)
 
 等待 “Loading Model...” 结束之后，就可以直接点击 "Generate" 生成了
 

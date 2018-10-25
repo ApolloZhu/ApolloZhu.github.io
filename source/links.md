@@ -31,7 +31,7 @@ keywords:
 <details><summary>好习惯</summary>
 
 - [Semantic Versioning](https://semver.org/)
-- [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+- [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - [Travis CI](https://travis-ci.org/)
 - [codebeat](https://codebeat.co/)
 - [bettercodehub](https://bettercodehub.com/)
@@ -82,7 +82,7 @@ keywords:
 - [Knots Step by Step](https://www.amazon.com/dp/1409383172/qid=1495508080)
 - [英文发音](https://zh.forvo.com/)
 - [ZOL 网络学院](http://soft.zol.com.cn/school/)
-- [WWDC 全文搜索](http://asciiwwdc.com/)
+- [WWDC 全文搜索](https://asciiwwdc.com/)
 - [Smarty Pins - Putting Trivia on the Google Maps](https://smartypins.withgoogle.com/)
 
 ## 利器
