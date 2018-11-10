@@ -8,6 +8,7 @@ tags:
 categories:
   - 编程
 date: 2018-10-28 18:24:04
+updated: 2018-11-10 02:04:50
 ---
 
 我自己开发的 **自动深色模式**（*Dynamic Dark Mode*）基本进入稳定版本了，特此广而告之。希望大家点个星星，顺便帮着宣传宣传。发现 bug 的话，开 PR 提 issue 都行。如果您还会其他语言的话，也欢迎帮忙翻译。链接：[https://github.com/ApolloZhu/Dynamic-Dark-Mode](https://github.com/ApolloZhu/Dynamic-Dark-Mode)
@@ -46,10 +47,10 @@ end tell
 所以现在的下载方式是：
 
 1. 直接从 [Release](https://github.com/ApolloZhu/Dynamic-Dark-Mode/releases) 下载 pkg 或者 zip。推荐 pkg，因为不用手动移到“应用程序”文件夹
-2. Homebrew Cask：开了 PR 还没被 merge。QAQ
+2. [Homebrew Cask](https://brew.sh/)：`brew cask install dynamic-dark-mode`
 3. 之后会考虑加入 Sparkle 来自动更新，不过得等我有空，有空
 4. 即使哪天 App Store 被判为垄断（Apple Inc. v. Robert Pepper）的话，也没有希望上架
-5. 我要是有机会的话，看看能不能找 Cook 聊聊这件事
+5. 我要是有机会的话，看看能不能找 Cook 聊聊改 [Apple Developer Program License Agreement 3.3.4 (c)](https://download.developer.apple.com/Documentation/License_Agreements__Apple_Developer_Program/Apple_Developer_Program_License_Agreement_20181019.pdf)
 
 ## 市场分析
 
