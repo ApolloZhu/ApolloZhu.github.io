@@ -177,12 +177,12 @@ site_state: true
 social:
   GitHub: https://github.com/ApolloZhu || github
   Bilibili: https://space.bilibili.com/14767902 || youtube-play
+  Twitter: https://twitter.com/zhuzhiyu_ || twitter
+  Telegram: https://t.me/ApolloZhu || telegram
   Weibo: http://weibo.com/u/2607042732 || weibo
   E-Mail: mailto:public-apollonian@outlook.com || envelope
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/zhuzhiyu2001041 || twitter
   #Linkedin: https://www.linkedin.com/in/ApolloZhu || linkedin
-  Travis CI: https://api.travis-ci.org/repos/ApolloZhu.xml || server
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -879,7 +879,7 @@ pace_theme: pace-theme-bounce
 canvas_nest:
   enable: true
   onmobile: false # display on mobile or not
-  color: '0,0,255' # RGB values, use ',' to separate
+  color: '102,204,255' # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
   count: 99 # the number of lines
