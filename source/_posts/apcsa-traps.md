@@ -8,7 +8,6 @@ categories:
 - 编程
 ---
 
-本文不定期更新，预计 2017/5/2 停更
 此文只包含对于本人来说死记硬背能提升做题速度的知识点，所有写过的代码见 [APCSA](https://github.com/ApolloZhu/APCSA)
 
 ## 测试
@@ -36,7 +35,7 @@ Even after you tested --
 ## 整数除法
 
 ```java
-System.out.print(3/4); // 1
+System.out.print(3/4); // 0
 ```
 
 ## 四舍五入
@@ -62,13 +61,13 @@ public aMethod()
 
 ## 随机数
 
-`Math.random()` 返回 [0,1) 任一 `double`
+`Math.random()` 返回 $[0,1)$ 中任一 `double`
 
 ```java
-
 E pick(E[] array) {
     return array[(int)(Math.random()*array.length)];
 }
+
 E pick(List<E> list) {
     return list.get((int)(Math.random()*list.size()));
 }

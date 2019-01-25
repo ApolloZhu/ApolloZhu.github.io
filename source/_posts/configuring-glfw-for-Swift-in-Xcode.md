@@ -9,7 +9,7 @@ categories:
 - 瞎捣鼓
 ---
 
-当初想要学 OpenGL，找到了一个使用 Swift 语言的教程 —— [SwiftGL](https://github.com/SwiftGL)，主要内容是使用 Swift 3 在 macOS Sierra (10.12) 上开发基于 glfw3 的 GUI 程序（虽然是通过命令行调起的）。可惜最后还是没能坚持下来，但当时摸爬滚打，翻了不少博客，甚至还差点把 SwiftGL 的库用 Swift 3 重写，最后才研究出来的出来的配置方法丢了就太可惜了，特此记录分享。
+苹果丢到了 OpenGL 全面推 Metal，但我当初想要学 OpenGL，找到了一个使用 Swift 语言的教程 —— [SwiftGL](https://github.com/SwiftGL)，主要内容是使用 Swift 3 在 macOS Sierra (10.12) 上开发基于 glfw3 的 GUI 程序（虽然是通过命令行调起的）。可惜最后还是没能坚持下来，但当时摸爬滚打，翻了不少博客，甚至还差点把 SwiftGL 的库用 Swift 3 重写，最后才研究出来的出来的配置方法丢了就太可惜了，特此记录分享。
 
 <!-- more -->
 
