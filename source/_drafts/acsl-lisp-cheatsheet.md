@@ -27,8 +27,9 @@ LISP 是一种函数式程序设计语言（什么鬼），里面只有两种数
 *之后所有的 LISP 函数都会被用 `Swift` 重现，下面的是可有可无的定义。*
 
 ```swift
-typealias List = Array<Any>
-typealias Atom = Any
+typealias Atom = Any?
+typealias List = Array<Atom | List>
+let NIL: List = []
 ```
 
 > 我们假设可以用 `List<T>` 来改写定义。
@@ -40,8 +41,8 @@ typealias Atom = Any
 用于返回非变量
 
 ```swift
-    func QUOTE(variable: Any) ->  Atom{
-        return “\(variable)"
+    func QUOTE(variable: Any) ->  Atom {
+        return "\(variable)"
     }
 ```
 
@@ -50,10 +51,10 @@ typealias Atom = Any
 
 设置 variable 的值为 value
 
-SETQ 的 variable 前面不需要加`’`
+`SETQ` 的 variable 前面不需要加`’`
 
 ```swift
-func SET(inout variable: Any, value: Any){
+func SET(inout variable: Any, value: Any) {
     variable = value
 }
 ```
@@ -70,19 +71,19 @@ func ADD(value: Number…) -> Number {
 
 - ( `EVAL` variable)
 
-感觉和直接打印没设么区别，到时可以明白 quote 的用法。
+感觉和直接打印没设么区别，倒是可以明白 quote 的用法。
 ```swift
-func EVAL<T>(variable: T) -> T{
+func EVAL<T>(variable: T) -> T {
     return variable
 }
 ```
 
 - ( `ATOM` variable)
 
-如果 variable 是原子，则返回 true，否则返回 NIL
+如果 variable 是原子，则返回 `true`，否则返回 `NIL`
 
 ```swift
-func ATOM(variable： Any) -> Bool?{
+func ATOM(variable: Any?) -> Bool? {
         if variable == nil || variable is Atom {
             return true
         }
@@ -100,17 +101,17 @@ func REVERSE(inout list: List){
 }
 ```
 
-- ( `CAR` list)
+- ( `CAR` list )
 
 返回列表中的第一个项目。如果传入的不是表的话自动 error
 
 ```swift
-func CAR<T>(list: List<T>) -> T{
-        if let item = list.first{
-            return item
-        } else {
-            fatalError()
-        }
+func CAR<T>(list: List<T>) -> T {
+    if let item = list.first {
+        return item
+    } else {
+        fatalError("NIL")
+    }
 }
 ```
 
@@ -119,10 +120,10 @@ func CAR<T>(list: List<T>) -> T{
 返回列表中除了第一个之外的项目
 ```swift
 func CDR<T>(list: List<T>) -> List<T>{
-        if list.dropFirst().count > 0{
-            return Array(list.dropFirst())
-        }
-        fatalError("NIL")
+    if list.dropFirst().count > 0{
+        return Array(list.dropFirst())
+    }
+    fatalError("NIL")
 }
 ```
 
@@ -131,26 +132,25 @@ func CDR<T>(list: List<T>) -> List<T>{
 返回由 arg1 和 arg2 组成的表
 
 ```swift
-func CONS(arg1: Any, arg2: Any) -> List {
-    return Array(arrayLiteral: arg1) + Array(arrayLiteral: arg2)
+func CONS(arg1: Atom, arg2: List) -> List {
+    return [arg1] + Array(arrayLiteral: arg2)
 }
 ```
-
 
 ## 数学运算符
 
 这个，就不讲解了
 
 ```swift
-    ADD:    return args.reduce(0, combine: +)
-    MULT:   return args.reduce(1, combine: *)
-    SUB:    return $0 - $1
-    DIV:    return $0 / $1
-    SQUARE: return pow($0, 2)
-    EXP:    return pow(a,n)
-    EQ:     return $0 == $1 ? true : NIL
-    POS:    return $0 > 0 ? true : NIL
-    NEG:    return $0 < 0 ? true : NIL
+ADD:    return args.reduce(0, combine: +)
+MULT:   return args.reduce(1, combine: *)
+SUB:    return $0 - $1
+DIV:    return $0 / $1
+SQUARE: return pow($0, 2)
+EXP:    return pow(a,n)
+EQ:     return $0 == $1 ? true : NIL
+POS:    return $0 > 0 ? true : NIL
+NEG:    return $0 < 0 ? true : NIL
 ```
 
 ## 自定义函数
@@ -163,4 +163,4 @@ func CONS(arg1: Any, arg2: Any) -> List {
 
 这个可以求表的第二个项
 
-调用的话和以前一样，就是 `SECOND’(1 2))`
+调用的话和以前一样，就是 `(SECOND ’(1 2))`

@@ -1,7 +1,7 @@
 ---
 title: 关于 Apollo
 date: 2017-03-18 17:08:09
-updated: 2019-02-01 16:38:38
+updated: 2019-02-09 18:46:46
 keywords:
 - 简历
 - Apollonian
@@ -13,7 +13,7 @@ keywords:
 
 - 大学面试
 - 学习 Metal(Kit) 准备 WWDC
-- 等待大学结果 12/15 所大学的结果，目前 1 reject 2 admit。
+- 等待大学结果 12/15 所大学的结果，目前 1 reject 3 admit。
 
 ## 我是谁？
 
