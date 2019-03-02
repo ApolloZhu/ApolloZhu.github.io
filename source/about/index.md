@@ -11,9 +11,8 @@ keywords:
 
 ## 我在干什么？
 
-- 大学面试
 - 学习 Metal(Kit) 准备 WWDC
-- 等待大学结果 11/15 所大学的结果，目前 1 reject 3 admit。
+- 等待大学结果 8/15 所大学的结果，目前 2 reject 5 admit。
 
 ## 我是谁？
 
