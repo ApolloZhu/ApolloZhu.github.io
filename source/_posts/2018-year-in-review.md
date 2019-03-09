@@ -30,22 +30,22 @@ date: 2018-12-31 11:00:00
 ## 咕咕咕
 
 - 文章
-  - WWDC
-  - Stanford
+  - [ ] WWDC
+  - [ ] Stanford
 - 翻译
-  - CS193P（愚人节前把堆起来的翻译完，要不 iOS 12 完全没希望同步……）
+  - [ ] CS193P（愚人节前把堆起来的翻译完，要不 iOS 12 完全没希望同步……）
 - 视频
-  - Localization
-  - 调色板（谁还记得这个远古的坑）
+  - [ ] Localization
+  - [ ] 调色板（谁还记得这个远古的坑）
 - 程序
-  - OHS The Center（毕业前还写不出来实在有点……）
-  - tvOS 的 [NineAnimator](https://github.com/SuperMarcus/NineAnimator)
-  - [Apple Watch Bilibili](https://github.com/ApolloZhu/Apple-Watch-Bilibili)
-  - [Augma](https://github.com/ApolloZhu/Augma)（这个……就慢慢来吧）
+  - [ ] OHS The Center（毕业前还写不出来实在有点……）
+  - [ ] tvOS 的 [NineAnimator](https://github.com/SuperMarcus/NineAnimator)
+  - [ ] [Apple Watch Bilibili](https://github.com/ApolloZhu/Apple-Watch-Bilibili)
+  - [ ] [Augma](https://github.com/ApolloZhu/Augma)（这个……就慢慢来吧）
 - 学习
-  - Metal（为了更调色板）
-  - ARKit（也算是为了 Augma 吧）
-  - 日文（到能给自己多条出路的水平）
+  - [ ] Metal（为了更调色板）
+  - [x] ARKit（也算是为了 Augma 吧）
+  - [ ] 日文（到能给自己多条出路的水平）
 
 ### 写在最后
 
