@@ -11,9 +11,9 @@ date: 2018-10-28 18:24:04
 updated: 2018-11-10 02:04:50
 ---
 
-我自己开发的 **自动深色模式**（*Dynamic Dark Mode*）基本进入稳定版本了，特此广而告之。希望大家点个星星，顺便帮着宣传宣传。发现 bug 的话，开 PR 提 issue 都行。如果您还会其他语言的话，也欢迎帮忙翻译。链接：[https://github.com/ApolloZhu/Dynamic-Dark-Mode](https://github.com/ApolloZhu/Dynamic-Dark-Mode)
+我自己开发的 [**自动深色模式**](https://github.com/ApolloZhu/Dynamic-Dark-Mode)（*Dynamic Dark Mode*）基本进入稳定版本了，特此广而告之。希望大家点个星星，顺便帮着宣传宣传。发现 bug 的话，开 PR 提 issue 都行。如果您还会其他语言的话，也欢迎帮忙翻译。
 
-![自动深色模式示意图](https://user-images.githubusercontent.com/10842684/54065607-56c22a80-41f1-11e9-95e6-7100e297d591.PNG)
+[![自动深色模式示意图](https://user-images.githubusercontent.com/10842684/54065607-56c22a80-41f1-11e9-95e6-7100e297d591.PNG)](https://github.com/ApolloZhu/Dynamic-Dark-Mode)
 
 <!-- more -->
 
