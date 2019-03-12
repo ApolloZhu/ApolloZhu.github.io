@@ -13,7 +13,7 @@ keywords:
 
 - CS193P 翻译
 - weak self 文章
-- 等待 8/15 所大学的结果，目前 2 reject 5 admit。
+- 等待 7/15 所大学的结果，目前 2 reject 6 admit。
 
 ## 我是谁？
 
