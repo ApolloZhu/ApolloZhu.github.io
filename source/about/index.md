@@ -11,10 +11,10 @@ keywords:
 
 ## 我在干什么？
 
-- WWDC
 - CS193P 翻译
 - weak self 文章
-- 等待 1/15 所大学的结果，目前 7 reject 7 admit。
+- 更新到 Swift 5
+- 15 所大学结果：8 reject 7 admit
 
 ## 我是谁？
 
