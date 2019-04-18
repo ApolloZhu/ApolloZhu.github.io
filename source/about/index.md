@@ -13,8 +13,6 @@ keywords:
 
 - CS193P 翻译
 - weak self 文章
-- 更新到 Swift 5
-- 15 所大学结果：8 reject 7 admit
 
 ## 我是谁？
 
