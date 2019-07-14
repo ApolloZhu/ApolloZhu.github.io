@@ -723,7 +723,7 @@ needmoreshare2:
            Mailto,Douban,Pinterest,Tumblr,GoogleBookmarks,Reddit,Evernote,
            Delicious,StumbleUpon,Slashdot,Technorati,Posterous,Newsvine,
            Friendfeed,Vkontakte,Odnoklassniki,Mailru
-    float:
+  float:
     enable: true
     options:
       iconStyle: box
