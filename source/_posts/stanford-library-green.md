@@ -12,8 +12,7 @@ date: 2018-07-20 18:47:52
 
 经历了 B 站的一天[^1]，我认为是时候去 Green Library 借阅那本著名的书——《+449884800s》。
 
-{% fi https://user-images.githubusercontent.com/10842684/43034480-08eacc6e-8c92-11e8-887b-844d9b49d7fc.jpeg
-, Green Library 门前喷泉的图片, 之前人少的时候照的 Green Library %}
+![之前人少的时候照的 Green Library 和门前的喷泉](https://user-images.githubusercontent.com/10842684/43034480-08eacc6e-8c92-11e8-887b-844d9b49d7fc.jpeg)
 
 <!-- more -->
 
@@ -21,7 +20,7 @@ date: 2018-07-20 18:47:52
 
 沿着楼梯上了三楼，阳光正好，可惜不能拍照。我径直走向编号所指的书架，但每行书架之间狭窄的间隙却没有灯光照亮。后来才知道书架上有控制灯的开关，但我觉得很有可能不让参观的原因之一就是不够金碧辉煌吧？时间还早，我决定在这一层先转一圈再说。有不少给组队学习用的房间，不过都上了锁，没能一探究竟。书确实不少，但因为阴暗的光线反而给人一种压抑的感觉。转着转着，我迷失了方向；看到自然光透过窗户落在独立学习区域的桌子上，我迫不及待的跳了进去——
 
-{% fi https://user-images.githubusercontent.com/10842684/43034483-0935a694-8c92-11e8-9f0f-5207727cfe34.jpeg, 窗外, 风景照 %}
+![Green Library 窗外风景照](https://user-images.githubusercontent.com/10842684/43034483-0935a694-8c92-11e8-9f0f-5207727cfe34.jpeg)
 
 静静享受午后时光，耳边只有指尖翻动书页的声响。
 

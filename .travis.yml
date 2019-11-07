@@ -4,8 +4,6 @@ node_js: "node"
 before_deploy:
   - git clone https://github.com/theme-next/theme-next-canvas-nest themes/next/source/lib/canvas-nest
   - git clone https://github.com/theme-next/theme-next-pace themes/next/source/lib/pace
-  - git clone https://github.com/theme-next/theme-next-reading-progress reading_progress
-  - git clone https://github.com/theme-next/theme-next-needmoreshare2 themes/next/source/lib/needsharebutton
   - eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/hexo/generate)"
 deploy:
   provider: pages

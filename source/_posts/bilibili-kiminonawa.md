@@ -20,7 +20,7 @@ categories:
 求点赞！请在登陆 B 站账号的浏览器打开：[https://www.bilibili.com/activity/likes/like/10156?oid=2127098](https://www.bilibili.com/activity/likes/like/10156?oid=2127098)，谢谢！
 {% endnote %}
 
-{% fullimage https://user-images.githubusercontent.com/10842684/29665442-108631e2-88a2-11e7-9bab-0fb1e88119b3.png, 二次元是你的，离开的也是你。纵然我接受秒速五厘米的结局，可否让我不忘却你的名字？, 我的告白 %}
+![我的告白：二次元是你的，离开的也是你。纵然我接受秒速五厘米的结局，可否让我不忘却你的名字？](https://user-images.githubusercontent.com/10842684/29665442-108631e2-88a2-11e7-9bab-0fb1e88119b3.png)
 
 <!-- more -->
 
