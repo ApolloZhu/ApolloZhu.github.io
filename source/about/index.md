@@ -4,20 +4,23 @@ date: 2017-03-18 17:08:09
 updated: 2019-02-09 18:46:46
 keywords:
 - 简历
-- Apollonian
 - ApolloZhu
 - 朱智语
+- Zhiyu Zhu
+- Apollonian
 ---
 
 ## 我在干什么？
 
-- 毕业前的最后挣扎
+- 作为 F1 学生在华大认真上课，正在想方设法进专业，最好是 Computer Engineering，或者 CS 也行。
+- 努力做到 inbox zero，但是不知道为什么小红点从来没有消失过
+- 学习 SwiftUI 中……
 
 ## 我是谁？
 
-- 有坂真白厨/推（也有可能只是喜欢（银色）双马尾+阿斯托尔福）。
-- B 站科技区 UP 主 [Apollonian](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。
-- 只会 CS 的海外党高中生。竞赛渣（请避免在任何竞技比赛中和我组队）。
+- 有坂真白厨/推（也有可能只是喜欢（银色）双马尾+可爱的男孩子）。
+- [B 站科技区 UP 主](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。
+- 只会 CS 的海外大学新生。[竞赛渣](https://leetcode.com/apollozhu/)（请避免在任何竞技比赛中和我组队）。
 - [实用主义](http://www.politiscales.net/zh_CN/results/?b0=93&t1=60&t0=19&m1=24&m0=43&j1=43&j0=24&s1=24&s0=62&c0=48&c1=31&anar=67&e1=50&e0=21&p0=19&p1=43&femi=43&comp=67&prag=100) + 自由主义（Moderate Liberal/Opportunity Democrat）。
 - 典型 [INFP](https://www.16personalities.com/profiles/dd6be34bf86b1)：重度拖延症（大小岔子出了不少），泛性恋/全性恋/无分性别，百合赛高。
 
@@ -34,13 +37,14 @@ keywords:
 
 - Swift：2015／1，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift
 - Python 3：2016／1，ACSL 审核没有 Mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习
-- Java：2016/7，为准备下学期的 APCSA
+- Java：2016/7，为准备下学期的 APCSA，结果一直用到现在
 - Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
 ## 奖项
 
 |日期|名称|奖项|
 |--|--|--|
+|10/13/2019|DubHacks 2019|[Classic Track Top 3 Finalists](https://twitter.com/dubhacks/status/1183494524753960960?s=21)|
 |4/20/2018|WWDC 2018|Scholarship|
 |3/25/2018|Hack.UVA 2018|Winner - Best Use of SafeTrek API|
 |5/18/2017|2017 ACSL Intermediate-3 Division|All-Star Contest 参赛资格|
