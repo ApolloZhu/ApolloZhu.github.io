@@ -1,7 +1,7 @@
 ---
 title: 关于 Apollo
 date: 2017-03-18 17:08:09
-updated: 2019-02-09 18:46:46
+updated: 2019-12-12 01:01:59
 keywords:
 - 简历
 - ApolloZhu
@@ -12,7 +12,7 @@ keywords:
 
 ## 我在干什么？
 
-- 作为 F1 学生在华大认真上课，正在想方设法进专业，最好是 Computer Engineering，或者 CS 也行。
+- 作为 F1 学生在认真想方设法进华大的 Computer Engineering 或者 CS 专业
 - 努力做到 inbox zero，但是不知道为什么小红点从来没有消失过
 - 学习 SwiftUI 中……
 
@@ -31,14 +31,14 @@ keywords:
 - Pascal：初中，老师组织编程社团，摇号没中，求着老师进去旁听的。后来才发现我不是 NOIP 的料子，自行退出了
 - C：觉得 Pascal 只能用于竞赛，希望能做点实际的东西，用同学送的书学了下 C
 - Objective-C：跟着班上另一个同学 [@JD](https://github.com/JDScript) 学了些。第一次看 WWDC，越狱 iPhone，装 OS X 虚拟机
-- C++：Stanford Summer Session 的时候上 CS110 稍微积累了一点使用的经验吧
+- C++：Stanford Summer Session 的时候上 CS110 稍微积累了一点使用的经验，最近大概在重新学习
+- Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
 ## 目前能聊以自慰的技能
 
 - Swift：2015／1，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift
-- Python 3：2016／1，ACSL 审核没有 Mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习
-- Java：2016/7，为准备下学期的 APCSA，结果一直用到现在
-- Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
+- Java：2016/7，为准备下学期的 APCSA，结果因为入门阶段的课程都是用它导致一直扔不掉
+- Python 3：2016／1，ACSL 审核没有 Mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习，以及下学期马上要上的 CSE163
 
 ## 奖项
 
@@ -53,6 +53,22 @@ keywords:
 |3/2/2017|2017 FBLA Regional Mobile App Dev|Northern Virginia 第一|
 |3/2/2017|2017 AMC 10|AIME 10 参赛资格|
 |12/10/2016|2016 Virginia Tech High School Programming Contest|团队 22/101，Oakton HS 因此排名第六|
+
+## 他人评价
+
+在从 Oakton High School 毕业后回学校的 Cyber Security Club（现与 Computer Science Club 合并为 CSCS Club）取团服的时候，指导老师给了我一张纸条。他说，这上面是“Faculty Award”提名里老师给我的评语：
+
+> Apollo is one of the most respectful students I have ever encountered. He is eager to learn and to better himself. He is most deserving of this award.
+
+> Apollo has been an reliable asset to the tech team. He is eager to take on challenges, and works through those challenges with exceptional critical thinking skills. His positive and courteous attitude is a model for his peers.
+
+> We can’t sing Apollo’s praises enough. He couldn’t be a part of the Center this year officially due to a scheduling conflict, but that doesn’t stop him devoting his lunch time to running scheduling￼￼ for the tutors. He’s not doing it for a grade (there is none), he’s not doing it for college app or recommendation (he’s already been accepted), he’s doing it because the quality of his character. Just last night, he stayed at the Tutor-a-thon helping students for three hours straight. None of the actual students in the Center class can claim that they did. Apollo’s kindness and patience know no bounds, and what is more—he’s incredible humble and respectful. We don’t know what we’ll do without him next year!
+
+> Apollo is very intelligent and humble guy. He works extremely hard and his efforts are apparent in all that he does. Teachers are excited when a student like Apollo is assigned to your class. You know you as a teacher have to step up your game! He is kind, polite and always ready to help you carry heavy items down the hallway, even 2 years on from been in your class. He has such a bright future, and I wish him nothing but the best.
+
+> I taught Apollo his freshman year in programming. It was very evident even then that he was an incredibly intelligent and special student. A memory that has stuck with me from that year, is he took a huge text book of Microsoft Visual Basic home to learn on this own without prompting! He is a student that strives to continue his learning as well as be a wonderful individual outside of his academic talents. Big things are in his future! I am honored to have been part of his journey.
+
+> Apollo is an incredibility talented person whose academic achievement is remarkable. In the three years I have known him, he has never failed to impress me with his drive and knowledge. Apollos is also one of the kindest and most respectful students I have ever had in my classroom and will go out of his way to mentor other students.
 
 ## 轶闻
 
