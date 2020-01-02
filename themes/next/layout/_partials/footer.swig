@@ -4,8 +4,9 @@
     {%- if theme.footer.beian.gongan_icon_url %}
       <img src="{{ theme.footer.beian.gongan_icon_url }}" style="display: inline-block;">
     {%- endif %}
-    {{- next_url('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' + theme.footer.beian.gongan_id,
-    theme.footer.beian.gongan_num + ' ') }}
+    {%- if theme.footer.beian.gongan_id and theme.footer.beian.gongan_num %}
+      {{- next_url('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' + theme.footer.beian.gongan_id, theme.footer.beian.gongan_num + ' ') }}
+    {%- endif %}
   </div>
 {%- endif %}
 
@@ -56,7 +57,7 @@
   <div class="theme-info">
     {%- set next_site = 'https://theme-next.org' %}
     {%- if theme.scheme !== 'Gemini' %}
-      {%- set next_site = 'https://' + theme.scheme.toLowerCase() + '.theme-next.org' %}
+      {%- set next_site = 'https://' + theme.scheme | lower + '.theme-next.org' %}
     {%- endif %}
     {{- __('footer.theme') }} – {{ next_url(next_site, 'NexT.' + theme.scheme, {class: 'theme-link'}) }}
     {%- if theme.footer.theme.version %} v{{ next_version }}{%- endif %}

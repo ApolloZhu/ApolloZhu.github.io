@@ -22,13 +22,6 @@
   <meta name="msapplication-config" content="{{ url_for(theme.favicon.ms_browserconfig) }}">
 {%- endif %}
 
-{%- if theme.rss === '' and config.feed.path %}
-  {%- set theme = theme | attr('rss', config.feed.path) %}
-{%- endif %}
-{%- if theme.rss %}
-  <link rel="alternate" href="{{ url_for(theme.rss) }}" title="{{ title }}" type="application/atom+xml">
-{%- endif %}
-
 {%- if theme.disable_baidu_transformation %}
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
@@ -69,6 +62,7 @@
 <script id="hexo-configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    hostname: new URL('{{ config.url }}').hostname,
     root: '{{ config.root }}',
     scheme: '{{ theme.scheme }}',
     version: '{{ next_version }}',
@@ -81,6 +75,7 @@
     mediumzoom: {{ theme.mediumzoom }},
     lazyload: {{ theme.lazyload }},
     pangu: {{ theme.pangu }},
+    comments: {{ theme.comments | json }},
     algolia: {
       appID: '{{ config.algolia.applicationID }}',
       apiKey: '{{ config.algolia.apiKey }}',
@@ -90,12 +85,6 @@
     },
     localsearch: {{ theme.local_search | json }},
     path: '{{ config.search.path }}',
-    motion: {{ theme.motion | json }},
-    translation: {
-      copy_button: '{{ __("post.copy_button") }}',
-      copy_success: '{{ __("post.copy_success") }}',
-      copy_failure: '{{ __("post.copy_failure") }}'
-    },
-    sidebarPadding: 40
+    motion: {{ theme.motion | json }}
   };
 </script>

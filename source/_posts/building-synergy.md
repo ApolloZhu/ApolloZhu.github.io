@@ -1,5 +1,5 @@
 ---
-title: macOS 下编译synergy
+title: macOS 下编译 Synergy
 date: 2017-03-23 18:06:04
 tags:
 - tips
