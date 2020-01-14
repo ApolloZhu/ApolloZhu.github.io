@@ -12,7 +12,10 @@ categories:
 
 > [English Version Here](https://apollozhu.github.io/2018/03/15/wwdc18-scholarships-info/)
 
-之前忘了做自我介绍了。大家好，我是朱智语，去年通过 [Karel the Robot 的 Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master) 侥幸获得了 2017 年 [WWDC 的奖学金](https://developer.apple.com/wwdc/scholarships/)。关于参加 [WWDC](https://developer.apple.com/wwdc) 本身的介绍，特别是对于国内的朋友们，建议去看看 [喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是分享下自己的经验，希望能抛砖引玉，避免其他对此感兴趣的在校学生或者 STEM 组织的成员错过这次机会。
+<a href="https://talk.swift.gg/20" target="_blank" style="position:relative;text-decoration:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:16px;margin-bottom:16px;cursor:pointer;border:1px solid #e7eaf1;border-radius:4px;box-shadow: 0 1px 3px 0 rgba(0,34,77,.05);"><img src="https://talk.swift.gg/img/android-icon-192x192.png" style="margin:0;border:none;padding:0;-ms-flex-negative:0;flex-shrink:0;width:90px;height:90px;-o-object-fit:cover;object-fit:cover;"><span style="display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;padding:10px 16px;overflow:hidden;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;"><span style="font-size:18px;font-weight:400;">如何（连续两次）获得 WWDC Scholarship
+</span><span style="overflow:hidden;font-size:15px;color:#8798ae;text-overflow:ellipsis;word-wrap:normal;white-space:nowrap;">ggtal - 程序员的闲聊节目<span style="display:inline-block;padding:1px 6px;margin-left:8px;font-size:12px;line-height:normal;color:#8590a6;vertical-align:1px;background-color:#f7f8fa;border-radius:3px;">播客</span></span></span></a>
+
+大家好，我是朱智语，去年通过 [Karel the Robot 的 Playground](https://github.com/ApolloZhu/Swifty-Karel/tree/master) 侥幸获得了 2017 年 [WWDC 的奖学金](https://developer.apple.com/wwdc/scholarships/)。关于参加 [WWDC](https://developer.apple.com/wwdc) 本身的介绍，特别是对于国内的朋友们，建议去看看 [喵神的这篇文章](https://onevcat.com/2016/04/first-wwdc/)。本文主要是分享下自己的经验，希望能抛砖引玉，避免其他对此感兴趣的在校学生或者 STEM 组织的成员错过这次机会。
 
 这篇文章会有些长，请大家耐心、仔细地阅读。
 
