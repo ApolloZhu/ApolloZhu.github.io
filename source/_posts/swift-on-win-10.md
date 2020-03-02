@@ -8,6 +8,7 @@ keywords:
 - WSL
 tags:
 - Swift
+- Windows
 categories:
 - 瞎捣鼓
 ---
@@ -28,7 +29,7 @@ Windows Subsystem for Linux (WSL) 是这一切的基础，所以我们需要在 
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-或者可以在 *控制面板 > 程序 > 启用或关闭 Windows 功能* 中，勾选“适用于 Linux 的 Windows 子系统(Beta)”，然后点确定。根据提示重启。
+或者可以在 *控制面板 > 程序 > 启用或关闭 Windows 功能* 中，勾选“适用于 Linux 的 Windows 子系统”，然后点确定。根据提示重启。
 
 重启以后，启用开发人员模式。以 **管理员** 身份运行 Powershell，输入以下内容：
 
