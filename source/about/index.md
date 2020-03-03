@@ -21,7 +21,7 @@ keywords:
 - 有坂真白厨/推（也有可能只是喜欢（银色）双马尾+可爱的男孩子）。
 - [B 站科技区 UP 主](https://space.bilibili.com/14767902#/)，GitHub [重度用户](https://github-profile-summary.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)。
 - 只会 CS 的海外大学新生。[竞赛渣](https://leetcode.com/apollozhu/)（请避免在任何竞技比赛中和我组队）。
-- [实用主义](http://www.politiscales.net/zh_CN/results/?b0=93&t1=60&t0=19&m1=24&m0=43&j1=43&j0=24&s1=24&s0=62&c0=48&c1=31&anar=67&e1=50&e0=21&p0=19&p1=43&femi=43&comp=67&prag=100) + 自由主义（Moderate Liberal/Opportunity Democrat）。
+- [实用主义](http://www.politiscales.net/zh_CN/results/?e1=40&e0=31&s1=24&s0=64&m1=14&m0=48&b0=90&b1=5&c1=26&c0=45&t0=14&t1=52&p1=31&p0=29&femi=62&j0=40&j1=45&anar=100&comp=67&prag=100) + 自由主义（Moderate Liberal/Opportunity Democrat）。
 - 典型 [INFP](https://www.16personalities.com/profiles/dd6be34bf86b1)：重度拖延症（大小岔子出了不少），泛性恋/全性恋/无分性别，百合赛高。
 
 ## 那些终将被遗忘的经历
