@@ -18,7 +18,7 @@ There is no such thing as a free lunch
 
 就算不考虑机会成本，我们可以分析一下现实的状况：
 
-![Almost nothing is for free: If someone is offering you a free lunch, a free seminar, or a free weekend, he or she is trying to sell you something. The person will deny it, but he or she is luring you to a hotel meeting room, a restaurant, or an office for a reason -- and that reason is not to feed you; it is to sell you something.](https://wx2.sinaimg.cn/large/9b6450acgy1fi4svxx8iyj20gm02874i.jpg)
+![Almost nothing is for free: If someone is offering you a free lunch, a free seminar, or a free weekend, he or she is trying to sell you something. The person will deny it, but he or she is luring you to a hotel meeting room, a restaurant, or an office for a reason -- and that reason is not to feed you; it is to sell you something.](https://user-images.githubusercontent.com/10842684/77261548-91183180-6c65-11ea-9a22-6b4d93054d3e.jpg)
 
 比如上次在车展上，某人登记了个人信息，参加一个据说会抽中某地免费几日游的活动。过了几天，没想到还真有人给她打电话来了。尽管我和我的老师都持怀疑态度，她还是很兴奋地去领奖了。结果发现整个就是旅行社为了推销酒店和旅行计划的套路，就如上面这段文字所描述的那样。
 

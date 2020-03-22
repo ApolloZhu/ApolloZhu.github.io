@@ -40,7 +40,7 @@ categories:
 
 其他不说，学校整个感觉就是地广人稀 —— 高中完全给人一种大学的感觉，竟然还配备了一个游泳池。考虑到多半不会得奖，就没等到四点，两点半考完就开始往洛杉矶走，准备路上去好莱坞看看。志性的 HOLLYWOOD 只瞥见了一眼，主要还是在城镇里和富人区开车转了一遍。印象最深的是某个建筑外墙上的彩绘，和路边满树的紫色小花（原谅我无知）。晚餐本来准备在鼎泰丰吃，不出所料地要等很长时间，就在旁边 Granville 吃了，价格还算人道。
 
-![](https://wx2.sinaimg.cn/mw690/9b6450acgy1fg7u1wwjvqj21kw16o7wh.jpg)
+![Beautiful painted wall with flower in front of mountains](https://user-images.githubusercontent.com/10842684/77261228-7c3a9e80-6c63-11ea-87a0-0422784b81f9.jpg)
 
 ### 回程
 

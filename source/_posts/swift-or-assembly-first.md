@@ -18,6 +18,6 @@ categories:
 
 ***不可以***！我才买了一本王爽的《汇编语言》
 
-![A WWDC17 Swift pin, on \[the\] "Assembly Language" by Shuang Wang](https://wx2.sinaimg.cn/large/9b6450acgy1fhyg7t2eqlj21kw16odx9.jpg)
+![A WWDC17 Swift pin on "Assembly Language" by Shuang Wang](https://user-images.githubusercontent.com/10842684/77261287-d2a7dd00-6c63-11ea-8715-8fb7030c750b.jpg)
 
 > 免得被知乎大佬说不求上进 —— [知乎：如何评价 6 岁开始编程的马舜喆？他的前途会如何？](https://www.zhihu.com/question/61130823)

@@ -27,4 +27,4 @@ To Fail to Plan is to Plan to Fail
 
 就算我最终还是没能改掉拖延症，至少希望不要学会下面这种神奇的操作：
 
-![If a programmer injures his wrist from using his computer in an unsafe position, he should contact Occupational Safety and Health Administration](https://wx1.sinaimg.cn/large/9b6450acgy1fi4svz3ahaj20n2053jru.jpg)
+![If a programmer injures his wrist from using his computer in an unsafe position, he should contact Occupational Safety and Health Administration](https://user-images.githubusercontent.com/10842684/77261320-10a50100-6c64-11ea-84b5-2a45fa43e6bc.jpg)

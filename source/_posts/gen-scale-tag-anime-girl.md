@@ -28,7 +28,7 @@ categories:
 
 等待 “Loading Model...” 结束之后，就可以直接点击 "Generate" 生成了
 
-![真·小老婆](https://wx3.sinaimg.cn/large/9b6450acly1fikc00za7sj203k03kjs5.jpg)
+![真·小老婆](https://user-images.githubusercontent.com/10842684/77261389-8f01a300-6c64-11ea-8e1f-cb29ef9530b1.jpg)
 
 如果你要自定义配置（Options），看不懂英文，可以用这个翻译一下：[https://raw.githubusercontent.com/ApolloZhu/script/master/make.girls.moe.js](https://raw.githubusercontent.com/ApolloZhu/script/master/make.girls.moe.js)
 
@@ -46,7 +46,7 @@ categories:
 
 把最终效果和原图对比一下：
 
-![对比](https://wx2.sinaimg.cn/large/9b6450acly1fikc01isy1j20zk0hr168.jpg)
+![和放大后老婆的对比](https://user-images.githubusercontent.com/10842684/77261403-a80a5400-6c64-11ea-8a3d-64c60015dcfb.jpg)
 
 ## 可选 - 打标签
 
@@ -54,7 +54,7 @@ categories:
 
 图片上传最开始最小的版本就可以了，然后机器会帮你把老婆分类
 
-![骑士&魔法的男/女主角](https://wx4.sinaimg.cn/large/9b6450acgy1fiprcw6r6cj20zk0jj77o.jpg)
+![《骑士&魔法》的男/女主角](https://user-images.githubusercontent.com/10842684/77261417-c3755f00-6c64-11ea-9235-18b6f345e015.jpg)
 
 {% note success %}
 等等，好像这是可爱的男孩子

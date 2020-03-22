@@ -35,13 +35,13 @@ categories:
 
 公布结果那天（4/22）有空就在刷邮件，然后就看到了
 
-![](https://wx3.sinaimg.cn/mw690/9b6450acgy1feuvehykdoj20km0eddkk.jpg)
+![Congratulations](https://user-images.githubusercontent.com/10842684/77261356-52ce4280-6c64-11ea-98ea-ac0f97631bb0.jpg)
 
 点 Accept Your Scholarship，会跳到苹果开发者官网，然后全选 Yes。最后 Optional 的那个应该是某个报刊杂志的采访吧，官网也不好看，没勾。
 
 更具你接受的时间，这个神奇的 [Events Tab](https://developer.apple.com/account/#/events) 出现时机也不同。我是晚了一个小时，结果等了两天。其实这个票也就是看着安心，因为现在你并不能对它做什么。
 
-![](https://wx4.sinaimg.cn/mw1024/9b6450acgy1feyhouy306j20zk0m8q4r.jpg)
+![Events tab with a WWDC ticket](https://user-images.githubusercontent.com/10842684/77261366-67123f80-6c64-11ea-8fbd-b1cb57709028.jpg)
 
 ## 行程计划
 
