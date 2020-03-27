@@ -3,7 +3,7 @@ title: 头像
 date: 2020-03-27 15:34:26
 ---
 
-我的头像一般都是 <strong style="color:white;background-color:#66ccff;border-radius:5px;padding:0 10px;">白字天依蓝</strong>，某些情况下会变成灰色的以悼念某些人和事。但大家看过下面这些版本么？（如果需要更清晰的版本可以更改图片 URL 最后 `size=` 后面的尺寸或访问 [Gravatar](gravatar.com/apollonyan)）
+我的头像一般都是 <strong style="color:white;background-color:#66ccff;border-radius:5px;padding:0 10px;">白字天依蓝</strong>，某些情况下会变成灰色的以悼念某些人和事。但大家看过下面这些版本么？（如果需要更清晰的版本可以更改图片 URL 最后 `size=` 后面的尺寸或访问 [Gravatar](https://gravatar.com/apollonyan)）
 
 <!-- 2018/4/17 Rainbow, doesn't look good. so maybe checkback later -->
 
