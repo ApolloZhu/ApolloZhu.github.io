@@ -97,14 +97,15 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
 # hexo-helper-live2d
 live2d:
   enable: true
   model:
     use: live2d-widget-model-hijiki
   display:
-    width: 100
-    height: 150
+    width: 200
+    height: 300
   mobile:
     show: false
   react:
