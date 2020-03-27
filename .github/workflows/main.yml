@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ source ]
+  pull_request:
+    branches: [ source ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Dependencies
+      run: |
+        git clone https://github.com/theme-next/theme-next-canvas-nest themes/next/source/lib/canvas-nest
+        git clone https://github.com/theme-next/theme-next-pace themes/next/source/lib/pace
+    - name: Build and Deploy
+      uses: renzhaosy/hexo-deploy-action@master
+      env:
+        PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: master
+        PUBLISH_DIR: ./public
