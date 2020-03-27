@@ -1,7 +1,6 @@
 ---
 title: 关于 Apollo
 date: 2017-03-18 17:08:09
-updated: 2019-12-12 01:01:59
 keywords:
 - 简历
 - ApolloZhu
@@ -56,7 +55,10 @@ keywords:
 
 ## 他人评价
 
-在从 Oakton High School 毕业后回学校的 Cyber Security Club（现与 Computer Science Club 合并为 CSCS Club）取团服的时候，指导老师给了我一张纸条。他说，这上面是“Faculty Award”提名里老师给我的评语：
+在从 Oakton High School 毕业后回学校的 Cyber Security Club（现与 Computer Science Club 合并为 CSCS Club）取团服的时候，指导老师给了我一张纸条。他说这上面是：
+
+<details>
+<summary><h3 style="display:inline;">“Faculty Award”提名里老师给我的评语</h3></summary>
 
 > Apollo is one of the most respectful students I have ever encountered. He is eager to learn and to better himself. He is most deserving of this award.
 
@@ -70,6 +72,8 @@ keywords:
 
 > Apollo is an incredibility talented person whose academic achievement is remarkable. In the three years I have known him, he has never failed to impress me with his drive and knowledge. Apollos is also one of the kindest and most respectful students I have ever had in my classroom and will go out of his way to mentor other students.
 
+</details>
+
 ## 轶闻
 
 ```Kotlin
@@ -78,7 +82,7 @@ fun fact(x: Int): Int {
 }
 ```
 
-好吧，并不是上面的这个递归的 `fun fact`。Apollonian，是我曾妄想把字典里所有和计算机相关的名词抄下来的时候，正好看到的；加深了我对我英文名的理解，故沿用至今。
+好吧，并不是上面的这个递归的 `fun fact`。Apollonian 是我曾妄想把字典里所有和计算机相关的名词抄下来的时候正好看到的。它加深了我对我英文名的理解，故沿用至今。（但感觉最近用 Apollonyan 的情况更多喵）
 
 {% blockquote New Oxford American Dictionary %}
 1. Apollo 的；Relating to the god Apollo.
