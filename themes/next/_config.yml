@@ -127,6 +127,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   about: /about/ || user
+  头像: /avatars/ || photo
   #resume: https://resume.github.io/?ApolloZhu ||id-card
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
