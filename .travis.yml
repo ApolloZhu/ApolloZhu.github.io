@@ -2,7 +2,6 @@ language: node_js
 node_js: "node"
 
 before_deploy:
-  - git clone https://github.com/theme-next/theme-next-canvas-nest themes/next/source/lib/canvas-nest
   - git clone https://github.com/theme-next/theme-next-pace themes/next/source/lib/pace
   - eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/hexo/generate)"
 deploy:
