@@ -54,27 +54,6 @@ keywords:
 |3/2/2017|2017 AMC 10|AIME 10 参赛资格|
 |12/10/2016|2016 Virginia Tech High School Programming Contest|团队 22/101，Oakton HS 因此排名第六|
 
-## 他人评价
-
-在从 Oakton High School 毕业后回学校的 Cyber Security Club（现与 Computer Science Club 合并为 CSCS Club）取团服的时候，指导老师给了我一张纸条。他说这上面是：
-
-<details>
-<summary><h3 style="display:inline;">“Faculty Award”提名里老师给我的评语</h3></summary>
-
-> Apollo is one of the most respectful students I have ever encountered. He is eager to learn and to better himself. He is most deserving of this award.
-
-> Apollo has been an reliable asset to the tech team. He is eager to take on challenges, and works through those challenges with exceptional critical thinking skills. His positive and courteous attitude is a model for his peers.
-
-> We can’t sing Apollo’s praises enough. He couldn’t be a part of the Center this year officially due to a scheduling conflict, but that doesn’t stop him devoting his lunch time to running scheduling￼￼ for the tutors. He’s not doing it for a grade (there is none), he’s not doing it for college app or recommendation (he’s already been accepted), he’s doing it because the quality of his character. Just last night, he stayed at the Tutor-a-thon helping students for three hours straight. None of the actual students in the Center class can claim that they did. Apollo’s kindness and patience know no bounds, and what is more—he’s incredible humble and respectful. We don’t know what we’ll do without him next year!
-
-> Apollo is very intelligent and humble guy. He works extremely hard and his efforts are apparent in all that he does. Teachers are excited when a student like Apollo is assigned to your class. You know you as a teacher have to step up your game! He is kind, polite and always ready to help you carry heavy items down the hallway, even 2 years on from been in your class. He has such a bright future, and I wish him nothing but the best.
-
-> I taught Apollo his freshman year in programming. It was very evident even then that he was an incredibly intelligent and special student. A memory that has stuck with me from that year, is he took a huge text book of Microsoft Visual Basic home to learn on this own without prompting! He is a student that strives to continue his learning as well as be a wonderful individual outside of his academic talents. Big things are in his future! I am honored to have been part of his journey.
-
-> Apollo is an incredibility talented person whose academic achievement is remarkable. In the three years I have known him, he has never failed to impress me with his drive and knowledge. Apollos is also one of the kindest and most respectful students I have ever had in my classroom and will go out of his way to mentor other students.
-
-</details>
-
 ## 轶闻
 
 ```Kotlin
