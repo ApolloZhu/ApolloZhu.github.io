@@ -22,21 +22,21 @@ categories:
 {% endcenterquote %}
 
 <script>
-	const today = new Date();
-	const year = today.getFullYear();
-	const thisYear = new Date(year, 0, 1);
-	const nextYear = new Date(year + 1, 0, 1);
-	const oneDay = today.getMilliseconds();
-	const passed = Math.floor((today - thisYear) / oneDay);
-	const total = Math.floor((nextYear - thisYear) / oneDay);
-	const percentage = passed / total;
-	const space = 15;
+    const today = new Date();
+    const year = today.getFullYear();
+    const thisYear = new Date(year, 0, 1);
+    const nextYear = new Date(year + 1, 0, 1);
+    const oneDay = today.getMilliseconds();
+    const passed = Math.floor((today - thisYear) / oneDay);
+    const total = Math.floor((nextYear - thisYear) / oneDay);
+    const percentage = passed / total;
+    const space = 15;
 
-	function repeat(s, n) {
-		return new Array(Math.floor(n + 1)).join(s);
-	}
+    function repeat(s, n) {
+        return new Array(Math.floor(n + 1)).join(s);
+    }
 
-	document.getElementById("yearglass-web").innerHTML = year + " 年已过去 " + Math.floor(percentage * 100) + "% [" + repeat("▇", space * percentage) + repeat("\\\\", space * (1 - percentage)) + "]";
+    document.getElementById("yearglass-web").innerHTML = year + " 年已过去 " + Math.floor(percentage * 100) + "% [" + repeat("▇", space * percentage) + repeat("\\\\", space * (1 - percentage)) + "]";
 </script>
 
 For the English Version of this documentation, please visit: [yearglass](https://apollozhu.github.io/yearglass/)

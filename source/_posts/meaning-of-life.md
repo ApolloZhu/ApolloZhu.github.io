@@ -7,13 +7,14 @@ keywords:
 - 生命的意义
 - 悖论
 tags:
-- English
 - philosophy
 categories:
 - 瞎捣鼓
 ---
 
-{% cq %} The meaning of life is to find the meaning of life. {% endcq %}
+{% blockquote ApolloZhu %}
+生命的意义在于发现生命的意义。
+{% endblockquote %}
 
 <!-- more -->
 

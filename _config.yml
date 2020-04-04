@@ -154,3 +154,11 @@ needmoreshare:
       boxForm: horizontal
       position: middleRight
       networks: Weibo,Wechat,QQZone,Twitter,Facebook,Mailto
+
+alias:
+  2017/08/30/ap-chem-survey/index.html: en/2017/08/30/ap-chem-survey/index.html
+  2017/05/02/apcsa-appendix-b/index.html: en/2017/05/02/apcsa-appendix-b/index.html
+  2017/08/25/apcsab-survey/index.html: en/2017/08/25/apcsab-survey/index.html
+  2018/06/11/computer-science-education/index.html: en/2018/06/11/computer-science-education/index.html
+  2018/07/10/cs193c-memes/index.html: en/2018/07/10/cs193c-memes/index.html
+  2017/05/24/letter-to-apcsa-students/index.html: en/2017/05/24/letter-to-apcsa-students/index.html

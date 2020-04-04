@@ -12,7 +12,6 @@ categories:
 
 ```java
 Map<Creation> hello = /*my*/ new World();
-// The Java I learned might be a fake one.
 // 我可能学了假的 Java.
 ```
 
