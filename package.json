@@ -36,6 +36,6 @@
     "lodash": "^4.17.13",
     "request": "2.88.2",
     "set-value": "^3.0.2",
-    "uglify-js": "3.8.1"
+    "uglify-js": "3.9.0"
   }
 }
