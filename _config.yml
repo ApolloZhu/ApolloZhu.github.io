@@ -28,7 +28,9 @@ i18n_dir: :lang
 skip_render:
   - baidu_verify_4AmFb3PnNc.html
   - googlea5c915d48bc4b68b.html
-  - kanban/index.html
+  - swift-educational-notes/index.html
+  - Developing-iOS-11-Apps-with-Swift/index.html
+  - Developing-iOS-10-Apps-with-Swift/index.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
