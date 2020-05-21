@@ -15,7 +15,7 @@ jobs:
       run: |
         git clone https://github.com/theme-next/theme-next-pace themes/next/source/lib/pace
     - name: Build and Deploy
-      uses: renzhaosy/hexo-deploy-action@master
+      uses: ApolloZhu/hexo-deploy-action@master
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: master
