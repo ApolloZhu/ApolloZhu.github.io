@@ -48,6 +48,42 @@ int round(double num) {
 }
 ```
 
+## ArrayList
+
+假设有 `List<E> list`，我们要移除所有等于 `target` 的元素，那需要注意写上绿色的这一行：
+
+```diff
+for (int i = 0; i < list.size(); i++) {
+    if (target.equals(list.get(i))) {
+        list.remove(i);
+        // 想一想：如果没有的话会如何？
++       i--;
+    }
+}
+```
+
+或者，我们不自动 `++`：
+
+```java
+for (int i = 0; i < list.size(); /*这里什么都不写*/) {
+    if (target.equals(list.get(i))) {
+        list.remove(i);
+    } else {
+        i++;
+    }
+}
+```
+
+当然，更简单的方法是反着移除（如果题目允许的话）：
+
+```java
+for (int i = list.size() - 1; i >= 0; i--) {
+    if (target.equals(list.get(i))) {
+        list.remove(i);
+    }
+}
+```
+
 ----
 
 # 常识
