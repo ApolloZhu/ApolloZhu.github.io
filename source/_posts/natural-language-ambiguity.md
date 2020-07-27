@@ -61,4 +61,15 @@ In all honesty, the sentence was a brain-bender — we had to read it aloud seve
 
 ---
 
-我们经常谈论 accessibility，那么我认为让所有人都能够看懂题也是非常重要的一部分。UW 的 INFO 200 在这方面我认为就处理得特别好，而且还在写作、阅读方面照顾英语不是那么好的同学。在华大不少 competitive major 都想方设法让学生丢分的潮流中，祝 iSchool 能够继续坚持以学术--而不是竞争--为目标前进。
+我们经常谈论 accessibility，那么我认为让所有人都能够看懂题也是非常重要的一部分。UW 的 INFO 200 在这方面我认为就处理得特别好，甚至还在写作、阅读方面照顾英语不是那么好的同学。在华大不少 competitive major 都想方设法让学生丢分的潮流中，祝 iSchool 能够继续坚守以学术--而不是竞争--为目标，展示（计算机）教育的本质。
+
+
+<a href="https://computinged.wordpress.com/2020/07/27/proposal-2-to-change-cs-education-to-reduce-inequity-stop-allocating-rationing-or-curving-down-grades" target="_blank" style="position:relative;text-decoration:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:16px;margin-bottom:16px;cursor:pointer;border:1px solid #e7eaf1;border-radius:4px;box-shadow: 0 1px 3px 0 rgba(0,34,77,.05);">
+  <img src="https://secure.gravatar.com/blavatar/cdf22afe2630f1473c2def7289f11fee?s=200" style="border:none;padding:0;-ms-flex-negative:0;flex-shrink:0;width:90px;height:90px;-o-object-fit:cover;object-fit:cover;margin-bottom:0;border-radius:3px;">
+  <span style="display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;padding:10px 16px;overflow:hidden;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:distribute;justify-content:space-around;">
+    <span style="font-size:18px;font-weight:400;text-overflow:ellipsis;overflow:hidden;word-wrap:normal;white-space:nowrap;">Proposal #2: Make the highest grades achievable by all</span>
+    <span style="overflow:hidden;font-size:15px;color:#8798ae;text-overflow:ellipsis;word-wrap:normal;white-space:nowrap;">To Change CS Education to Reduce Inequity 
+      <span style="display:inline-block;padding:1px 6px;margin-left:8px;font-size:12px;line-height:normal;color:#8590a6;vertical-align:1px;background-color:#f7f8fa;border-radius:3px;">Computing Education Research Blog</span>
+    </span>
+  </span>
+</a>
