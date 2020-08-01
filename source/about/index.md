@@ -12,9 +12,9 @@ keywords:
 
 ## 我在干什么？
 
-- 作为 F1 学生在认真（想方设法）进华大的 Computer Engineering 或者 CS 专业
-- 努力做到 inbox zero，但是不知道为什么小红点从来没有消失过
-- 学习 SwiftUI 中……
+- 贡献代码/文档给 Swift 社区
+    - [校对/翻译 CS193p](https://github.com/Apollonyan/CS193p-Developing-Apps-for-iOS-Spring-2020)
+- [开发 Common Circle](https://commoncircle.us)
 
 ## 我是谁？
 
