@@ -10,15 +10,9 @@ keywords:
 - Apollonyan
 ---
 
-## 我在干什么？
-
-- 贡献代码/文档给 Swift 社区
-    - [校对/翻译 CS193p](https://github.com/Apollonyan/CS193p-Developing-Apps-for-iOS-Spring-2020)
-- [开发 Common Circle](https://commoncircle.us)
-
 ## 我是谁？
 
-- 有坂真白厨/推（也有可能只是喜欢（银色）双马尾+可爱的男孩子）
+- 有坂真白厨/推（也有可能只是喜欢（银色）双马尾 + 可爱的男孩子）
 - [B 站科技区 UP 主](https://space.bilibili.com/14767902)，GitHub [重度用户](https://profile-summary-for-github.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)
 - 只会 CS 的海外大学新生。[竞赛渣](https://leetcode.com/apollozhu/)（请避免在任何竞技比赛中和我组队）
 - [实用主义](http://www.politiscales.net/zh_CN/results/?e1=40&e0=31&s1=24&s0=64&m1=14&m0=48&b0=90&b1=5&c1=26&c0=45&t0=14&t1=52&p1=31&p0=29&femi=62&j0=40&j1=45&anar=100&comp=67&prag=100) + 自由主义（Moderate Liberal/Opportunity Democrat）
