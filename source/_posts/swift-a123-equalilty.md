@@ -11,6 +11,10 @@ categories:
 - 编程
 ---
 
+{% note info %}
+您也可以 [在 bilibili 阅读此文](https://www.bilibili.com/read/cv175121)。
+{% endnote %}
+
 ```swift
 if a == 1 && a == 2 && a == 3 {
     print("All three match!")
@@ -107,4 +111,4 @@ let a: Bool = 1, b = 1
 // 上面的 `b` 还是 `Int`
 ```
 
-如果你还有其他的姿势，不妨在下面，到 [bilibili](https://h.bilibili.com/1789925)，或者去 [推特](https://twitter.com/twostraws/status/954709346679754755) 上回复。
+如果你还有其他的姿势，不妨前往评论区、[bilibili](https://www.bilibili.com/read/cv175121)、或 [推特](https://twitter.com/twostraws/status/954709346679754755) 参与讨论。

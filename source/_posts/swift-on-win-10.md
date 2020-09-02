@@ -9,9 +9,14 @@ keywords:
 tags:
 - Swift
 - Windows
+- CLI
 categories:
 - 瞎捣鼓
 ---
+
+{% note info %}
+您也可以 [在 bilibili 阅读此文](https://www.bilibili.com/read/cv18127)。
+{% endnote %}
 
 抛开大多数连 Swift 是什么都没有听说过的人，知道 Swift 的人大多都觉得它只能用于 iOS 开发，其实不然。Swift 在 15 年底就支持了 Windows 和 Android，不过因为编译过程过于复杂，所以没有掀起太大的涟漪；反倒是 2017 年夏天的时候微软宣布把 Ubuntu 搬进 Windows 让 Swift 有了大显身手的机会。
 
@@ -50,10 +55,10 @@ lxrun /install /y
 最后安装 Swift。为了简化步骤，借鉴了喵神借鉴 Vapor 来的代码，稍微修改后做了个自动安装的脚本。输入：
 
 ```bash
-eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/swift/install/4)"
+eval "$(curl -sL https://raw.githubusercontent.com/ApolloZhu/script/master/swift/install/5)"
 ```
 
-看到“✅ Done”，下一行写着 Swift 版本号的话，那就大功告成了！如果想自定义安装步骤，可以把上面的 [bash 脚本](https://github.com/ApolloZhu/script/blob/master/swift/install/4)稍微改改。
+看到“✅ Done”，下一行写着 Swift 版本号的话，那就大功告成了！如果想自定义安装步骤，可以基于上面的 [bash 脚本](https://github.com/ApolloZhu/script/blob/master/swift/install/5) 进行修改调整。
 
 ## 接下来呢？
 
@@ -70,4 +75,3 @@ lxrun /uninstall /full /y
 - [Swift 支持的平台](https://github.com/apple/swift/blob/master/lib/Basic/LangOptions.cpp)
 - [WSL 安装](https://msdn.microsoft.com/en-gb/commandline/wsl/install_guide)
 - [暂不支持 Swift 交互式解释器](https://github.com/Microsoft/BashOnWindows/issues/688)
-- 本文在 B 站 [cv18127](https://www.bilibili.com/read/mobile/18127)
