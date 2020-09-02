@@ -39,8 +39,6 @@ categories:
     document.getElementById("yearglass-web").innerHTML = year + " 年已过去 " + Math.floor(percentage * 100) + "% [" + repeat("▇", space * percentage) + repeat("\\\\", space * (1 - percentage)) + "]";
 </script>
 
-For the English Version of this documentation, please visit: [yearglass](https://apollozhu.github.io/yearglass/)
-
 <!-- more -->
 
 在即刻／微博／推特上看到一个有趣的提醒，[year_progress](https://twitter.com/year_progress)，总的来说就是显示今年过去了的百分比。于是顺手就用 Swift 实现了一个终端的小程序：[年轮](https://github.com/ApolloZhu/yearglass)。发布的时候 2017 年才过去 17% 呢。

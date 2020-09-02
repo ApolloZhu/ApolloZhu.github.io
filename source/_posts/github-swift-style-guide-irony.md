@@ -12,7 +12,9 @@ categories:
 - 生活
 ---
 
-[阅读知乎版本](https://zhuanlan.zhihu.com/p/28767790)
+{% note info %}
+您也可以 [在知乎阅读此文](https://zhuanlan.zhihu.com/p/28767790)。
+{% endnote %}
 
 昨天在整理 GitHub 上自己和 Star 的项目时，发现了 [GitHub 官方的 Swift 代码规范](https://github.com/github/swift-style-guide)。当时没仔细读，现在重温才发现这个 Star 数排名第二的代码规范实在是有趣。
 
