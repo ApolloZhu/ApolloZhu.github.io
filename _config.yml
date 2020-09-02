@@ -140,12 +140,6 @@ live2d:
   dev:
     border: false
 
-sitemap:
-  path: sitemap.xml
-
-baidusitemap:
-  path: baidusitemap.xml
-
 aplayer:
   meting: true
 
