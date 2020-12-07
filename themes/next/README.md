@@ -5,7 +5,7 @@
   <a title="Russian" href="docs/ru/README.md">🇷🇺</a>
 </div>
 
-![NexT preview](https://user-images.githubusercontent.com/16272760/83972923-98baae80-a915-11ea-8142-3cf875dad8bf.png)
+![NexT preview](https://user-images.githubusercontent.com/16272760/99784261-872d3200-2b56-11eb-807c-869042d1f6e8.png)
 
 <a title="NexT website" href="https://theme-next.js.org"><img align="right" alt="NexT logo" width="100" height="100" src="https://raw.githubusercontent.com/next-theme/hexo-theme-next/master/source/images/logo.svg"></a>
 
@@ -14,11 +14,11 @@
 > «NexT» is a high quality elegant [Hexo](https://hexo.io) theme. It is crafted from scratch with love.
 
 [![NPM version](https://img.shields.io/npm/v/hexo-theme-next?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-theme-next)
-[![Required Hexo version](https://img.shields.io/badge/hexo-%3E=4.0.0-blue?style=flat-square&logo=hexo)](https://hexo.io)
+[![Required Hexo version](https://img.shields.io/badge/hexo-%3E=5.0.0-blue?style=flat-square&logo=hexo)](https://hexo.io)
 [![License](https://img.shields.io/badge/license-%20AGPL-orange?style=flat-square&logo=gnu)](https://github.com/next-theme/hexo-theme-next/blob/master/LICENSE.md)
-[![Code Quality](https://img.shields.io/lgtm/grade/javascript/github/next-theme/hexo-theme-next?label=code%20quality&logo=lgtm&style=flat-square)](https://lgtm.com/projects/g/next-theme/hexo-theme-next/)
 [![Build Status](https://img.shields.io/github/workflow/status/next-theme/hexo-theme-next/Linter?label=test&logo=github&style=flat-square)](https://github.com/next-theme/hexo-theme-next/actions?query=workflow%3ALinter)
 [![Build Status](https://img.shields.io/github/workflow/status/next-theme/hexo-theme-next/Tester?logo=github&style=flat-square)](https://github.com/next-theme/hexo-theme-next/actions?query=workflow%3ATester)
+[![jsDelivr hits](https://img.shields.io/jsdelivr/npm/hm/hexo-theme-next?style=flat-square&logo=jsdelivr)](https://www.jsdelivr.com/package/npm/hexo-theme-next)
 
 ## Live Preview
 
@@ -105,7 +105,7 @@ $ cd themes/next
 $ git pull
 ```
 
-**If you want to update from v5.x / v7.x to the latest version, read [this][docs-update-5-1-x-url].**
+**If you want to update from v5.x / v7.x to the latest version, read [this][docs-upgrade-url].**
 
 ## Feedback
 
@@ -148,8 +148,8 @@ Also, we welcome Issue or PR to our [official-plugins][official-plugins-url].
 
 [docs-installation-url]: https://theme-next.js.org/docs/getting-started/installation.html
 [docs-configuration-url]: https://theme-next.js.org/docs/getting-started/configuration.html
-[docs-custom-files-url]: https://theme-next.js.org/docs/theme-settings/custom-files.html
-[docs-update-5-1-x-url]: https://theme-next.js.org/docs/getting-started/update-from-v5.html
+[docs-custom-files-url]: https://theme-next.js.org/docs/advanced-settings/custom-files.html
+[docs-upgrade-url]: https://theme-next.js.org/docs/getting-started/upgrade.html
 
 [gitter-url]: https://gitter.im/hexo-next
 [i18n-url]: https://crowdin.com/project/hexo-theme-next
