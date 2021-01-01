@@ -18,8 +18,8 @@ categories:
 >
 > You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 >
-> Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-> Output: 7 -> 0 -> 8
+> Input: $(2 \to 4 \to 3) + (5 \to 6 \to 4)$
+> Output: $7 \to 0 \to 8$
 
 实际上这就是计算 $342 + 465 = 807$，每个数字分别是倒着写的。所以先 `toInt` 递归把链表转换成整数，然后 `toListNode` 把整数转回链表。但这种不负责任的写法 Swift 会溢出，于是换了 python。
 
@@ -38,6 +38,7 @@ class Solution:
 ```
 
 `toListNode` 里转字符串完全是不得已而为。我一开始（也是 [StefanPochmann](https://discuss.leetcode.com/topic/14575/python-for-the-win)）用的方法是这样的：
+
 ```python
 def toListNode(i):
     this = ListNode(i % 10)
@@ -45,4 +46,5 @@ def toListNode(i):
         this.next = toListNode(i / 10)
     return this
 ```
+
 有些蹊跷的是，在数字够大的时候，会和正确结果有些出入。原因不明，难不成是除法带来的浮点误差？

@@ -69,7 +69,7 @@ for (int i=1;i<a.length;i++) {
 
 ## 归并排序
 
-时间复杂度：$O(n\,logn)$
+时间复杂度：$O(n\log{n})$
 
 ```java
 void mergeSort(int[] a) {
