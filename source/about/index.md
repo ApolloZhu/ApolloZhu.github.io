@@ -12,7 +12,7 @@ keywords:
 
 ## 我是谁？
 
-- 有坂真白厨/推（也有可能只是喜欢（银色）双马尾 + 可爱的男孩子）
+- 有坂真白厨/推，其他“老婆”详见 [MyWaifuList](https://mywaifulist.moe/u/apollozhu)
 - [B 站科技区 UP 主](https://space.bilibili.com/14767902)，GitHub [重度用户](https://profile-summary-for-github.com/user/ApolloZhu) [@ApolloZhu](https://github.com/ApolloZhu)
 - 只会 CS 的海外大学新生。[竞赛渣](https://leetcode.com/apollozhu/)（请避免在任何竞技比赛中和我组队）
 - [实用主义](http://www.politiscales.net/zh_CN/results/?e1=40&e0=31&s1=24&s0=64&m1=14&m0=48&b0=90&b1=5&c1=26&c0=45&t0=14&t1=52&p1=31&p0=29&femi=62&j0=40&j1=45&anar=100&comp=67&prag=100) + 自由主义（Moderate Liberal/Opportunity Democrat）
@@ -26,7 +26,7 @@ keywords:
 - Pascal：初中，老师组织编程社团，摇号没中，求着老师进去旁听的。后来才发现我不是 NOIP 的料子，自行退出了
 - C：觉得 Pascal 只能用于竞赛，希望能做点实际的东西，用同学送的书学了下 C
 - Objective-C：跟着班上另一个同学 [@JD](https://github.com/JDScript) 学了些。第一次看 WWDC，越狱 iPhone，装 OS X 虚拟机
-- C++：Stanford Summer Session 的时候上 CS110 稍微积累了一点使用的经验，最近大概在重新学习
+- C++：Stanford Summer Session 的时候上 CS110 稍微积累了一点使用的经验，经常在有需要的时候重新学习
 - Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
 ## 目前能聊以自慰的技能
@@ -40,6 +40,7 @@ keywords:
 |日期|名称|奖项|
 |--|--|--|
 |6/1/2021|WWDC 2021 Swift Student Challenge||
+|9/13/2020|Building for Digital Health|[Best CardinalKit App](https://youtu.be/7D2vPd771bk?t=873), [COVID-19 hackathon fund](https://events.withgoogle.com/demo-week-hackathon-fund/) |
 |10/13/2019|DubHacks 2019|[Classic Track Top 3 Finalists](https://twitter.com/dubhacks/status/1183494524753960960?s=21)|
 |4/20/2018|WWDC 2018 Scholarship||
 |3/25/2018|Hack.UVA 2018|Winner - Best Use of SafeTrek API|
@@ -58,7 +59,7 @@ fun fact(x: Int): Int {
 }
 ```
 
-好吧，并不是上面的这个递归的 `fun fact`。Apollonian 是我曾妄想把字典里所有和计算机相关的名词抄下来的时候正好看到的。它加深了我对我英文名的理解，故沿用至今。（但感觉最近用 Apollonyan 的情况更多喵）
+好吧，并不是上面的这个递归的 `fun fact`。Apollonian 是我曾妄想把字典里所有和计算机相关的名词抄下来的时候正好看到的。它加深了我对我英文名的理解，故沿用至今（但感觉最近用 Apollonyan 的情况更多喵）
 
 {% blockquote New Oxford American Dictionary %}
 1. Apollo 的；Relating to the god Apollo.
