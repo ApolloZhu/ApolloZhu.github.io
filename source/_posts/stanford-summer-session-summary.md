@@ -84,7 +84,7 @@ Stanford does not have a preference for students who attend Stanford-specific su
 
 说句不好听的，这可能更像是各个大学[用来圈钱](https://jezebel.com/fancy-college-summer-programs-prey-on-rich-nervous-par-827598912)的项目，如果可能的话建议大家考虑下其他竞争更激烈的项目，比如 Stanford 的 [SUMaC](https://sumac.spcs.stanford.edu/) 或者 [PROMYS](https://www.zhihu.com/question/41760281/answer/469275389)（不过为什么都是数学呢，hmmm）。或者可以考虑和我成为关系比较近的朋友，毕竟好像和我玩的好的两位都去了 MIT。
 
-不过如果已经上了贼船的话，也请不要灰心。至少可以常去 Office Hour 和讲师/教授搞好关系，让他们正真的了解你然后帮忙写 Letter or Recommendation。不过可能更有价值的是，你手中握着和普通 Stanford 学生几乎一样几乎全部 Stanford 的资源，所以
+不过如果已经上了贼船的话，也请不要灰心。至少可以常去 Office Hour 和讲师/教授搞好关系，让他们真正的了解你、帮忙写 Letter of Recommendation。不过可能更有价值的是，你手中握着和普通 Stanford 学生几乎一样几乎全部 Stanford 的资源，所以
 
 {% note success %}
 
