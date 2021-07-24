@@ -167,9 +167,10 @@ links_settings:
   layout: inline
 
 links:
+  Lucas: https://lucaswangzx.xyz
   _liet: https://space.bilibili.com/4056345/
-  Captain雪ノ下八幡のBlog: https://blog.tcwq.tech/
-  兔子鮮笙的博客: https://blog.tuzi.moe/
+  Captain雪ノ下八幡: https://blog.tcwq.tech/
+  兔子鮮笙: https://blog.tuzi.moe/
   (・ω・)ノ: ./links
 
 # Table of Contents in the Sidebar
