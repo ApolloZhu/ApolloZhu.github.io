@@ -19,7 +19,7 @@ keywords:
 
 <details><summary>这是啥</summary>
 
-- [Rationale](https://github.com/open-source)
+- [Rationale - Why Open Source](https://github.com/open-source)
 - [Features](https://github.com/features)
 - [Workflow](https://guides.github.com/introduction/flow/)
 - [中文教程](https://github.com/geeeeeeeeek/git-recipes/wiki)
@@ -32,7 +32,7 @@ keywords:
 
 - [Semantic Versioning](https://semver.org/)
 - [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
-- [Travis CI](https://travis-ci.org/)
+- [Travis CI](https://travis-ci.org/) | [GitHub Actions](https://github.com/features/actions)
 - [codebeat](https://codebeat.co/)
 - [bettercodehub](https://bettercodehub.com/)
 
@@ -60,10 +60,9 @@ keywords:
 - [AppSight - Get insight into SDKs & services used by mobile apps](https://www.appsight.io/)
 - [TTY - The Ruby terminal apps toolkit](https://piotrmurach.github.io/tty/)
 
-## 9 月上 Computer Graphics 之前蹭素材
+## 9 月上 Computer Graphics 课之前蹭素材
 
 - [Automatic Colorization](https://paintschainer.preferred.tech/)
-<!-- - [Poly - 3D Models (Killed by Google)](https://poly.google.com/) -->
 - [Material icons](https://material.io/icons/)
 - [Nucleo - Icon Organizer & Icon Library](https://nucleoapp.com/app/)
 - [Noun Project - Icons for everything](https://thenounproject.com/)
@@ -74,6 +73,7 @@ keywords:
 - [FLATICON - Free vector icons](https://www.flaticon.com/)
 - [Iconfinder](https://www.iconfinder.com/)
 - [Sketch App Sources](https://www.sketchappsources.com/)
+<!-- - [Poly - 3D Models (Killed by Google)](https://poly.google.com/) -->
 
 ## 我爱学习
 
