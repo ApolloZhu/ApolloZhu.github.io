@@ -2,6 +2,7 @@
 title: 连我都不会的自然语言处理
 tags:
   - linguistics
+  - UW
 categories:
   - 生活
 date: 2020-04-14 16:42:06
