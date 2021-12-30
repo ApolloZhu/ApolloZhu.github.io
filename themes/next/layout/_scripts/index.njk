@@ -1,5 +1,7 @@
 {%- include 'vendors.njk' -%}
 
+{{- next_js('comments.js') }}
+
 {{- next_js('utils.js') }}
 {%- if theme.motion.enable %}
   {{- next_js('motion.js') }}
@@ -14,5 +16,5 @@
   {{- next_js('bookmark.js') }}
 {%- endif %}
 {%- if theme.pjax %}
-  {%- include 'pjax.njk' -%}
+  {{- next_js('pjax.js') }}
 {%- endif %}

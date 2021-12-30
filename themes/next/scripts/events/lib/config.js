@@ -1,12 +1,12 @@
 'use strict';
 
-const merge = require('hexo-util').deepMerge || require('lodash/merge');
+const merge = require('hexo-util').deepMerge;
 
 module.exports = hexo => {
   const data = hexo.locals.get('data');
 
   if (data.next) {
-    hexo.log.warn('`next.yml` is deprecated. Please upgrade to Hexo 5.0 and use `_config.next.yml` instead.');
+    hexo.log.warn('`next.yml` is deprecated. Please upgrade to Hexo 5 or later and use `_config.next.yml` instead.');
     hexo.log.warn('Documentation: https://theme-next.js.org/docs/getting-started/configuration.html');
   }
 
