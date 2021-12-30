@@ -25,15 +25,15 @@ keywords:
 - shell：小学六年级，想当黑客，买了几本黑客入门的书。除了命令行之外，还学会了如何使用杀毒软件（笑）
 - Pascal：初中，老师组织编程社团，摇号没中，求着老师进去旁听的。后来才发现我不是 NOIP 的料子，自行退出了
 - C：觉得 Pascal 只能用于竞赛，希望能做点实际的东西，用同学送的书学了下 C
-- Objective-C：跟着班上另一个同学 [@JD](https://github.com/JDScript) 学了些。第一次看 WWDC，越狱 iPhone，装 OS X 虚拟机
 - C++：Stanford Summer Session 的时候上 CS110 稍微积累了一点使用的经验，经常在有需要的时候重新学习
 - Kotlin：2017/5，看在 Google 把这个本质上是 Scala，其实是向 Swift 靠拢的 Java 语言选作 Android 开发语言的份上，偶尔有所接触
 
 ## 目前能聊以自慰的技能
 
-- Swift：2015／1，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift
+- Objective-C：2014 起跟着班上另一个同学 [@JD](https://github.com/JDScript) 学了些，第一次看 WWDC，越狱 iPhone，装 OS X 虚拟机。虽然现在更喜欢 Swift，但时不时还是要和 ObjC 打交道
+- Swift：2015／1，还是接受不了 Objective-C 的语法；转而边学英语，边学接近英语的 Swift。我想现在大家多半也是因为这个认识我的
+- Python 3：2016／1，ACSL 审核没有 Mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习。上大学之后上了 CSE 163 系统性学习并当了一学期助教
 - Java：2016/7，为准备下学期的 APCSA，结果因为入门阶段的课程都是用它导致一直扔不掉
-- Python 3：2016／1，ACSL 审核没有 Mac，只好临时选一个接近 Swift 的语言；8 月才系统地学习，以及下学期马上要上的 CSE163
 
 ## 奖项
 
