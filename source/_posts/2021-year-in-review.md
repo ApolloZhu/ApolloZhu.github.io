@@ -90,6 +90,8 @@ Why do they need to know? What does it say about this person's intelligence, com
 
 ## 2020, too
 
+<!-- 2022, get it? -->
+
 Happy new year 🎊
 
 ### 对未来有更明确的规划
