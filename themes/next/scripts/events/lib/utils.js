@@ -13,6 +13,10 @@ function resolve(name, file = '') {
   return `${dir}/${file}`;
 }
 
+function parse(line, attr) {
+  return line.split(attr)[1].replace(';', '').trim();
+}
+
 function highlightTheme(name) {
   const file = resolve('highlight.js', `styles/${name}.css`);
   const css = fs.readFileSync(file).toString();
@@ -23,7 +27,6 @@ function highlightTheme(name) {
     rule += content;
     return match;
   });
-  const parse = (line, attr) => line.split(attr)[1].replace(';', '').trim();
   rule.split('\n').forEach(line => {
     if (line.includes('background:')) background = parse(line, 'background:');
     else if (line.includes('background-color:')) background = parse(line, 'background-color:');
@@ -33,29 +36,6 @@ function highlightTheme(name) {
     file,
     background,
     foreground
-  };
-}
-
-function getVendors({ name, alias, version, file, minified, local, custom }) {
-  // Make it possible to set `cdnjs_name` and `cdnjs_file` in `custom_cdn_url`
-  const npm_name = name;
-  const cdnjs_name = alias || name;
-  const npm_file = file;
-  const cdnjs_file = minified.replace(/^(dist|lib|source\/js|)\/(browser\/|)/, '');
-  const value = {
-    npm_name,
-    cdnjs_name,
-    version,
-    npm_file,
-    minified,
-    cdnjs_file
-  };
-  return {
-    local,
-    jsdelivr: `https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}`,
-    unpkg   : `https://unpkg.com/${npm_name}@${version}/${npm_file}`,
-    cdnjs   : `https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${cdnjs_file}`,
-    custom  : (custom || '').replace(/\$\{(.+?)\}/g, (match, $1) => value[$1])
   };
 }
 
@@ -81,6 +61,5 @@ const points = {
 module.exports = {
   resolve,
   highlightTheme,
-  getVendors,
   points
 };

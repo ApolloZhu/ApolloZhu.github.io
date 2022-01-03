@@ -4,7 +4,6 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 const { url_for } = require('hexo-util');
-const { getVendors } = require('./utils');
 
 let internal;
 try {
@@ -34,13 +33,13 @@ module.exports = hexo => {
     if (key === 'pace_css') {
       value.file = `${value.dir}/${pace.color}/pace-theme-${pace.theme}.css`;
     }
-    const { name, file, unavailable } = value;
-    const links = getVendors({
-      ...value,
-      minified: file,
+    const { name, version, file, alias, unavailable } = value;
+    const links = {
       local   : url_for.call(hexo, `lib/${name}/${file}`),
-      custom  : vendors.custom_cdn_url
-    });
+      jsdelivr: `https://cdn.jsdelivr.net/npm/${name}@${version}/${file}`,
+      unpkg   : `https://unpkg.com/${name}@${version}/${file}`,
+      cdnjs   : `https://cdnjs.cloudflare.com/ajax/libs/${alias || name}/${version}/${file.replace(/^(dist|lib|)\/(browser\/|)/, '')}`
+    };
     let { plugins = 'jsdelivr' } = vendors;
     if (plugins === 'cdnjs' && unavailable && unavailable.includes('cdnjs')) plugins = 'jsdelivr';
     if (plugins === 'local' && typeof internal === 'undefined') plugins = 'jsdelivr';

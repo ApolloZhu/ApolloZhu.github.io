@@ -3,10 +3,8 @@
 'use strict';
 
 const crypto = require('crypto');
-const { parse } = require('url');
 const nextFont = require('./font');
 const nextUrl = require('./next-url');
-const { getVendors } = require('../events/lib/utils');
 
 hexo.extend.helper.register('next_font', nextFont);
 hexo.extend.helper.register('next_url', nextUrl);
@@ -19,15 +17,14 @@ hexo.extend.helper.register('next_inject', function(point) {
 
 hexo.extend.helper.register('next_js', function(file, pjax = false) {
   const { next_version } = this;
-  const { internal, custom_cdn_url } = this.theme.vendors;
-  const links = getVendors({
-    name    : 'hexo-theme-next',
-    version : next_version,
-    file    : 'source/js/' + file,
-    minified: 'source/js/' + file.replace(/\.js$/, '.min.js'),
-    local   : this.url_for(`js/${file}`),
-    custom  : custom_cdn_url
-  });
+  const { internal } = this.theme.vendors;
+  const minified_file = file.endsWith('.js') && !file.endsWith('.min.js') ? file.slice(0, -3) + '.min.js' : file;
+  const links = {
+    local   : this.url_for(`${this.theme.js}/${file}`),
+    jsdelivr: `https://cdn.jsdelivr.net/npm/hexo-theme-next@${next_version}/source/js/${minified_file}`,
+    unpkg   : `https://unpkg.com/hexo-theme-next@${next_version}/source/js/${file}`,
+    cdnjs   : `https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-next/${next_version}/${minified_file}`
+  };
   const src = links[internal] || links.local;
   return `<script ${pjax ? 'data-pjax ' : ''}src="${src}"></script>`;
 });
@@ -51,22 +48,23 @@ hexo.extend.helper.register('next_data', function(name, ...data) {
 });
 
 hexo.extend.helper.register('next_pre', function() {
-  if (!this.theme.preconnect) return '';
+  const { preconnect } = this.theme;
+  if (!preconnect) return '';
   const { enable, host } = this.theme.font;
-  const { internal, plugins, custom_cdn_url } = this.theme.vendors;
+  const { internal, plugins } = this.theme.vendors;
   const links = {
     local   : '',
     jsdelivr: 'https://cdn.jsdelivr.net',
     unpkg   : 'https://unpkg.com',
-    cdnjs   : 'https://cdnjs.cloudflare.com',
-    custom  : parse(custom_cdn_url || '').hostname
+    cdnjs   : 'https://cdnjs.cloudflare.com'
   };
   const h = enable ? host || 'https://fonts.googleapis.com' : '';
   const i = links[internal];
   const p = links[plugins];
-  return [...new Set([h, i, p].filter(origin => origin))].map(
+  const results = [...new Set([h, i, p].filter(origin => origin))].map(
     origin => `<link rel="preconnect" href="${origin}" crossorigin>`
-  ).join('\n');
+  );
+  return results.join('\n');
 });
 
 hexo.extend.helper.register('post_gallery', function(photos) {
