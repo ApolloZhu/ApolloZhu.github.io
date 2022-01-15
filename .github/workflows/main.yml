@@ -11,9 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Install Dependencies
       run: |
         git clone https://github.com/theme-next/theme-next-pace themes/next/source/lib/pace
+    # https://blog.baoshuo.ren/post/auto-deploy-static-blog/#github-actions
+    - name: Fix File Modification Date
+      run: |
+        git ls-files | while read filepath; do touch -d "$(git log -1 --format='@%ct' $filepath)" "$filepath" && echo "Fixed: $filepath"; done
     - name: Build and Deploy
       uses: ApolloZhu/hexo-deploy-action@master
       env:
