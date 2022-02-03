@@ -102,17 +102,10 @@ keywords:
 - [苺香のマイカレンダー ｜ アニメ「ブレンド・S」公式サイト](https://blend-s.jp/cp/calendar/)
 - [【2017号款限时拍卖】预售 2233拜年祭限定版1/8手办 GSC出品](https://item.taobao.com/item.htm?id=544561294736)
 
-## 要不你们帮我买了？
+## 买了！
 
-<details>
-<summary>有坂真白 C 服</summary>
+用 Tenso 在 Cospa 买了正版？的有坂真白 C 服：
 
-- 正版的 [衬裙 ¥17,280](https://cospatio.com/detail/id/00000084421) + [制服 ¥52,920](https://cospatio.com/detail/id/00000084406) + [外套 ¥14,040](https://cospatio.com/detail/id/00000084424) + [领巾 ¥1,620](https://cospatio.com/detail/id/00000084425) = 85,860 JPY
-- 国内还原度挺高的 [Uwowo 109+199=308](https://detail.tmall.com/item.htm?id=527645047471)。闲鱼上的报价为
-    - [我看起来最靠谱的 120](https://ershou.taobao.com/item.htm?id=565020069293)
-    - [119](https://ershou.taobao.com/item.htm?id=556163574399)
-    - [160](https://ershou.taobao.com/item.htm?id=566987598885)
-    - [并不清楚有啥的 85](https://ershou.taobao.com/item.htm?id=550636781671)
-    - [不怎么靠谱的 50](https://ershou.taobao.com/item.htm?id=559831046829)
-
-</details>
+- [x] [制服套装 ¥53,900](https://cospatio.com/detail/id/00000066612)（真白的[停产](https://cospatio.com/detail/id/00000084406)了）
+- [x] [外套 ¥14,300](https://cospatio.com/detail/id/00000084424)
+- [ ] [领巾 ¥1,650](https://cospatio.com/detail/id/00000084425)（缺货）
