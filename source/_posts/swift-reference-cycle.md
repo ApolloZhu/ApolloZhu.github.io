@@ -69,7 +69,7 @@ class SomeTableViewController: UITableViewController {
 
 但是，上面那个文件系统的例子导致的引用循环就不能通过这种方式发现，所以我们需要用到 Memory Graph。运行你的程序之后，点击这个按钮就能看到对象之间的引用情况：
 
-[![分隔线后第二个按钮，三个圆圈被两条线连成三角形](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/debugging_with_xcode/Art/debug-bar-debug-memory-graph_2x.png)](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/debugging_with_xcode/chapters/special_debugging_workflows.html#//apple_ref/doc/uid/TP40015022-CH9-DontLinkElementID_3)
+[![分隔线后第二个按钮，三个圆圈被两条线连成三角形](https://docs-assets.developer.apple.com/published/d156982b0dad1dd581a8d8e0e866539d/17400/gathering-information-about-memory-use-2.png)](https://developer.apple.com/documentation/xcode/gathering-information-about-memory-use)
 
 有时甚至看 memory graph 也没办法搞明白究竟是什么导致了内存泄漏，可以看看 [CS193p](https://cs193p.sites.stanford.edu) 或 [WWDC](https://developer.apple.com/videos/developer-tools/performance) 了解如何使用 Instruments 这个复杂但是功能强大的软件。
 
