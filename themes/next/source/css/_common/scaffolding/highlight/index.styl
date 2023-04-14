@@ -70,6 +70,8 @@ kbd {
 // in Hexo config generates code.highlight elements
 figure.highlight {
   @extend $code-block;
+  // Reduce DOM reflow with wrapTableWithBox
+  overflow: auto;
   position: relative;
 
   pre {
@@ -108,6 +110,11 @@ figure.highlight {
   .code pre {
     padding-left: 10px;
     width: 100%;
+  }
+
+  // See https://github.com/next-theme/hexo-theme-next/discussions/410
+  .marked {
+    background: rgba(0, 0, 0, .3);
   }
 }
 

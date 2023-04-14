@@ -8,10 +8,10 @@ keywords:
 
 ## 友链
 
-- [Lucas's Archive](https://lucaswangzx.xyz)
-- [LiulietLee](https://space.bilibili.com/4056345/)
-- [Captain雪ノ下八幡のBlog](https://blog.tcwq.tech)
-- [兔言兔語 🐰](https://blog.tuzi.moe/)
+- [Lucas's Archive](http://lucaswangzx.xyz)
+<!-- - [LiulietLee](https://space.bilibili.com/4056345/) -->
+<!-- - [Captain雪ノ下八幡のBlog](https://blog.tcwq.tech) -->
+<!-- - [兔言兔語 🐰](https://blog.tuzi.moe/) -->
 
 ## GitHub
 
@@ -60,7 +60,7 @@ keywords:
 - [AppSight - Get insight into SDKs & services used by mobile apps](https://www.appsight.io/)
 - [TTY - The Ruby terminal apps toolkit](https://piotrmurach.github.io/tty/)
 
-## 9 月上 Computer Graphics 课之前蹭素材
+## 9 月上 Computer Graphics 课之前蹭素材
 
 - [Automatic Colorization](https://paintschainer.preferred.tech/)
 - [Material icons](https://material.io/icons/)
