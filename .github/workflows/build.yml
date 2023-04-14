@@ -18,4 +18,4 @@ jobs:
     - name: Build
       run: |
         ./node_modules/hexo/bin/hexo clean
-        ./node_modules/hexo/bin/hexo build
+        ./node_modules/hexo/bin/hexo generate
