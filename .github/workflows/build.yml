@@ -1,0 +1,21 @@
+name: Build
+
+on:
+  pull_request:
+    branches: [ source ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Install Dependencies
+      run: |
+        git clone https://github.com/theme-next/theme-next-pace themes/next/source/lib/pace
+        npm install
+    - name: Build
+      run: |
+        ./node_modules/hexo/bin/hexo clean
+        ./node_modules/hexo/bin/hexo build
