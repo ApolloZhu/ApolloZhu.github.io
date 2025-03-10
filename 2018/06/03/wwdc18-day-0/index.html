@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/ApolloZhu.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/ApolloZhu.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/ApolloZhu.png">
+  <link rel="mask-icon" href="https://github.com/ApolloZhu.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"apollozhu.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"disqus","storage":true,"lazyload":false,"nav":null,"activeClass":"disqus"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="记于凌晨四点的圣何塞，沉浸在刚得到的 AirPods 的环绕之中。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WWDC18 Day 0">
+<meta property="og:url" content="https://apollozhu.github.io/2018/06/03/wwdc18-day-0/">
+<meta property="og:site_name" content="AZ">
+<meta property="og:description" content="记于凌晨四点的圣何塞，沉浸在刚得到的 AirPods 的环绕之中。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917025-ade9f4f2-67b6-11e8-8ca5-ed1556894771.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917027-ae24573c-67b6-11e8-868d-d53f8ef04c3d.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917028-ae3d1880-67b6-11e8-80df-d6b569400641.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917940-c5dde304-67b9-11e8-951b-b32ace52119b.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917029-ae54593c-67b6-11e8-94e9-6cdfe2bbc31c.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917024-adb8b31a-67b6-11e8-9f1d-f8c875736e5f.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917030-ae6b7ea0-67b6-11e8-8a95-9a0e62a7a3df.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917711-09bb44aa-67b9-11e8-82cd-8f35d5527c0c.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917709-0985544e-67b9-11e8-9d65-ae0999374544.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917026-ae0b5638-67b6-11e8-9986-32afad4caf88.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917023-ad9e0ff6-67b6-11e8-9365-7082454953ac.jpg">
+<meta property="og:image" content="https://user-images.githubusercontent.com/10842684/40917710-099ffc90-67b9-11e8-85d6-69ae071056d3.jpg">
+<meta property="article:published_time" content="2018-06-03T06:39:36.000Z">
+<meta property="article:modified_time" content="2018-06-04T13:08:15.000Z">
+<meta property="article:author" content="Apollo Zhu">
+<meta property="article:tag" content="WWDC">
+<meta property="article:tag" content="WWDC18">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://user-images.githubusercontent.com/10842684/40917025-ade9f4f2-67b6-11e8-8ca5-ed1556894771.jpg">
+
+
+<link rel="canonical" href="https://apollozhu.github.io/2018/06/03/wwdc18-day-0/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://apollozhu.github.io/2018/06/03/wwdc18-day-0/","path":"2018/06/03/wwdc18-day-0/","title":"WWDC18 Day 0"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>WWDC18 Day 0 | AZ</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72767473-2"></script>
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-72767473-2","only_pageview":false}</script>
+  <script src="/js/third-party/analytics/google-analytics.js"></script>
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?af29c477f81035ac41c0abfa192e2a67"></script>
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css"><style>
+#needsharebutton-postbottom {
+  cursor: pointer;
+  height: 26px;
+  margin-top: 10px;
+  position: relative;
+}
+#needsharebutton-postbottom .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 3px;
+  display: initial;
+  padding: 1px 4px;
+}
+</style><style>
+#needsharebutton-float {
+  bottom: 88px;
+  cursor: pointer;
+  left: -8px;
+  position: fixed;
+  z-index: 9999;
+}
+#needsharebutton-float .btn {
+  border: 1px solid $btn-default-border-color;
+  border-radius: 4px;
+  padding: 0 10px 0 14px;
+}
+</style>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="AZ" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">AZ</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Apollonian Blog</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-english"><a href="/en/" rel="section"><i class="fa fa-language fa-fw"></i>English</a></li><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-头像"><a href="/avatars/" rel="section"><i class="fa fa-images fa-fw"></i>头像</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">34</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">4</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">59</span></a></li><li class="menu-item menu-item-rss"><a href="/atom.xml" rel="section"><i class="fa fa-rss fa-fw"></i>RSS</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#check-in"><span class="nav-number">1.</span> <span class="nav-text"> Check In</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ar-game-room"><span class="nav-number">2.</span> <span class="nav-text"> AR Game Room</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#secret-location"><span class="nav-number">3.</span> <span class="nav-text"> Secret Location</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="nav-number">4.</span> <span class="nav-text"> 实用技巧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%92%8C%E8%8B%B9%E6%9E%9C-ceo-%E5%90%88%E5%BD%B1"><span class="nav-number">4.1.</span> <span class="nav-text"> 和苹果 CEO 合影</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E5%8A%A0-wwdc-%E6%9C%AC%E8%BA%AB"><span class="nav-number">4.2.</span> <span class="nav-text"> 参加 WWDC 本身</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%88%E7%85%A7%E4%B8%8E%E7%AD%BE%E5%90%8D"><span class="nav-number">4.3.</span> <span class="nav-text"> 合照与签名</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD"><span class="nav-number">5.</span> <span class="nav-text"> 未完待续</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Apollo Zhu"
+      src="https://github.com/ApolloZhu.png">
+  <p class="site-author-name" itemprop="name">Apollo Zhu</p>
+  <div class="site-description" itemprop="description">Beyond the sky, into the nyaamament</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">59</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">34</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/ApolloZhu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ApolloZhu" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/14767902" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;14767902" rel="noopener me" target="_blank"><i class="fab fa-youtube fa-fw"></i>Bilibili</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/zhuzhiyu_" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;zhuzhiyu_" rel="noopener me" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.me/ApolloZhu" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;ApolloZhu" rel="noopener me" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://weibo.com/u/2607042732" title="Weibo → http:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;2607042732" rel="noopener me" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:public-apollonian@outlook.com" title="E-Mail → mailto:public-apollonian@outlook.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdnjs.cloudflare.com/ajax/libs/creativecommons-vocabulary/2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+    <div class="sidebar-inner sidebar-blogroll">
+      <div class="links-of-blogroll animated">
+        <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+          链接
+        </div>
+        <ul class="links-of-blogroll-list">
+            <li class="links-of-blogroll-item">
+              <a href="http://lucaswangzx.xyz/" title="http:&#x2F;&#x2F;lucaswangzx.xyz" rel="noopener" target="_blank">Lucas</a>
+            </li>
+            <li class="links-of-blogroll-item">
+              <a href="/./links" title=".&#x2F;links">(・ω・)ノ</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+        <div class="sidebar-inner sidebar-post-related">
+          <div class="animated">
+              <div class="links-of-blogroll-title"><i class="fa fa-signs-post fa-fw"></i>
+    相关文章
+  </div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <a class="popular-posts-link" href="/2018/06/02/wwdc18-day-before/" rel="bookmark">
+        <time class="popular-posts-time">2018-06-02</time>
+        <br>
+      去 WWDC18 的路上
+      </a>
+    </li>
+    <li class="popular-posts-item">
+      <a class="popular-posts-link" href="/2018/04/20/wwdc18-preparation/" rel="bookmark">
+        <time class="popular-posts-time">2018-04-20</time>
+        <br>
+      Scholar 眼里的 WWDC18
+      </a>
+    </li>
+  </ul>
+
+          </div>
+        </div>
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://apollozhu.github.io/2018/06/03/wwdc18-day-0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://github.com/ApolloZhu.png">
+      <meta itemprop="name" content="Apollo Zhu">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="AZ">
+      <meta itemprop="description" content="Beyond the sky, into the nyaamament">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="WWDC18 Day 0 | AZ">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          WWDC18 Day 0
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2018-06-03 06:39:36" itemprop="dateCreated datePublished" datetime="2018-06-03T06:39:36+00:00">2018-06-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2018-06-04 13:08:15" itemprop="dateModified" datetime="2018-06-04T13:08:15+00:00">2018-06-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2018/06/03/wwdc18-day-0/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2018/06/03/wwdc18-day-0/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.9k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>2 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><img src="https://user-images.githubusercontent.com/10842684/40917025-ade9f4f2-67b6-11e8-8ca5-ed1556894771.jpg" alt="WWDC18" /></p>
+<blockquote>
+<p>记于凌晨四点的圣何塞，沉浸在刚得到的 AirPods 的环绕之中。</p>
+</blockquote>
+<span id="more"></span>
+<div class="note success"><p>大家其实可以读读 <a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/l5qEph47Tz2SVVVV9xMEHA">上海商学院的公众号文章</a>，比我写的有趣多了。</p>
+</div>
+<h2 id="check-in"><a class="markdownIt-Anchor" href="#check-in"></a> Check In</h2>
+<p>昨天的文章刚改完就迎来了新一天的活动。早上八点，跟着小队从住宿徒步前往会议中心。日光温和，街上也还没什么人，路灯也都挂上了 WWDC18 的牌子。可惜路上的垃圾比较多，卫生环境还有待提高。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917027-ae24573c-67b6-11e8-868d-d53f8ef04c3d.jpg" alt="San Jose McEnery Convention Center" /></p>
+<p>到了会场之后开始排队，苹果照样还是进行着各种尴尬的活动来让消磨时间。今年虽然 Yuma 没有特殊关照了，采访的没有他，不过排队过程中英俊的摄影还是跟他谈笑风生。预计的是 9:40 集合前往 secret location，但我们从 8:30 一直排到 9:30 才拿到 badge。</p>
+<p>发 badge 时领的还有各种奇怪的胸针（没啥意思就不发了，如果有的话明天，也就是今天 6/4 的会写进去的 ），以及和去年一样的李维斯夹克衫（只不过他们把 17 换成了个 WWDC18 的胸针）。不过我在排队的时候发现了更有意思的东西：</p>
+<div class="note primary"><h2 id="ar-game-room"><a class="markdownIt-Anchor" href="#ar-game-room"></a> AR Game Room</h2>
+<p>既然需要单独提供个场地来玩 AR 游戏，ARKit 团队的人也“惊讶”的表示他们毫不知情，那多人互动应该是没得跑了吧？</p>
+</div>
+<p>出来之后马上去拿了个热的 burrito 和水当早餐，吃到一半本来再想去接杯咖啡的，结果就被拉过去让上车了，前往：</p>
+<h2 id="secret-location"><a class="markdownIt-Anchor" href="#secret-location"></a> Secret Location</h2>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917028-ae3d1880-67b6-11e8-80df-d6b569400641.jpg" alt="Scholarship Orientation" /></p>
+<p>虽然动脑子一想就能猜到是 Apple Park 的 Steve Jobs Theater，但苹果还是喜欢假装地很神秘，毕竟他们的新总部四周绿树环绕，完全看不到里面。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917940-c5dde304-67b9-11e8-951b-b32ace52119b.jpg" alt="Apple Campus" /></p>
+<p>大巴车把我们在飞船旁边放下来之后，苹果就让我们在烈日下徒步。路经 Visitor Center 的时候，还强烈推荐之后来逛逛。</p>
+<p>结果是去 Café Macs 吃午餐。味道都挺不错的，吃的喝的随便拿，但唯一可惜的是不能拍照。那我就发个菜单给大家看看吧：</p>
+<div class="note info"><p><strong>主食</strong>：Caprese Salad，Grilled cheese burger with potato wedges，Spring salad，Grilled chicken，Mac and cheese，Margarita pizza<br />
+<strong>饮料</strong>：普通的水（据说都比外面的水好喝），Simply，Glacéau Vitaminwater，Snapple<br />
+<strong>甜点</strong>：Brownies 和 Lemon Bars</p>
+</div>
+<p>完了之后我们又徒步来到了 Steve Jobs Theater。当然，这里是不让带食物和饮料的。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917029-ae54593c-67b6-11e8-94e9-6cdfe2bbc31c.jpg" alt="Gound Level" /></p>
+<p>上面一层视野开阔，能看到总部；设计巧妙，在正中间击掌或跺脚能感受到反射带来的奇特音效。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917024-adb8b31a-67b6-11e8-9f1d-f8c875736e5f.jpg" alt="Undeground" /></p>
+<p>走下两侧的台阶，苹果的标志会在身后缓缓出现，正对着的就是 Steve Jobs Theater 的本体。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917030-ae6b7ea0-67b6-11e8-8a95-9a0e62a7a3df.jpg" alt="Steve Jobs Theater, title" /></p>
+<p>据说这个名字被重做了 8 遍，为的是追求最完美的字体。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917711-09bb44aa-67b9-11e8-82cd-8f35d5527c0c.jpg" alt="Theater" /></p>
+<p>内部是阶梯形的，只不过上面几排我觉得设计的有点太陡了，但整体的音效是很不错的。座位都是沙发，还算舒适，但并没有电源插座。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917709-0985544e-67b9-11e8-9d65-ae0999374544.jpg" alt="Photographer" /></p>
+<p>听完讲座之后我们有序的到外面拍了合影，接着蜂拥前去和 Tim Cook 合影，最后大家自己找苹果工程师洽谈。不过今年工程师们并不好辨认，应该是苹果鼓励 scholars 之间也多交流交流吧。</p>
+<div class="note success"><p>具体的内容比较偏技术，我之后会另写一篇总结。</p>
+</div>
+<p>下午四点就让大家往外走了。出门的时候员工邀请我们从树上摘车厘子吃，毕竟加州阳光充足，味道还真不错。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917026-ae0b5638-67b6-11e8-9986-32afad4caf88.jpg" alt="AirPods" /></p>
+<p>再往外走，我“惊奇”地发现他们把“滞销”的 AirPods 耳机送给我们当作“one more thing”，回到住宿试了下，效果也真不是吹的，使用方法也很简单（唯一缺点就是据说容易找不到）。</p>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917023-ad9e0ff6-67b6-11e8-9365-7082454953ac.jpg" alt="Visitor Center, Apple Park Shirts" /></p>
+<p>最后呢，还是去游客中心去看了看，买了件 $40 的短袖。</p>
+<h2 id="实用技巧"><a class="markdownIt-Anchor" href="#实用技巧"></a> 实用技巧</h2>
+<h3 id="和苹果-ceo-合影"><a class="markdownIt-Anchor" href="#和苹果-ceo-合影"></a> 和苹果 CEO 合影</h3>
+<p><img src="https://user-images.githubusercontent.com/10842684/40917710-099ffc90-67b9-11e8-85d6-69ae071056d3.jpg" alt="Reality" /></p>
+<p>去年照过了，今年就没什么动力去挤了。拍 Scholars 合影的时候大家尽量站到正中间，那会是 Tim Cook 出现的地方。如果不幸离得比较远的话，建议使劲往里面挤。也可以提前判断好他移动的方向，贴着苹果员工站好。注意他一定会选择更隐蔽的消失方式，我今年是误判了——以为他会乘坐电梯，结果电梯旁边有个消防通道……</p>
+<h3 id="参加-wwdc-本身"><a class="markdownIt-Anchor" href="#参加-wwdc-本身"></a> 参加 WWDC 本身</h3>
+<p>没有必要熬夜排队参加 Keynote，今年厨子点名要把我们安排在前面他看得到的地方。之后的话 Session 和 Lab 中肯定是选择一对一的 Lab，尽可能地带着代码过去聊（相当于一年两次那种免费的技术咨询随便用），当然像我去年一样尬聊也行。周四的 Bash 不知道 Craig 唱不唱歌，现在十分期待。</p>
+<h3 id="合照与签名"><a class="markdownIt-Anchor" href="#合照与签名"></a> 合照与签名</h3>
+<p>错过了 Orientation 的话真的就是碰运气了。好像 Keynote 结束之后能找到 Tim Cook 合影，但可能性还是未知数。如果 Tim 或者 Craig 签名在 badge 上的话，之后是可以去找前台换的！希望大家不要遇到像去年 Bash 时下雨我又不知道能换的情况。</p>
+<div class="note warning"><h2 id="未完待续"><a class="markdownIt-Anchor" href="#未完待续"></a> 未完待续</h2>
+<p>接下来的内容，请关注 <a href="/tags/WWDC/">WWDC 系列</a>，我会挣扎着日更。</p>
+</div>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer"><div class="post-widgets">
+      <div id="needsharebutton-postbottom">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Apollo Zhu
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://apollozhu.github.io/2018/06/03/wwdc18-day-0/" title="WWDC18 Day 0">https://apollozhu.github.io/2018/06/03/wwdc18-day-0/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
+          </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/WWDC/" rel="tag"><i class="fa fa-tag"></i> WWDC</a>
+              <a href="/tags/WWDC18/" rel="tag"><i class="fa fa-tag"></i> WWDC18</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2018/06/02/wwdc18-day-before/" rel="prev" title="去 WWDC18 的路上">
+                  <i class="fa fa-chevron-left"></i> 去 WWDC18 的路上
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2018/07/20/stanford-library-green/" rel="next" title="Stanford 图书馆之 Green Library">
+                  Stanford 图书馆之 Green Library <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2016 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Apollo | Zhiyu Zhu | 朱智语</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">59k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">54 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+
+  <a href="https://github.com/ApolloZhu" class="github-corner" title="在 GitHub 上关注我" aria-label="在 GitHub 上关注我" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.css" integrity="sha256-gMRN4/6qeELzO1wbFa8qQLU8kfuF2dnAPiUoI0ATjx8=" crossorigin="anonymous">
+  <script class="next-config" data-name="katex" type="application/json">{"copy_tex_js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/copy-tex.min.js","integrity":"sha256-Us54+rSGDSTvIhKKUs4kygE2ipA0RXpWWh0/zLqw3bs="}}</script>
+  <script src="/js/third-party/math/katex.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"https://apollozhu.github.io/2018/06/03/wwdc18-day-0/"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
+<div id="needsharebutton-float">
+      <span class="btn">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </span>
+    </div>
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+  <script>
+      pbOptions = {};
+        pbOptions.iconStyle = "box";
+        pbOptions.boxForm = "horizontal";
+        pbOptions.position = "bottomCenter";
+        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook, Linkedin,Mailto,Reddit,Delicious,StumbleUpon, Pinterest,GooglePlus,Tumblr,GoogleBookmarks, Newsvine,Evernote,Friendfeed,Vkontakte, Odnoklassniki,Mailru";
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+      flOptions = {};
+        flOptions.iconStyle = "box";
+        flOptions.boxForm = "horizontal";
+        flOptions.position = "middleRight";
+        flOptions.networks = "Weibo,Wechat,QQZone,Twitter,Facebook,Mailto";
+      new needShareButton('#needsharebutton-float', flOptions);
+  </script><script class="next-config" data-name="disqus" type="application/json">{"enable":true,"shortname":"apollonian","count":true,"i18n":{"disqus":"disqus"}}</script>
+<script src="/js/third-party/comments/disqus.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"width":200,"height":300},"mobile":{"show":false},"react":{"opacityDefault":1},"dev":{"border":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
